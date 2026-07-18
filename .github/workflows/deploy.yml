@@ -30,6 +30,9 @@ jobs:
       - name: Build SEO Pages
         run: node build.js
 
+      - name: Audit SEO output
+        run: node seo-audit.js
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
