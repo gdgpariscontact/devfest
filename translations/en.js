@@ -4,12 +4,12 @@ window.translations_en = {
     "sponsoring": "Sponsorship",
     "speakers": "Speakers",
     "contact": "Contact Us",
-    "cfp": "Call for Papers"
+    "cfp": "Agenda"
   },
   "ticketing": {
     "title": "Ticketing",
-    "subtitle": "🎟️ Super Early Bird — €49",
-    "desc": "Super Early Bird ticket sales are now open! Grab your tickets for €49 before prices go up.",
+    "subtitle": "🎟️ Early Bird — €59",
+    "desc": "Early Bird ticket sales are now open! Grab your tickets for €59 before prices go up.",
     "cta": "Get my ticket"
   },
   "sponsoring": {
@@ -29,7 +29,7 @@ window.translations_en = {
     "title1": "The Factory",
     "title2": "DevFest Paris 2026.",
     "subtitle": "An international tech conference with strong local impact — 8th edition by GDG Paris. 100% independent & non-profit.",
-    "cta_cfp": "Submit a talk",
+    "cta_cfp": "Agenda Coming Soon",
     "cta_venue": "Discover the Venue"
   },
   "event": {
@@ -74,11 +74,11 @@ window.translations_en = {
     "r4_d": "Enable your teams to discover current and future tech topics with industry professionals."
   },
   "cfp": {
-    "label": "CFP Open",
-    "title": "The CFP is officially OPEN 🥳",
-    "subtitle": "We're waiting for your topics, talks, demos and stories.",
-    "deadline": "Submit your talk now until June 30",
-    "cta": "Submit my talk",
+    "label": "Agenda",
+    "title": "Agenda Coming SOON 📅",
+    "subtitle": "The talk schedule and agenda will be revealed very soon.",
+    "deadline": "Stay tuned for session announcements",
+    "cta": "View Speakers",
     "fmt_label": "Formats",
     "fmt_title": "Session Types",
     "fmt_conf_title": "Conference",

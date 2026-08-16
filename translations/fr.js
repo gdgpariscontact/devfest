@@ -4,12 +4,12 @@ window.translations_fr = {
     "sponsoring": "Sponsoring",
     "speakers": "Nos Speakers",
     "contact": "Contactez-nous",
-    "cfp": "Appel à conférences"
+    "cfp": "Programme"
   },
   "ticketing": {
     "title": "Billetterie",
-    "subtitle": "🎟️ Super Early Bird — 49€",
-    "desc": "La billetterie Super Early Bird est officiellement ouverte ! Profitez du tarif exceptionnel à 49€ dès maintenant.",
+    "subtitle": "🎟️ Early Bird — 59€",
+    "desc": "La billetterie Early Bird est officiellement ouverte ! Profitez du tarif exceptionnel à 59€ dès maintenant.",
     "cta": "Prendre mon billet"
   },
   "sponsoring": {
@@ -29,7 +29,7 @@ window.translations_fr = {
     "title1": "La Fabrique",
     "title2": "DevFest Paris 2026.",
     "subtitle": "Une conférence tech internationale avec un fort impact local — 8ème édition par GDG Paris. 100% indépendante, 100% à but non lucratif.",
-    "cta_cfp": "Proposer un talk",
+    "cta_cfp": "Agenda bientôt disponible",
     "cta_venue": "Découvrir le lieu"
   },
   "event": {
@@ -74,11 +74,11 @@ window.translations_fr = {
     "r4_d": "Permettez à vos équipes de découvrir les sujets tech actuels et futurs avec des professionnels du secteur."
   },
   "cfp": {
-    "label": "CFP Ouvert",
-    "title": "𝐋𝐞 𝐂𝐅𝐏 𝐞𝐬𝐭 𝐨𝐟𝐟𝐢𝐜𝐢𝐞𝐥𝐥𝐞𝐦𝐞𝐧𝐭 𝐎𝐔𝐕𝐄𝐑𝐓 🥳",
-    "subtitle": "On attend vos sujets, vos talks, vos démos, vos histoires.",
-    "deadline": "Soumettez votre talk dès maintenant et jusqu'au 30 juin",
-    "cta": "Soumettre mon talk",
+    "label": "Agenda",
+    "title": "Le programme arrive <span>BIENTÔT</span> 📅",
+    "subtitle": "Le programme des conférences et ateliers sera dévoilé très prochainement.",
+    "deadline": "Restez à l'écoute pour l'annonce des sessions",
+    "cta": "Voir les speakers",
     "fmt_label": "Formats",
     "fmt_title": "Types de sessions",
     "fmt_conf_title": "Conférence",
