@@ -4,6 +4,7 @@ node_modules/
 # Generated SEO Folders (built by GitHub Actions)
 /sponsoring/
 /speakers/
+/agenda/
 /coc/
 
 .skillycache/

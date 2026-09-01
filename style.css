@@ -95,6 +95,44 @@ h1, h2, h3, h4, .font-display {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
+/* Agenda callout corner accent */
+.agenda-callout::before {
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: -110px;
+    right: -80px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(200, 148, 62, 0.3) 0%, rgba(184, 115, 51, 0.08) 45%, transparent 72%);
+    pointer-events: none;
+}
+
+.agenda-callout::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 70%;
+    top: 15%;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, rgba(200, 148, 62, 0.45), transparent);
+    pointer-events: none;
+}
+
+.agenda-callout-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 190px;
+    padding: 0.65rem 1.5rem;
+    border: 1px solid rgba(200, 148, 62, 0.75);
+    border-radius: 999px;
+    color: #d4a957;
+    background: rgba(91, 56, 20, 0.45);
+    box-shadow: inset 0 0 20px rgba(200, 148, 62, 0.08), 0 0 18px rgba(200, 148, 62, 0.08);
+    letter-spacing: 0.12em;
+}
+
 .card-hover {
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }

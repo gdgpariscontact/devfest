@@ -23,6 +23,15 @@ const routes = [
     headingKey: 'speakers.title'
   },
   {
+    path: 'agenda',
+    title: 'Agenda - DevFest Paris 2026 | GDG Paris',
+    description: 'Consultez l’agenda du DevFest Paris 2026 : conférences, quick talks, keynotes et workshops répartis sur cinq salles le 27 novembre 2026.',
+    keywords: 'Agenda DevFest Paris, Programme conférence tech, Talks, Workshops, Keynotes, GDG Paris, DevFest Paris 2026',
+    ogDescription: 'Découvrez le programme complet du DevFest Paris 2026 : conférences, workshops, quick talks et keynotes.',
+    twitterDescription: 'Découvrez le programme complet du DevFest Paris 2026.',
+    headingKey: 'agenda.title'
+  },
+  {
     path: 'coc',
     title: 'Code de Conduite - DevFest Paris 2026 | GDG Paris',
     description: 'Code de conduite et conditions de participation aux événements du DevFest Paris 2026 organisé par le GDG Paris. Règles de bonne conduite, respect et inclusivité.',
@@ -112,6 +121,7 @@ function build() {
     content = content.replace(/src="images\//g, 'src="../images/');
     content = content.replace(/src="main\.jpeg"/g, 'src="../main.jpeg"');
     content = content.replace(/src="translations\//g, 'src="../translations/');
+    content = content.replace(/src="js\//g, 'src="../js/');
 
     // Ensure the directory exists
     const dirPath = path.join(__dirname, route.path);
