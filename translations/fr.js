@@ -59,7 +59,7 @@ window.translations_fr = {
     "badge": "27 Novembre 2026 · La Fabrique de la Connaissance",
     "title1": "La Fabrique",
     "title2": "DevFest Paris 2026.",
-    "subtitle": "Une conférence tech internationale avec un fort impact local — 8ème édition par GDG Paris. 100% indépendante, 100% à but non lucratif.",
+    "subtitle": "La conférence tech du GDG Paris à Nanterre : IA, Cloud, Web, Mobile et DevSecOps — 8ème édition, indépendante et à but non lucratif.",
     "reserve": "Réserver ma place",
     "cta_cfp": "Agenda bientôt disponible",
     "cta_venue": "Découvrir le lieu"

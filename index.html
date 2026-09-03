@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevFest Paris 2026 - Conférence Tech GDG Paris</title>
+    <title>DevFest Paris 2026 | Conférence Tech IA, Cloud & Web à Nanterre</title>
     <meta name="description"
-        content="DevFest Paris 2026 : La conférence tech incontournable organisée par le GDG Paris. 450 participants, 30+ experts, 5 tracks sur le Cloud, l'IA, le Web et le Mobile. Rejoignez-nous le 27 novembre 2026.">
+        content="DevFest Paris 2026, la conférence tech du GDG Paris à Nanterre : IA, Cloud, Web, Mobile et DevSecOps. 30+ speakers et 450 participants le 27 novembre 2026.">
     <meta name="keywords"
-        content="DevFest, Paris, GDG Paris, Conférence Tech, Google Developer Group, Cloud, Intelligence Artificielle, Frontend, Backend, Mobile, DevSecOps, La Fabrique de la Connaissance">
+        content="DevFest Paris 2026, conférence tech Paris, événement tech Nanterre, GDG Paris, conférence IA, conférence Cloud, conférence Web, Google Developer Groups, DevSecOps, Mobile, La Fabrique de la Connaissance">
     <meta name="author" content="GDG Paris">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
@@ -17,7 +17,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://devfest.gdgparis.fr/">
-    <meta property="og:title" content="DevFest Paris 2026 - Conférence Tech GDG Paris">
+    <meta property="og:title" content="DevFest Paris 2026 | Conférence Tech IA, Cloud & Web à Nanterre">
     <meta property="og:description"
         content="La conférence tech incontournable à Paris. 8ème édition, 100% indépendante et communautaire. 450 participants, 30+ speakers experts.">
     <meta property="og:image" content="https://devfest.gdgparis.fr/main.jpeg">
@@ -25,7 +25,7 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://devfest.gdgparis.fr/">
-    <meta property="twitter:title" content="DevFest Paris 2026 - Conférence Tech GDG Paris">
+    <meta property="twitter:title" content="DevFest Paris 2026 | Conférence Tech IA, Cloud & Web à Nanterre">
     <meta property="twitter:description"
         content="La conférence tech incontournable à Paris. 8ème édition, 100% indépendante et communautaire.">
     <meta property="twitter:image" content="https://devfest.gdgparis.fr/main.jpeg">
@@ -65,9 +65,7 @@
         }
       },
       "organizer": {
-        "@type": "Organization",
-        "name": "GDG Paris",
-        "url": "https://devfest.gdgparis.fr"
+        "@id": "https://devfest.gdgparis.fr/#organization"
       },
       "performer": {
         "@type": "Organization",
@@ -85,6 +83,24 @@
     }
     </script>
 
+    <!-- Organization Structured Data: links the event to GDG Paris' official profiles. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://devfest.gdgparis.fr/#organization",
+      "name": "GDG Paris",
+      "alternateName": "Google Developer Groups Paris",
+      "url": "https://devfest.gdgparis.fr/",
+      "logo": "https://devfest.gdgparis.fr/images/gdg-logo.svg",
+      "email": "gdgpariscontact@gmail.com",
+      "sameAs": [
+        "https://gdg.community.dev/gdg-paris/",
+        "https://www.linkedin.com/company/gdg-paris"
+      ]
+    }
+    </script>
+
     <!-- WebSite Structured Data for Sitelinks Search Box -->
     <script type="application/ld+json">
     {
@@ -92,7 +108,8 @@
       "@type": "WebSite",
       "@id": "https://devfest.gdgparis.fr/#website",
       "name": "DevFest Paris 2026",
-      "url": "https://devfest.gdgparis.fr/"
+      "url": "https://devfest.gdgparis.fr/",
+      "publisher": { "@id": "https://devfest.gdgparis.fr/#organization" }
     }
     </script>
 
@@ -103,8 +120,8 @@
       "@type": "WebPage",
       "@id": "https://devfest.gdgparis.fr/#webpage",
       "url": "https://devfest.gdgparis.fr/",
-      "name": "DevFest Paris 2026 - Conférence Tech GDG Paris",
-      "description": "DevFest Paris 2026 : la conférence tech du GDG Paris, le 27 novembre 2026.",
+      "name": "DevFest Paris 2026 | Conférence Tech IA, Cloud & Web à Nanterre",
+      "description": "DevFest Paris 2026 : la conférence tech du GDG Paris à Nanterre, le 27 novembre 2026. IA, Cloud, Web, Mobile et DevSecOps.",
       "inLanguage": "fr-FR",
       "isPartOf": { "@id": "https://devfest.gdgparis.fr/#website" },
       "about": { "@id": "https://devfest.gdgparis.fr/#event" }
@@ -223,8 +240,8 @@
 
                 <p class="text-xl md:text-2xl text-amber-200/60 font-light max-w-3xl mb-12 leading-relaxed"
                     data-i18n="hero.subtitle">
-                    Une conférence tech internationale avec un fort impact local — 8ème édition par GDG Paris.
-                    100% indépendante & non lucratif.
+                    La conférence tech du GDG Paris à Nanterre : IA, Cloud, Web, Mobile et DevSecOps — 8ème édition,
+                    indépendante et à but non lucratif.
                 </p>
 
                 <div class="flex flex-wrap justify-center gap-4">
@@ -1464,7 +1481,7 @@
 
             // SEO: Update Page Title & Canonical based on route
             const titles = {
-                'home': 'DevFest Paris 2026 - Conférence Tech GDG Paris',
+                'home': 'DevFest Paris 2026 | Conférence Tech IA, Cloud & Web à Nanterre',
                 'sponsoring': 'Devenir Sponsor - DevFest Paris 2026',
                 'speakers': 'Speakers - DevFest Paris 2026',
                 'agenda': 'Agenda - DevFest Paris 2026',
