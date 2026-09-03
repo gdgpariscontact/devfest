@@ -1,44 +1,50 @@
 // Distinct vibrant room color palette (Blue, Red, Yellow, Emerald, Purple)
 const TRACK_COLORS = {
   "Salle Keynote":     "bg-blue-500/20 text-blue-300 border-blue-500/40",
-  "Salle Conf #1":     "bg-red-500/20 text-red-300 border-red-500/40",
-  "Salle Conf #2":     "bg-yellow-500/20 text-yellow-300 border-yellow-500/40",
-  "Salle Workshop #1": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
-  "Salle Workshop #2": "bg-purple-500/20 text-purple-300 border-purple-500/40",
+  "Salle 1":     "bg-red-500/20 text-red-300 border-red-500/40",
+  "Salle 2":     "bg-yellow-500/20 text-yellow-300 border-yellow-500/40",
+  "Salle 3": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
+  "Salle 4": "bg-purple-500/20 text-purple-300 border-purple-500/40",
   "All":               "bg-neutral-700/20 text-neutral-400 border-neutral-600/30"
 };
 
 // Card top-border accent colors (used as border-t-4)
 const TRACK_BGS = {
   "Salle Keynote":     "bg-blue-600",
-  "Salle Conf #1":     "bg-red-600",
-  "Salle Conf #2":     "bg-yellow-600",
-  "Salle Workshop #1": "bg-emerald-600",
-  "Salle Workshop #2": "bg-purple-600",
+  "Salle 1":     "bg-red-600",
+  "Salle 2":     "bg-yellow-600",
+  "Salle 3": "bg-emerald-600",
+  "Salle 4": "bg-purple-600",
   "All":               "bg-neutral-600"
 };
 
 // Track header gradient configs for Par Salle column headers
 const TRACK_HEADER_STYLE = {
   "Salle Keynote":     { grad: 'from-blue-900/90 to-blue-800/50 border-blue-500/40',       text: 'text-blue-200',    icon: '🎤', dot: 'bg-blue-400' },
-  "Salle Conf #1":     { grad: 'from-red-900/90 to-red-800/50 border-red-500/40',         text: 'text-red-200',     icon: '💬', dot: 'bg-red-400' },
-  "Salle Conf #2":     { grad: 'from-yellow-900/90 to-yellow-800/50 border-yellow-500/40', text: 'text-yellow-200',  icon: '🗣️', dot: 'bg-yellow-400' },
-  "Salle Workshop #1": { grad: 'from-emerald-900/90 to-emerald-800/50 border-emerald-500/40',text: 'text-emerald-200',icon: '🔨', dot: 'bg-emerald-400' },
-  "Salle Workshop #2": { grad: 'from-purple-900/90 to-purple-800/50 border-purple-500/40', text: 'text-purple-200', icon: '⚙️', dot: 'bg-purple-400' },
+  "Salle 1":     { grad: 'from-red-900/90 to-red-800/50 border-red-500/40',         text: 'text-red-200',     icon: '💬', dot: 'bg-red-400' },
+  "Salle 2":     { grad: 'from-yellow-900/90 to-yellow-800/50 border-yellow-500/40', text: 'text-yellow-200',  icon: '🗣️', dot: 'bg-yellow-400' },
+  "Salle 3": { grad: 'from-emerald-900/90 to-emerald-800/50 border-emerald-500/40',text: 'text-emerald-200',icon: '🔨', dot: 'bg-emerald-400' },
+  "Salle 4": { grad: 'from-purple-900/90 to-purple-800/50 border-purple-500/40', text: 'text-purple-200', icon: '⚙️', dot: 'bg-purple-400' },
 };
 
 const TRACKS_ORDER = [
   "Salle Keynote",
-  "Salle Conf #1",
-  "Salle Conf #2",
-  "Salle Workshop #1",
-  "Salle Workshop #2"
+  "Salle 1",
+  "Salle 2",
+  "Salle 3",
+  "Salle 4"
 ];
 
 let currentAgendaView = 'time'; // 'time' or 'track'
 // Multiselect sets — empty = no filter (show all)
 let activeTypeFilters = new Set();
 let activeTrackFilters = new Set();
+let activeTopicFilters = new Set();
+
+function resolveSpeakerAvatar(avatar) {
+  if (!avatar || !avatar.startsWith('images/')) return avatar;
+  return window.location.protocol === 'file:' ? avatar : `/${avatar}`;
+}
 
 function agendaCopy() {
   const language = document.documentElement.lang || 'fr';
@@ -54,10 +60,10 @@ function localizedTrackName(track) {
   if ((document.documentElement.lang || 'fr') !== 'en') return track;
   const names = {
     'Salle Keynote': 'Keynote Room',
-    'Salle Conf #1': 'Conference Room #1',
-    'Salle Conf #2': 'Conference Room #2',
-    'Salle Workshop #1': 'Workshop Room #1',
-    'Salle Workshop #2': 'Workshop Room #2',
+    'Salle 1': 'Salle 1',
+    'Salle 2': 'Salle 2',
+    'Salle 3': 'Salle 3',
+    'Salle 4': 'Salle 4',
     'All': 'All rooms'
   };
   return names[track] || track;
@@ -76,10 +82,16 @@ const CHIP_ACTIVE_CLASSES = {
     'Quick Talk':        'bg-yellow-500/30 text-yellow-200 border-yellow-500/60 shadow-yellow-500/20 shadow-sm',
     'Workshop':          'bg-green-500/30 text-green-200 border-green-500/60 shadow-green-500/20 shadow-sm',
     'Salle Keynote':     'bg-blue-500/30 text-blue-200 border-blue-500/60 shadow-blue-500/20 shadow-sm',
-    'Salle Conf #1':     'bg-red-500/30 text-red-200 border-red-500/60 shadow-red-500/20 shadow-sm',
-    'Salle Conf #2':     'bg-yellow-500/30 text-yellow-200 border-yellow-500/60 shadow-yellow-500/20 shadow-sm',
-    'Salle Workshop #1': 'bg-green-500/30 text-green-200 border-green-500/60 shadow-green-500/20 shadow-sm',
-    'Salle Workshop #2': 'bg-purple-500/30 text-purple-200 border-purple-500/60 shadow-purple-500/20 shadow-sm',
+    'Salle 1':     'bg-red-500/30 text-red-200 border-red-500/60 shadow-red-500/20 shadow-sm',
+    'Salle 2':     'bg-yellow-500/30 text-yellow-200 border-yellow-500/60 shadow-yellow-500/20 shadow-sm',
+    'Salle 3': 'bg-green-500/30 text-green-200 border-green-500/60 shadow-green-500/20 shadow-sm',
+    'Salle 4': 'bg-purple-500/30 text-purple-200 border-purple-500/60 shadow-purple-500/20 shadow-sm',
+    'AI & Data':         'bg-orange-500/30 text-orange-200 border-orange-500/60 shadow-orange-500/20 shadow-sm',
+    'Cloud & DevSecOps': 'bg-sky-500/30 text-sky-200 border-sky-500/60 shadow-sky-500/20 shadow-sm',
+    'Frontend':          'bg-pink-500/30 text-pink-200 border-pink-500/60 shadow-pink-500/20 shadow-sm',
+    'Backend':           'bg-amber-500/30 text-amber-200 border-amber-500/60 shadow-amber-500/20 shadow-sm',
+    'Mobile':            'bg-purple-500/30 text-purple-200 border-purple-500/60 shadow-purple-500/20 shadow-sm',
+    'Architecture':      'bg-emerald-500/30 text-emerald-200 border-emerald-500/60 shadow-emerald-500/20 shadow-sm',
 };
 const CHIP_INACTIVE = 'bg-white/5 text-white/60 border-white/10';
 
@@ -91,8 +103,11 @@ function focusAgendaSection() {
 }
 
 window.toggleFilterChip = function(btn, filterType, value) {
-    const isType = filterType === 'type';
-    const set = isType ? activeTypeFilters : activeTrackFilters;
+    const set = filterType === 'type'
+      ? activeTypeFilters
+      : filterType === 'track'
+        ? activeTrackFilters
+        : activeTopicFilters;
 
     if (set.has(value)) {
         set.delete(value);
@@ -107,13 +122,31 @@ window.toggleFilterChip = function(btn, filterType, value) {
     focusAgendaSection();
 };
 
+function sessionTopics(session) {
+  if (Array.isArray(session.topics)) return session.topics;
+
+  const content = [session.title, session.description, session.type]
+    .filter(Boolean)
+    .join(' ')
+    .toLocaleLowerCase();
+  const topics = [];
+  if (/\b(ai|ia|llm|machine learning|ml|data|donn[ée]es?|pytorch|langchain|vertex)\b/.test(content)) topics.push('AI & Data');
+  if (/\b(cloud|devops|devsecops|gitops|kubernetes|docker|aws|gcp|azure|ci\/?cd|infra|security|s[ée]curit[ée])\b/.test(content)) topics.push('Cloud & DevSecOps');
+  if (/\b(frontend|front-end|javascript|typescript|react|angular|vue|css|html|web|ui|ux|browser|bundler)\b/.test(content)) topics.push('Frontend');
+  if (/\b(backend|back-end|java|spring|node(?:js)?|api|database|kotlin|server)\b/.test(content)) topics.push('Backend');
+  if (/\b(mobile|android|ios|flutter|react native)\b/.test(content)) topics.push('Mobile');
+  if (/\b(architecture|architectur|design pattern|system design|conception)\b/.test(content)) topics.push('Architecture');
+  return topics;
+}
+
 function getFilteredData() {
     const data = window.agendaData || [];
     return data.filter(session => {
         if (session.type === 'Break') return true;
         const matchType  = activeTypeFilters.size  === 0 || activeTypeFilters.has(session.type);
         const matchTrack = activeTrackFilters.size === 0 || activeTrackFilters.has(session.track);
-        return matchType && matchTrack;
+        const matchTopic = activeTopicFilters.size === 0 || sessionTopics(session).some(topic => activeTopicFilters.has(topic));
+        return matchType && matchTrack && matchTopic;
     });
 }
 
@@ -156,8 +189,10 @@ function renderSessionCard(session, showTrack = true, isParSalle = false) {
   if (session.speakers && session.speakers.length > 0) {
     speakersHtml = `<div class="mt-auto pt-2 border-t border-white/5 flex flex-col gap-1 shrink-0">`;
     session.speakers.forEach(speaker => {
-      const avatar = speaker.avatar
-        ? `<img src="${speaker.avatar}" alt="${speaker.name}" class="w-full h-full object-cover">`
+      const company = window.speakerProfiles?.[speaker.name]?.company || speaker.role;
+      const avatarSrc = resolveSpeakerAvatar(window.speakerProfiles?.[speaker.name]?.avatar || speaker.avatar);
+      const avatar = avatarSrc
+        ? `<img src="${avatarSrc}" alt="${speaker.name}" class="w-full h-full object-cover">`
         : `<i data-lucide="user" class="w-3.5 h-3.5 m-1 text-white/50"></i>`;
       speakersHtml += `
         <button onclick="event.stopPropagation(); openSpeakerByName('${speaker.name.replace(/'/g, "\\'")}')"
@@ -165,7 +200,7 @@ function renderSessionCard(session, showTrack = true, isParSalle = false) {
           <div class="w-6 h-6 rounded-full bg-white/10 overflow-hidden shrink-0">${avatar}</div>
           <div class="flex flex-col min-w-0 flex-1">
             <span class="text-xs font-bold text-white group-hover/sp:text-amber-400 transition-colors truncate">${speaker.name}</span>
-            ${speaker.role ? `<span class="text-[10px] text-white/40 truncate">${speaker.role}</span>` : ''}
+            ${company ? `<span class="text-[10px] text-white/40 truncate">${company}</span>` : ''}
           </div>
           <i data-lucide="chevron-right" class="w-3 h-3 text-white/20 group-hover/sp:text-amber-400 ml-auto transition-colors shrink-0"></i>
         </button>`;
@@ -270,16 +305,16 @@ function ensureSessionModal() {
       <!-- Scrollable body -->
       <div class="overflow-y-auto flex-1 px-8 py-6 space-y-6">
 
-        <!-- Description (placeholder / future real content) -->
-        <div>
-          <h4 class="text-[10px] font-black uppercase tracking-widest text-white/30 mb-2">${agendaText('description', 'Description')}</h4>
-          <p id="session-modal-desc" class="text-slate-300 text-sm leading-relaxed"></p>
-        </div>
-
         <!-- Speakers -->
         <div id="session-modal-speakers-block">
           <h4 class="text-[10px] font-black uppercase tracking-widest text-white/30 mb-3">${agendaText('speakers', 'Speaker(s)')}</h4>
           <div id="session-modal-speakers" class="space-y-3"></div>
+        </div>
+
+        <!-- Description -->
+        <div>
+          <h4 class="text-[10px] font-black uppercase tracking-widest text-white/30 mb-2">${agendaText('description', 'Description')}</h4>
+          <p id="session-modal-desc" class="text-slate-300 text-sm leading-relaxed"></p>
         </div>
 
       </div>
@@ -333,8 +368,9 @@ window.openSessionModal = function(index) {
   if (session.speakers && session.speakers.length > 0) {
     speakersBlock.classList.remove('hidden');
     speakersEl.innerHTML = session.speakers.map(sp => {
-      const avatar = sp.avatar
-        ? `<img src="${sp.avatar}" alt="${sp.name}" class="w-full h-full object-cover">`
+      const avatarSrc = resolveSpeakerAvatar(window.speakerProfiles?.[sp.name]?.avatar || sp.avatar);
+      const avatar = avatarSrc
+        ? `<img src="${avatarSrc}" alt="${sp.name}" class="w-full h-full object-cover">`
         : `<img src="https://ui-avatars.com/api/?name=${encodeURIComponent(sp.name)}&background=1a1209&color=C8943E&bold=true&size=80" alt="${sp.name}" class="w-full h-full object-cover">`;
       return `
         <button onclick="openSpeakerByName('${sp.name.replace(/'/g, "\\'")}')"
@@ -353,8 +389,8 @@ window.openSessionModal = function(index) {
 
   // Gradient accent color based on track
   const accentMap = {
-    'Salle Keynote': '#b45309', 'Salle Conf #1': '#c2410c',
-    'Salle Conf #2': '#a16207', 'Salle Workshop #1': '#78716c', 'Salle Workshop #2': '#991b1b'
+    'Salle Keynote': '#b45309', 'Salle 1': '#c2410c',
+    'Salle 2': '#a16207', 'Salle 3': '#78716c', 'Salle 4': '#991b1b'
   };
   const accent = accentMap[session.track] || '#b45309';
   document.getElementById('session-modal-header').style.background =
@@ -378,6 +414,25 @@ window.closeSessionModal = function() {
   overlay.style.pointerEvents = 'none';
   modal.style.transform = window.innerWidth < 640 ? 'translateY(32px)' : 'scale(0.95)';
   document.body.style.overflow = '';
+};
+
+// Open a session from its card in a speaker profile.
+window.openSessionFromSpeaker = function(title, timeStart) {
+  const session = (window.agendaData || []).find(item =>
+    item.title === title && item.timeStart === timeStart
+  );
+  if (!session) return;
+
+  const sessions = window._sessionsList || [];
+  let index = sessions.findIndex(item => item.title === session.title && item.timeStart === session.timeStart);
+  if (index === -1) {
+    sessions.push(session);
+    index = sessions.length - 1;
+    window._sessionsList = sessions;
+  }
+
+  window.closeSpeakerModal?.();
+  window.openSessionModal(index);
 };
 
 // Open speaker modal by name (bridge between session modal and speaker modal)

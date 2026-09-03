@@ -20,8 +20,8 @@ const agendaData = [
     "lang": "fr",
     "speakers": [
       {
-        "name": "Nicolas GUILLOT",
-        "role": "alt+1",
+        "name": "Nicolas Guillot",
+        "role": "Founder",
         "avatar": "https://lh3.googleusercontent.com/a/AAcHTtc1WzG8-N60nzkWYnNsVfwKs70Ju84kXUjvX91M=s96-c"
       }
     ],
@@ -53,13 +53,13 @@ const agendaData = [
     "timeStart": "10:35",
     "timeEnd": "11:20",
     "title": "Astro GitOps - Press ⓧ to start",
-    "track": "Salle Conf #1",
+    "track": "Salle 1",
     "type": "Conference",
     "lang": "en",
     "speakers": [
       {
         "name": "Kevin Davin",
-        "role": "Gradle",
+        "role": "Principal Software Engineer",
         "avatar": "https://download.davinkevin.fr/avatar/kevin.jpeg"
       }
     ],
@@ -70,18 +70,18 @@ const agendaData = [
     "timeStart": "10:35",
     "timeEnd": "11:20",
     "title": "Du frigo à l’assiette : ce que mijote vraiment votre bundler JavaScript",
-    "track": "Salle Conf #2",
+    "track": "Salle 2",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
       {
-        "name": "Etienne IDOUX",
-        "role": "Zenika",
+        "name": "Etienne Idoux",
+        "role": "Senior Frontend Engineer",
         "avatar": "https://lh3.googleusercontent.com/a-/AFdZucrL5kWEUXMLAnMhQM3DVsd44PrecTtc2ZbMC35vfw=s96-c"
       },
       {
-        "name": "Mickael Alves",
-        "role": "Zenika",
+        "name": "Mickaël Alves",
+        "role": "Tech Lead",
         "avatar": "https://github.com/user-attachments/assets/b08c2280-1a9c-4378-a65e-4e78e212b031"
       }
     ],
@@ -97,7 +97,7 @@ const agendaData = [
     "lang": "fr",
     "speakers": [
       {
-        "name": "Nicolas FRIZZARIN",
+        "name": "Nicolas Frizzarin",
         "role": "SFEIR",
         "avatar": "https://lh4.googleusercontent.com/-QZhPN3UNDBA/AAAAAAAAAAI/AAAAAAAAAEs/Ki7Avw5jkKg/photo.jpg"
       }
@@ -109,13 +109,13 @@ const agendaData = [
     "timeStart": "10:35",
     "timeEnd": "12:15",
     "title": "Build the DevFest Concierge: Live, with Google CX Agent Studio",
-    "track": "Salle Workshop #1",
+    "track": "Salle 3",
     "type": "Workshop",
     "lang": "fr",
     "speakers": [
       {
         "name": "Jules Mermet-Husson",
-        "role": "Valtech",
+        "role": "Google Cloud & AI Architect",
         "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQH0P88dfRxg1Q/profile-displayphoto-crop_800_800/B4EZ5bTzbjIkAM-/0/1779648381952?e=1784160000&v=beta&t=WbzljP8HhC4hVCgo6fIoieDbpgSBOqez0d0TptqKcPE"
       }
     ],
@@ -126,18 +126,18 @@ const agendaData = [
     "timeStart": "10:35",
     "timeEnd": "12:15",
     "title": "Tactical DDD : Redonnons du sens au code par la pratique",
-    "track": "Salle Workshop #2",
+    "track": "Salle 4",
     "type": "Workshop",
     "lang": "fr",
     "speakers": [
       {
-        "name": "Adriana NAVA AGUILAR",
+        "name": "Adriana Nava Aguilar",
         "role": "Néosoft",
         "avatar": "https://lh3.googleusercontent.com/a-/AFdZucoyjX9DCjNJvoR0111jdDMHLRcDjrGM9yMl2P75Fg=s96-c"
       },
       {
         "name": "Dorra Bartaguiz",
-        "role": "AROLLA",
+        "role": "CTO",
         "avatar": "https://x.com/DorraBartaguiz/photo"
       }
     ],
@@ -158,7 +158,7 @@ const agendaData = [
     "timeStart": "11:30",
     "timeEnd": "12:15",
     "title": "Qui a marqué le plus de buts ? construire un agent IA qui interroge des données en langage naturel",
-    "track": "Salle Conf #1",
+    "track": "Salle 1",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
@@ -175,13 +175,13 @@ const agendaData = [
     "timeStart": "11:30",
     "timeEnd": "12:15",
     "title": "Chaque token compte : de l'assistant IA à la pipeline",
-    "track": "Salle Conf #2",
+    "track": "Salle 2",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
       {
-        "name": "Alexandre AZOURI",
-        "role": "",
+        "name": "Alexandre Azouri",
+        "role": "AI engineer",
         "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQH-s9OiZ0P--Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1669562988973?e=2147483647&v=beta&t=eJTsvbnT6lyIKUoMjVSmEbKcA4CkIoygI9AKvGo4ah4"
       }
     ],
@@ -198,7 +198,7 @@ const agendaData = [
     "speakers": [
       {
         "name": "Florian Leux",
-        "role": "Back Market",
+        "role": "Frontend Engineer",
         "avatar": "https://avatars.githubusercontent.com/u/10267793?v=4"
       }
     ],
@@ -219,13 +219,13 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "Sécurisez vos prototypes avec OAuth2-Proxy, Anubis",
-    "track": "Salle Conf #1",
+    "track": "Salle 1",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
       {
         "name": "David Aparicio",
-        "role": "Eudonet",
+        "role": "Senior DevSecOps",
         "avatar": "https://2.gravatar.com/userimage/6280153/70b779edb6621dd964d261651132fcc8?size=1200"
       }
     ],
@@ -236,13 +236,13 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "Coupable ! Le procès d'un container malveillant dans Kubernetes",
-    "track": "Salle Conf #2",
+    "track": "Salle 2",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
       {
         "name": "Paul-Alexandre Chrétien",
-        "role": "HoppR",
+        "role": "Principal Lead Platform",
         "avatar": "https://lh3.googleusercontent.com/a-/AOh14Gi3oGLwSt7L18UczO3XHNnhEQX_jqIC19t3Y4va"
       }
     ],
@@ -259,7 +259,7 @@ const agendaData = [
     "speakers": [
       {
         "name": "Julien Landuré",
-        "role": "TechTown",
+        "role": "CTO",
         "avatar": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/photo.jpg"
       }
     ],
@@ -270,7 +270,7 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "MLOps - Comprendre et répondre à la dégradation des modèles de machine learning en production",
-    "track": "Salle Workshop #1",
+    "track": "Salle 3",
     "type": "Quick Talk",
     "lang": "en",
     "speakers": [
@@ -287,13 +287,13 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "Dette cognitive et dette d’intention : le coût caché du code généré par IA",
-    "track": "Salle Workshop #2",
+    "track": "Salle 4",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
       {
         "name": "Thomas Dupont",
-        "role": "",
+        "role": "Senior software engineer",
         "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJQ5cDXAtWIWV0_rW_myyUhFSIyfy511p58-sbQCc2KvTlN-p4Y=s96-c"
       }
     ],
@@ -314,13 +314,13 @@ const agendaData = [
     "timeStart": "13:45",
     "timeEnd": "14:30",
     "title": "`gcloud run compose up` - ce que la doc ne dit pas (encore)",
-    "track": "Salle Conf #1",
+    "track": "Salle 1",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
       {
-        "name": "Brice FOTZO",
-        "role": "Servier",
+        "name": "Brice Fotzo",
+        "role": "Tech Lead Data",
         "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKJpi4MMwEfCzIiRYuFrL2M9xUtsPjgl_bSjpyN97hpPw79mQ=s96-c"
       }
     ],
@@ -331,7 +331,7 @@ const agendaData = [
     "timeStart": "13:45",
     "timeEnd": "14:30",
     "title": "Industrialiser l'IA en équipe : des skills qui encodent vos conventions",
-    "track": "Salle Conf #2",
+    "track": "Salle 2",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
@@ -358,8 +358,8 @@ const agendaData = [
     "lang": "fr",
     "speakers": [
       {
-        "name": "aicha",
-        "role": "SQLI",
+        "name": "Aicha Laafia",
+        "role": "Java Consultant",
         "avatar": "https://pbs.twimg.com/profile_images/2040766384460685312/oyjmoiUs.jpg"
       }
     ],
@@ -370,13 +370,13 @@ const agendaData = [
     "timeStart": "13:45",
     "timeEnd": "15:25",
     "title": "Maîtrisez vos déploiements avec OpenFeature et les Feature Flags",
-    "track": "Salle Workshop #1",
+    "track": "Salle 3",
     "type": "Workshop",
     "lang": "fr",
     "speakers": [
       {
         "name": "Alexandre Touret",
-        "role": "Magellan",
+        "role": "Architecte",
         "avatar": "https://raw.githubusercontent.com/alexandre-touret/alexandre-touret.github.io/main/static/assets/images/alexandre.touret.webp"
       }
     ],
@@ -387,13 +387,13 @@ const agendaData = [
     "timeStart": "13:45",
     "timeEnd": "15:25",
     "title": "Build Multi Agent Systems with A2A",
-    "track": "Salle Workshop #2",
+    "track": "Salle 4",
     "type": "Workshop",
     "lang": "en",
     "speakers": [
       {
         "name": "Luiz Carneiro",
-        "role": "",
+        "role": "Solutions Engineer",
         "avatar": "https://avatars.githubusercontent.com/u/23586593?v=4"
       }
     ],
@@ -414,18 +414,18 @@ const agendaData = [
     "timeStart": "14:40",
     "timeEnd": "15:25",
     "title": "On a orchestré des IA pour automatiser ce que personne ne voulait faire",
-    "track": "Salle Conf #1",
+    "track": "Salle 1",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
       {
-        "name": "Etienne IDOUX",
-        "role": "Zenika",
+        "name": "Etienne Idoux",
+        "role": "Senior Frontend Engineer",
         "avatar": "https://lh3.googleusercontent.com/a-/AFdZucrL5kWEUXMLAnMhQM3DVsd44PrecTtc2ZbMC35vfw=s96-c"
       },
       {
-        "name": "Mickael Alves",
-        "role": "Zenika",
+        "name": "Mickaël Alves",
+        "role": "Tech Lead",
         "avatar": "https://github.com/user-attachments/assets/b08c2280-1a9c-4378-a65e-4e78e212b031"
       }
     ],
@@ -436,13 +436,13 @@ const agendaData = [
     "timeStart": "14:40",
     "timeEnd": "15:25",
     "title": "HATEOAS et SPA, a LOVE(OAS) story",
-    "track": "Salle Conf #2",
+    "track": "Salle 2",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
       {
         "name": "Benjamin Legrand",
-        "role": "Onepoint",
+        "role": "Tech Lead",
         "avatar": "https://avatars.githubusercontent.com/u/32519406?v=4"
       }
     ],
@@ -458,8 +458,8 @@ const agendaData = [
     "lang": "fr",
     "speakers": [
       {
-        "name": "guillaume blaquiere",
-        "role": "Carrefour",
+        "name": "Guillaume Blaquiere",
+        "role": "Group Data Architect",
         "avatar": "https://lh5.googleusercontent.com/-FQBr5NRaPHA/AAAAAAAAAAI/AAAAAAAAdFA/LL7UhMB5N1Y/photo.jpg"
       }
     ],
@@ -480,13 +480,13 @@ const agendaData = [
     "timeStart": "15:45",
     "timeEnd": "16:30",
     "title": "ML Kit reloaded: hands-on with on-device GenAI APIs",
-    "track": "Salle Conf #1",
+    "track": "Salle 1",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
       {
         "name": "Julien Salvi",
-        "role": "Aircall",
+        "role": "Engineering Lead",
         "avatar": "https://cache.sessionize.com/image/dd30-400o400o2-4NcyaNMS4awH1Zr87u5Gve.png"
       }
     ],
@@ -497,13 +497,13 @@ const agendaData = [
     "timeStart": "15:45",
     "timeEnd": "16:30",
     "title": "Ne dessinez plus vos architectures : codez-les",
-    "track": "Salle Conf #2",
+    "track": "Salle 2",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
       {
         "name": "Alexis Scolan",
-        "role": "Onepoint",
+        "role": "Architecte technique",
         "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLPRYHnWPax4uWA1OH-QWsHoojnOSl7lkCcDoVGLTdHylc2DTk1TQ=s2808-c-no"
       }
     ],
@@ -531,13 +531,13 @@ const agendaData = [
     "timeStart": "15:45",
     "timeEnd": "17:00",
     "title": "SQL Showdown: A Competitive Query-Writing Workshop",
-    "track": "Salle Workshop #1",
+    "track": "Salle 3",
     "type": "Workshop",
     "lang": "en",
     "speakers": [
       {
         "name": "Wouter Van Schandevijl",
-        "role": "",
+        "role": "CEO",
         "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVgqaHltma5bG6C5Hrc0V9jeUD4zP-GXf0qnm1BnTYNUvi9nDSbYxrautKgOt13x0FluDsfFQd6olrePCtaAjfig6wapK84ZJJaH6gf2k86yD1xd3kqa-fS1HsA8lS8WZxd27XX4KTT5AcFua3an5HMQGHlNn-vY-g3ZZFXnczlQx8h6cCsClPHHntLvBBnpjt5pRomVZPDlUdWvw8iyEK_bYQV0MNgoMTZRyVCfoJoaUrjH6Q-PTl9q_3PtpDtoV2WaPjesFWEOpTOGrTUOnM7CTH_z3SibLiY1i47eiZHJ4B10csDBJlcjKm2inv7ArfBLufYIFr47ygIfNgXcsxB4uzvrHZEsTHwYog1y1LWo7rBON7WOxj2cA8yh63DUCvekhYg5qHBTZpfHQzCW755dLSjHSb6qksiunS7dtqlwRt2G5SGrLI6PXxZaqk5TPEu6WtD5WKHRPFSpnEHVRkuhv1W5uJiiEEuL3PyYpqrZP8Y6wmMlZsbZ_Xuj78j2TyFymX-9-EzXlJ4pfKDVtidsPYCtDG5SUF95zP4foXX-iwJwNH8cSJPxFt84fX11IBBL0TX_fg-0U-ekuIsXZdRDOMp2Lgs2lIPw4bwn4xATB-uFmj3XDdhSN-3AKcT1uYWnWGZapKDReXaYXpjfke3UVdQLPwG5VnHytEh4ipOtkAg9ownhr22xVs1ThYvSrbfTKbFKhl6l0i2Q39MoNiMpyk-qQeQhmoQ0oNzZz1JOdt-r8DiN8ikTJ0Waei_o-0g2J1yezEMjxqVaCXOejALHLlEPA6Euqw24_38EvBXyi0NTuUYWR2F0ZEw3x9OCbmdQGeiT9qejzyQkY3rxBpd8g7AzuxCzvpowaUfCsx-k3u87cmgJ7p-u16KkcuK3d2KwDQb4eniyNK7a16qjbhfZcG0tyi6Eli2MCr0lvlqh56lS6gs-JuYTfWKtBu80MSYU4zgcug_goutYdUgRMxl1tU=s96-c"
       }
     ],
@@ -548,18 +548,18 @@ const agendaData = [
     "timeStart": "15:45",
     "timeEnd": "17:00",
     "title": "Antigravity : De l'idée à l'app, de l'assistance à l'orchestration",
-    "track": "Salle Workshop #2",
+    "track": "Salle 4",
     "type": "Workshop",
     "lang": "fr",
     "speakers": [
       {
         "name": "Benjamin Bourgeois",
-        "role": "TechTown",
+        "role": "Consultant Cloud & IA",
         "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIdISIS3kiFxT18u5_-tL9a4kFv_UNAIoy0d3dnXWXPmX3v3oP1tw=s96-c"
       },
       {
-        "name": "Jean-Phi Baconnais",
-        "role": "Zenika",
+        "name": "Jean-Philippe Baconnais",
+        "role": "Consultant & Directeur Technique Zenika Nantes",
         "avatar": "https://pbs.twimg.com/profile_images/1450357066749644800/GvDZOM_Y_400x400.jpg"
       }
     ],
@@ -580,13 +580,13 @@ const agendaData = [
     "timeStart": "16:40",
     "timeEnd": "17:00",
     "title": "RAGots et Hallucinations : votre chatbot passe devant le juge",
-    "track": "Salle Conf #1",
+    "track": "Salle 1",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
       {
         "name": "Mehdi Elketroussi",
-        "role": "",
+        "role": "Software Engineer",
         "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIwjbLgutJ7lwiBcU56DjGyO90jwgXkgEPZWz2NWXa7QkN_JQ=s96-c"
       }
     ],
@@ -597,13 +597,13 @@ const agendaData = [
     "timeStart": "16:40",
     "timeEnd": "17:00",
     "title": "Tech Radar as Code : comment aligner ses choix technologiques et les rendre visibles",
-    "track": "Salle Conf #2",
+    "track": "Salle 2",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
       {
         "name": "Yann Mougenel",
-        "role": "Takima",
+        "role": "Architecte Système",
         "avatar": "https://devoxxian-image-thumbnails.s3-eu-west-1.amazonaws.com/profile-3431b1a9-dcfd-498e-ae9e-5ff49e9f01c0.jpg"
       }
     ],
@@ -620,7 +620,7 @@ const agendaData = [
     "speakers": [
       {
         "name": "Vivien Ramahandry",
-        "role": "",
+        "role": "Lead SRE",
         "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHGcngKiQ7wnA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1716047795295?e=1787184000&v=beta&t=gEjsYrHLwA0_JQPPs-PoHHmI1dhgvggnUVFyfRw8WBA"
       }
     ],
@@ -640,18 +640,18 @@ const agendaData = [
 ];
 
 const speakerProfiles = {
-  "Nicolas GUILLOT": {
-    "position": "alt+1",
-    "company": "alt+1",
-    "bio": "Salut ! Je suis Nicolas, développeur depuis plus de 25 ans et aujourd'hui développeur d'applications mobiles freelance.\n\nMon parcours m'a mené de la programmation de jeux MS-DOS au développement de bancs de tests électroniques pour la recherche pétrolière, avant de basculer vers le mobile en 2017.\n\nTout a changé avec une mission d'éco-volontariat en Polynésie pour le suivi des tortues marines. Cette expérience a inspiré \"We Spot Turtles!\", mon side project devenu une de mes activités principales depuis que je suis freelance.\n\nEn 2022, une rencontre inattendue avec une australienne a propulsé ce projet sur la scène internationale, jusqu'à être mis en avant par Google dans une campagne mondiale.\n\nAujourd'hui, je développe cette solution en Flutter, co-organise le meetup Flutter Nantes, et cherche à étendre l'impact de cette application dédiée à la préservation des tortues marines à travers le monde.",
-    "bioFr": "Salut ! Je suis Nicolas, développeur depuis plus de 25 ans et aujourd'hui développeur d'applications mobiles freelance.\n\nMon parcours m'a mené de la programmation de jeux MS-DOS au développement de bancs de tests électroniques pour la recherche pétrolière, avant de basculer vers le mobile en 2017.\n\nTout a changé avec une mission d'éco-volontariat en Polynésie pour le suivi des tortues marines. Cette expérience a inspiré \"We Spot Turtles!\", mon side project devenu une de mes activités principales depuis que je suis freelance.\n\nEn 2022, une rencontre inattendue avec une australienne a propulsé ce projet sur la scène internationale, jusqu'à être mis en avant par Google dans une campagne mondiale.\n\nAujourd'hui, je développe cette solution en Flutter, co-organise le meetup Flutter Nantes, et cherche à étendre l'impact de cette application dédiée à la préservation des tortues marines à travers le monde.",
-    "bioEn": "Salut ! Je suis Nicolas, développeur depuis plus de 25 ans et aujourd'hui développeur d'applications mobiles freelance.\n\nMon parcours m'a mené de la programmation de jeux MS-DOS au développement de bancs de tests électroniques pour la recherche pétrolière, avant de basculer vers le mobile en 2017.\n\nTout a changé avec une mission d'éco-volontariat en Polynésie pour le suivi des tortues marines. Cette expérience a inspiré \"We Spot Turtles!\", mon side project devenu une de mes activités principales depuis que je suis freelance.\n\nEn 2022, une rencontre inattendue avec une australienne a propulsé ce projet sur la scène internationale, jusqu'à être mis en avant par Google dans une campagne mondiale.\n\nAujourd'hui, je développe cette solution en Flutter, co-organise le meetup Flutter Nantes, et cherche à étendre l'impact de cette application dédiée à la préservation des tortues marines à travers le monde.",
+  "Nicolas Guillot": {
+    "position": "Founder",
+    "company": "We Spot Turtles!",
+    "bio": "Développeur d’applications indépendant avec Flutter et fondateur de We Spot Turtles!, une application de science participative qui met la technologie au service de la protection des tortues marines.",
+    "bioFr": "Développeur d’applications indépendant avec Flutter et fondateur de We Spot Turtles!, une application de science participative qui met la technologie au service de la protection des tortues marines.",
+    "bioEn": "Développeur d’applications indépendant avec Flutter et fondateur de We Spot Turtles!, une application de science participative qui met la technologie au service de la protection des tortues marines.",
     "twitter": "https://web-cdn.bsky.app/profile/guillotnico.bsky.social",
     "linkedin": "https://www.linkedin.com/in/guillotnico/",
     "github": "",
     "avatar": "https://lh3.googleusercontent.com/a/AAcHTtc1WzG8-N60nzkWYnNsVfwKs70Ju84kXUjvX91M=s96-c"
   },
-  "Adriana NAVA AGUILAR": {
+  "Adriana Nava Aguilar": {
     "position": "Néosoft",
     "company": "Néosoft",
     "bio": "Adriana Nava Aguilar (she/her) est Senior Software Engineer chez Néosoft | Orano, Software Craftswoman et AI Curious. \n\nExpatriée mexicaine à Paris, elle a construit sa carrière entre le Mexique et la France dans des environnements tech exigeants, ce qui lui a autant appris sur l'architecture logicielle que sur l'art de survivre à une codebase legacy.\n\nInternational Speaker et Women Techmakers Ambassador, elle est Lead Organiser de WTM Paris et participe activement à Women.TechRocks, FIA - Femmes dans l'IA, Duchess et LadiesCodeParis. Depuis plus de 10 ans, elle construit des communautés, les anime et en porte les cicatrices avec fierté.\n\nQuand elle ne code pas, elle cherche le meilleur taco de Paris et tente de convaincre son chien que les stand-ups meetings sont une excellente idée.",
@@ -663,44 +663,44 @@ const speakerProfiles = {
     "avatar": "https://lh3.googleusercontent.com/a-/AFdZucoyjX9DCjNJvoR0111jdDMHLRcDjrGM9yMl2P75Fg=s96-c"
   },
   "Dorra Bartaguiz": {
-    "position": "AROLLA",
-    "company": "AROLLA",
-    "bio": "Dorra est CTO d'Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en cheffe du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022).\nElle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. \nElle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.",
-    "bioFr": "Dorra est CTO d'Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en cheffe du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022).\nElle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. \nElle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.",
-    "bioEn": "Dorra est CTO d'Arolla, co-auteure du livre Software Craft (édition Dunod), rédactrice en cheffe du numéro spécial 100% féminin chez Programmez! (245 Janvier 2022).\nElle est passionnée par le développement et les bonnes pratiques. Elle partage son savoir-faire en publiant des articles et en animant des conférences et meetups. \nElle a aussi enseigné dans une école d'ingénieurs à Paris pendant des années.",
+    "position": "CTO",
+    "company": "Arolla",
+    "bio": "Dorra est CTO d’Arolla, où elle évolue depuis 10 ans. Passionnée par le Software Craft, l'architecture et la transmission, elle a exploré de multiples facettes de la tech : consultante, tech lead, coach et enseignante en école d'ingénieurs. Co-auteure et illustratrice du livre Software Craft (Dunod) et impliquée dans la communauté Tech.Rocks, elle transmet son savoir-faire à travers des articles, des formations et des conférences. Son crédo pour mener de front tous ses projets ? La priorisation, le slicing et les baby steps.",
+    "bioFr": "Dorra est CTO d’Arolla, où elle évolue depuis 10 ans. Passionnée par le Software Craft, l'architecture et la transmission, elle a exploré de multiples facettes de la tech : consultante, tech lead, coach et enseignante en école d'ingénieurs. Co-auteure et illustratrice du livre Software Craft (Dunod) et impliquée dans la communauté Tech.Rocks, elle transmet son savoir-faire à travers des articles, des formations et des conférences. Son crédo pour mener de front tous ses projets ? La priorisation, le slicing et les baby steps.",
+    "bioEn": "Dorra est CTO d’Arolla, où elle évolue depuis 10 ans. Passionnée par le Software Craft, l'architecture et la transmission, elle a exploré de multiples facettes de la tech : consultante, tech lead, coach et enseignante en école d'ingénieurs. Co-auteure et illustratrice du livre Software Craft (Dunod) et impliquée dans la communauté Tech.Rocks, elle transmet son savoir-faire à travers des articles, des formations et des conférences. Son crédo pour mener de front tous ses projets ? La priorisation, le slicing et les baby steps.",
     "twitter": "https://x.com/DorraBartaguiz",
     "linkedin": "",
     "github": "https://github.com/iAmDorra",
-    "avatar": "https://x.com/DorraBartaguiz/photo"
+    "avatar": "images/speakers/dorra-bartaguiz.jpg"
   },
   "Jules Mermet-Husson": {
-    "position": "Valtech",
+    "position": "Google Cloud & AI Architect",
     "company": "Valtech",
-    "bio": "Jules Mermet-Husson is a Senior Cloud & AI Architect at Valtech, working on Google Cloud architecture and Generative AI projects for enterprise clients. \nHe has hands-on experience building production-ready AI agents with Gemini, ADK on Google's Agent Platform. \nWhen he is not wiring up cloud systems, he teaches ski and snowboard in the Jura mountains.",
-    "bioFr": "Jules Mermet-Husson is a Senior Cloud & AI Architect at Valtech, working on Google Cloud architecture and Generative AI projects for enterprise clients. \nHe has hands-on experience building production-ready AI agents with Gemini, ADK on Google's Agent Platform. \nWhen he is not wiring up cloud systems, he teaches ski and snowboard in the Jura mountains.",
-    "bioEn": "Jules Mermet-Husson is a Senior Cloud & AI Architect at Valtech, working on Google Cloud architecture and Generative AI projects for enterprise clients. \nHe has hands-on experience building production-ready AI agents with Gemini, ADK on Google's Agent Platform. \nWhen he is not wiring up cloud systems, he teaches ski and snowboard in the Jura mountains.",
+    "bio": "Jules Mermet-Husson is a Senior Cloud & AI Architect at Valtech, where he designs Google Cloud architectures and generative AI solutions for enterprise clients.\nHe builds production-grade AI agents using Gemini, Agent Development Kit (ADK), and Customer Experience (CX) Agent Studio on Google’s Agent Platform.\nWhen he is not wiring up cloud systems, he teaches skiing and snowboarding in the Jura Mountains.",
+    "bioFr": "Jules Mermet-Husson is a Senior Cloud & AI Architect at Valtech, where he designs Google Cloud architectures and generative AI solutions for enterprise clients.\nHe builds production-grade AI agents using Gemini, Agent Development Kit (ADK), and Customer Experience (CX) Agent Studio on Google’s Agent Platform.\nWhen he is not wiring up cloud systems, he teaches skiing and snowboarding in the Jura Mountains.",
+    "bioEn": "Jules Mermet-Husson is a Senior Cloud & AI Architect at Valtech, where he designs Google Cloud architectures and generative AI solutions for enterprise clients.\nHe builds production-grade AI agents using Gemini, Agent Development Kit (ADK), and Customer Experience (CX) Agent Studio on Google’s Agent Platform.\nWhen he is not wiring up cloud systems, he teaches skiing and snowboarding in the Jura Mountains.",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/jmermethusson/",
     "github": "https://github.com/jjjulllesss",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQH0P88dfRxg1Q/profile-displayphoto-crop_800_800/B4EZ5bTzbjIkAM-/0/1779648381952?e=1784160000&v=beta&t=WbzljP8HhC4hVCgo6fIoieDbpgSBOqez0d0TptqKcPE"
+    "avatar": "images/speakers/jules-mermet-husson.jpg"
   },
   "Vivien Ramahandry": {
-    "position": "",
-    "company": "",
+    "position": "Lead SRE",
+    "company": "Jump",
     "bio": "Vivien est actuellement Lead SRE chez Jump, une entreprise fournissant tous les avantages d'un CDI pour les indépendants.\nIl a beaucoup aidé les développeurs à déployer leurs applications dans des environnements Cloud-Natif notamment Kubernetes et dans le cloud AWS.\nIl adore l’automatisation de déploiement d’infrastructures avec Terraform.\nIl se concentre maintenant de plus en plus à co-constuire avec les développeurs des architectures scalables, résilientes avec un coût financier le plus bas possible.",
     "bioFr": "Vivien est actuellement Lead SRE chez Jump, une entreprise fournissant tous les avantages d'un CDI pour les indépendants.\nIl a beaucoup aidé les développeurs à déployer leurs applications dans des environnements Cloud-Natif notamment Kubernetes et dans le cloud AWS.\nIl adore l’automatisation de déploiement d’infrastructures avec Terraform.\nIl se concentre maintenant de plus en plus à co-constuire avec les développeurs des architectures scalables, résilientes avec un coût financier le plus bas possible.",
     "bioEn": "Vivien est actuellement Lead SRE chez Jump, une entreprise fournissant tous les avantages d'un CDI pour les indépendants.\nIl a beaucoup aidé les développeurs à déployer leurs applications dans des environnements Cloud-Natif notamment Kubernetes et dans le cloud AWS.\nIl adore l’automatisation de déploiement d’infrastructures avec Terraform.\nIl se concentre maintenant de plus en plus à co-constuire avec les développeurs des architectures scalables, résilientes avec un coût financier le plus bas possible.",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/vramahandry",
     "github": "",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHGcngKiQ7wnA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1716047795295?e=1787184000&v=beta&t=gEjsYrHLwA0_JQPPs-PoHHmI1dhgvggnUVFyfRw8WBA"
+    "avatar": "images/speakers/vivien-ramahandry.jpg"
   },
   "Yann Mougenel": {
-    "position": "Takima",
+    "position": "Architecte Système",
     "company": "Takima",
-    "bio": "Architecte logiciel à plein temps, curieux dans l'âme, Yann est toujours à l’affût de nouvelles idées ou technos à bidouiller.\n\nAprès une dizaine d’années dans la tech, il a vu de nombreux contextes en dev fullstack, en DevOps et il met maintenant son expertise au service des autres.\n\nAdepte de design logiciel, aficionado de l’OpenSource et du libre, il adore jongler entre concepts et outils pour trouver des solutions malignes à des problèmes complexes.",
-    "bioFr": "Architecte logiciel à plein temps, curieux dans l'âme, Yann est toujours à l’affût de nouvelles idées ou technos à bidouiller.\n\nAprès une dizaine d’années dans la tech, il a vu de nombreux contextes en dev fullstack, en DevOps et il met maintenant son expertise au service des autres.\n\nAdepte de design logiciel, aficionado de l’OpenSource et du libre, il adore jongler entre concepts et outils pour trouver des solutions malignes à des problèmes complexes.",
-    "bioEn": "Architecte logiciel à plein temps, curieux dans l'âme, Yann est toujours à l’affût de nouvelles idées ou technos à bidouiller.\n\nAprès une dizaine d’années dans la tech, il a vu de nombreux contextes en dev fullstack, en DevOps et il met maintenant son expertise au service des autres.\n\nAdepte de design logiciel, aficionado de l’OpenSource et du libre, il adore jongler entre concepts et outils pour trouver des solutions malignes à des problèmes complexes.",
+    "bio": "Architecte logiciel à plein temps, curieux dans l'âme, Yann est toujours à l’affût de nouvelles idées ou technos à bidouiller.\nAprès une dizaine d’années dans la tech, il a vu de nombreux contextes en dev fullstack, en DevOps et il met maintenant son expertise au service des autres.\nAdepte de design logiciel, aficionado de l’OpenSource et du libre, il adore jongler entre concepts et outils pour trouver des solutions malignes à des problèmes complexes.",
+    "bioFr": "Architecte logiciel à plein temps, curieux dans l'âme, Yann est toujours à l’affût de nouvelles idées ou technos à bidouiller.\nAprès une dizaine d’années dans la tech, il a vu de nombreux contextes en dev fullstack, en DevOps et il met maintenant son expertise au service des autres.\nAdepte de design logiciel, aficionado de l’OpenSource et du libre, il adore jongler entre concepts et outils pour trouver des solutions malignes à des problèmes complexes.",
+    "bioEn": "Architecte logiciel à plein temps, curieux dans l'âme, Yann est toujours à l’affût de nouvelles idées ou technos à bidouiller.\nAprès une dizaine d’années dans la tech, il a vu de nombreux contextes en dev fullstack, en DevOps et il met maintenant son expertise au service des autres.\nAdepte de design logiciel, aficionado de l’OpenSource et du libre, il adore jongler entre concepts et outils pour trouver des solutions malignes à des problèmes complexes.",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/yann-mougenel-843a3b108/",
     "github": "https://github.com/ymougenel",
@@ -715,9 +715,9 @@ const speakerProfiles = {
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/simonpoulet2/",
     "github": "",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQEKQZAk0wEgEg/profile-displayphoto-scale_400_400/B4EZ5Bbr0ZHcAg-/0/1779214238104?e=1784764800&v=beta&t=uU4IBQm-YaDhRZwOLadS5dyBRdUJpSePMdp01yNfMQc"
+    "avatar": "images/speakers/simon-poulet.jpg"
   },
-  "Nicolas FRIZZARIN": {
+  "Nicolas Frizzarin": {
     "position": "SFEIR",
     "company": "SFEIR",
     "bio": "Nicolas Frizzarin is a Google Developer Expert (GDE) in Web Technologies and Angular, a Former Microsoft Most Valuable Professional (MVP), and a JetBrains Community Contributor. As a Senior Staff Engineer and Developer Advocate at Sfeir, he leverages his expertise to build powerful web applications, with a strong focus on performance and creating an exceptional user experience.\n\nNicolas is a passionate open-source contributor, notably as a core team member of the popular NG-ZORRO Angular UI library. He regularly shares his knowledge and insights on front-end technologies as a speaker at major conferences like Devoxx and We Are Developer, and through technical articles on Dev.to. His work is driven by a passion for creating high-quality digital products and a commitment to helping others grow",
@@ -729,33 +729,33 @@ const speakerProfiles = {
     "avatar": "https://lh4.googleusercontent.com/-QZhPN3UNDBA/AAAAAAAAAAI/AAAAAAAAAEs/Ki7Avw5jkKg/photo.jpg"
   },
   "Benjamin Legrand": {
-    "position": "Onepoint",
+    "position": "Tech Lead",
     "company": "Onepoint",
-    "bio": "Tombé dans la marmite du web étant petit en regardant la source des pages html, c'est tout naturellement que Benjamin fit depuis 2008 du développement web son métier.\n\nD'abord full-stack, puis en fait full fronteux, parfois défricheur de frameworks javascript bizarres, amoureux du Typescript, fanboy d'Angular. touche à tout musicien. \n\nIntervenu sur plein de projets variés, de l'e-commerce à l'industrie, en passant par les telecoms . \n\nAujourd'hui Tech Lead front / Architecte Logiciel chez Onepoint",
-    "bioFr": "Tombé dans la marmite du web étant petit en regardant la source des pages html, c'est tout naturellement que Benjamin fit depuis 2008 du développement web son métier.\n\nD'abord full-stack, puis en fait full fronteux, parfois défricheur de frameworks javascript bizarres, amoureux du Typescript, fanboy d'Angular. touche à tout musicien. \n\nIntervenu sur plein de projets variés, de l'e-commerce à l'industrie, en passant par les telecoms . \n\nAujourd'hui Tech Lead front / Architecte Logiciel chez Onepoint",
-    "bioEn": "Tombé dans la marmite du web étant petit en regardant la source des pages html, c'est tout naturellement que Benjamin fit depuis 2008 du développement web son métier.\n\nD'abord full-stack, puis en fait full fronteux, parfois défricheur de frameworks javascript bizarres, amoureux du Typescript, fanboy d'Angular. touche à tout musicien. \n\nIntervenu sur plein de projets variés, de l'e-commerce à l'industrie, en passant par les telecoms . \n\nAujourd'hui Tech Lead front / Architecte Logiciel chez Onepoint",
+    "bio": "Architecte logiciel, tech lead, expert angular, musicien, vim-addict, split-keyboard fan",
+    "bioFr": "Architecte logiciel, tech lead, expert angular, musicien, vim-addict, split-keyboard fan",
+    "bioEn": "Architecte logiciel, tech lead, expert angular, musicien, vim-addict, split-keyboard fan",
     "twitter": "https://bsky.app/profile/benjilegnard.bsky.social",
     "linkedin": "https://www.linkedin.com/in/benjilegnard/",
     "github": "https://github.com/benjilegnard",
     "avatar": "https://avatars.githubusercontent.com/u/32519406?v=4"
   },
-  "Alexandre AZOURI": {
-    "position": "",
-    "company": "",
-    "bio": "Ingénieur en intelligence artificielle et machine learning basé à Lyon. Travaillant dans le domaine depuis plus de deux ans, je suis passionné par ces nouvelles technologies ainsi que leur application dans de nombreux secteurs. J'ai eu l'occasion de travailler sur des projets de détection de cancer, pipelines IA pour des clients de l'énergie ou encore d'agents LLM pour du service client respectant la RGPD.",
-    "bioFr": "Ingénieur en intelligence artificielle et machine learning basé à Lyon. Travaillant dans le domaine depuis plus de deux ans, je suis passionné par ces nouvelles technologies ainsi que leur application dans de nombreux secteurs. J'ai eu l'occasion de travailler sur des projets de détection de cancer, pipelines IA pour des clients de l'énergie ou encore d'agents LLM pour du service client respectant la RGPD.",
-    "bioEn": "Ingénieur en intelligence artificielle et machine learning basé à Lyon. Travaillant dans le domaine depuis plus de deux ans, je suis passionné par ces nouvelles technologies ainsi que leur application dans de nombreux secteurs. J'ai eu l'occasion de travailler sur des projets de détection de cancer, pipelines IA pour des clients de l'énergie ou encore d'agents LLM pour du service client respectant la RGPD.",
+  "Alexandre Azouri": {
+    "position": "AI engineer",
+    "company": "Sogeti Capgemini",
+    "bio": "Jeune AI engineer, je me suis spécialisée ces deux dernières années dans la réduction des couts et accélération des processes GenAI, tant techniquement que dans leur adoption. Mes approches mêlent IA genérative et IA plus traditionnelle, avec un fort marqueur de contact humain à travers l'écoute, la compréhension et la formation.",
+    "bioFr": "Jeune AI engineer, je me suis spécialisée ces deux dernières années dans la réduction des couts et accélération des processes GenAI, tant techniquement que dans leur adoption. Mes approches mêlent IA genérative et IA plus traditionnelle, avec un fort marqueur de contact humain à travers l'écoute, la compréhension et la formation.",
+    "bioEn": "Jeune AI engineer, je me suis spécialisée ces deux dernières années dans la réduction des couts et accélération des processes GenAI, tant techniquement que dans leur adoption. Mes approches mêlent IA genérative et IA plus traditionnelle, avec un fort marqueur de contact humain à travers l'écoute, la compréhension et la formation.",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/alexandre-azouri/",
     "github": "",
     "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQH-s9OiZ0P--Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1669562988973?e=2147483647&v=beta&t=eJTsvbnT6lyIKUoMjVSmEbKcA4CkIoygI9AKvGo4ah4"
   },
   "David Aparicio": {
-    "position": "Eudonet",
+    "position": "Senior DevSecOps",
     "company": "Eudonet",
-    "bio": "Passionate engineer in Computer Science, graduated INSA Lyon 2014, after two years spent at UNICAMP in Brazil, actively participates in the community, through Meetups and conferences. His motto: “No developer is supposed to ignore security”.\n\nIngénieur passionné en Informatique, diplômé INSA Lyon 2014, après deux années passées à UNICAMP au Brésil, participe activement à la communauté, à travers des Meetups et des conférences. Sa devise: « Nul développeur n'est censé ignorer la sécurité »",
-    "bioFr": "Passionate engineer in Computer Science, graduated INSA Lyon 2014, after two years spent at UNICAMP in Brazil, actively participates in the community, through Meetups and conferences. His motto: “No developer is supposed to ignore security”.\n\nIngénieur passionné en Informatique, diplômé INSA Lyon 2014, après deux années passées à UNICAMP au Brésil, participe activement à la communauté, à travers des Meetups et des conférences. Sa devise: « Nul développeur n'est censé ignorer la sécurité »",
-    "bioEn": "Passionate engineer in Computer Science, graduated INSA Lyon 2014, after two years spent at UNICAMP in Brazil, actively participates in the community, through Meetups and conferences. His motto: “No developer is supposed to ignore security”.\n\nIngénieur passionné en Informatique, diplômé INSA Lyon 2014, après deux années passées à UNICAMP au Brésil, participe activement à la communauté, à travers des Meetups et des conférences. Sa devise: « Nul développeur n'est censé ignorer la sécurité »",
+    "bio": "Ingénieur passionné d’informatique, diplômé de l’INSA Lyon 2014, après deux années passées à UNICAMP au Brésil, participe activement à la communauté, au travers des meetups et des conférences.\n\nSa devise : \" Aucun développeur n’est censé ignorer la sécurité “.\n===\nPassionate engineer in Computer Science, graduated INSA Lyon 2014, after two years spent at UNICAMP in Brazil, actively participates in the community, through Meetups and conferences.\n\nHis motto: “No developer is supposed to ignore security”.",
+    "bioFr": "Ingénieur passionné d’informatique, diplômé de l’INSA Lyon 2014, après deux années passées à UNICAMP au Brésil, participe activement à la communauté, au travers des meetups et des conférences.\n\nSa devise : \" Aucun développeur n’est censé ignorer la sécurité “.\n===\nPassionate engineer in Computer Science, graduated INSA Lyon 2014, after two years spent at UNICAMP in Brazil, actively participates in the community, through Meetups and conferences.\n\nHis motto: “No developer is supposed to ignore security”.",
+    "bioEn": "Ingénieur passionné d’informatique, diplômé de l’INSA Lyon 2014, après deux années passées à UNICAMP au Brésil, participe activement à la communauté, au travers des meetups et des conférences.\n\nSa devise : \" Aucun développeur n’est censé ignorer la sécurité “.\n===\nPassionate engineer in Computer Science, graduated INSA Lyon 2014, after two years spent at UNICAMP in Brazil, actively participates in the community, through Meetups and conferences.\n\nHis motto: “No developer is supposed to ignore security”.",
     "twitter": "https://x.com/dadideo",
     "linkedin": "https://www.linkedin.com/in/davidaparicio1",
     "github": "",
@@ -784,103 +784,103 @@ const speakerProfiles = {
     "avatar": "https://avatars.githubusercontent.com/tosun-si"
   },
   "Alexandre Touret": {
-    "position": "Magellan",
+    "position": "Architecte",
     "company": "Magellan",
-    "bio": "Avec plus de vingt ans d'expérience en tant qu'architecte logiciel, je suis passionné par la technologie, le Cloud computing et le développement logiciel. Tout au long de ma carrière, j'ai eu l'occasion de concevoir, construire et gérer des systèmes de différentes tailles dans divers secteurs, comme l'assurance, les services financiers et la mobilité.\n\nJ'apprécie de partager mes connaissances et expériences à la communauté, que ce soit par l'enseignement, les interventions lors de conférences, l'organisation d'ateliers pratiques ou la rédaction d'articles. \n\nBlog: https://blog.touret.info",
-    "bioFr": "Avec plus de vingt ans d'expérience en tant qu'architecte logiciel, je suis passionné par la technologie, le Cloud computing et le développement logiciel. Tout au long de ma carrière, j'ai eu l'occasion de concevoir, construire et gérer des systèmes de différentes tailles dans divers secteurs, comme l'assurance, les services financiers et la mobilité.\n\nJ'apprécie de partager mes connaissances et expériences à la communauté, que ce soit par l'enseignement, les interventions lors de conférences, l'organisation d'ateliers pratiques ou la rédaction d'articles. \n\nBlog: https://blog.touret.info",
-    "bioEn": "Avec plus de vingt ans d'expérience en tant qu'architecte logiciel, je suis passionné par la technologie, le Cloud computing et le développement logiciel. Tout au long de ma carrière, j'ai eu l'occasion de concevoir, construire et gérer des systèmes de différentes tailles dans divers secteurs, comme l'assurance, les services financiers et la mobilité.\n\nJ'apprécie de partager mes connaissances et expériences à la communauté, que ce soit par l'enseignement, les interventions lors de conférences, l'organisation d'ateliers pratiques ou la rédaction d'articles. \n\nBlog: https://blog.touret.info",
+    "bio": "Avec plus de vingt ans d'expérience en tant qu'architecte logiciel, je suis passionné par la technologie, le Cloud computing et le développement logiciel. Tout au long de ma carrière, j'ai eu l'occasion de concevoir, construire et gérer des systèmes de différentes tailles dans divers secteurs, comme l'assurance, les services financiers et la mobilité.\n\nJ'apprécie de partager mes connaissances et expériences à la communauté, que ce soit par l'enseignement, les interventions lors de conférences, l'organisation d'ateliers pratiques ou la rédaction d'articles.",
+    "bioFr": "Avec plus de vingt ans d'expérience en tant qu'architecte logiciel, je suis passionné par la technologie, le Cloud computing et le développement logiciel. Tout au long de ma carrière, j'ai eu l'occasion de concevoir, construire et gérer des systèmes de différentes tailles dans divers secteurs, comme l'assurance, les services financiers et la mobilité.\n\nJ'apprécie de partager mes connaissances et expériences à la communauté, que ce soit par l'enseignement, les interventions lors de conférences, l'organisation d'ateliers pratiques ou la rédaction d'articles.",
+    "bioEn": "Avec plus de vingt ans d'expérience en tant qu'architecte logiciel, je suis passionné par la technologie, le Cloud computing et le développement logiciel. Tout au long de ma carrière, j'ai eu l'occasion de concevoir, construire et gérer des systèmes de différentes tailles dans divers secteurs, comme l'assurance, les services financiers et la mobilité.\n\nJ'apprécie de partager mes connaissances et expériences à la communauté, que ce soit par l'enseignement, les interventions lors de conférences, l'organisation d'ateliers pratiques ou la rédaction d'articles.",
     "twitter": "https://bsky.app/profile/touret.info",
     "linkedin": "https://www.linkedin.com/in/atouret/",
     "github": "https://github.com/alexandre-touret",
     "avatar": "https://raw.githubusercontent.com/alexandre-touret/alexandre-touret.github.io/main/static/assets/images/alexandre.touret.webp"
   },
-  "guillaume blaquiere": {
-    "position": "Carrefour",
+  "Guillaume Blaquiere": {
+    "position": "Group Data Architect",
     "company": "Carrefour",
-    "bio": "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Carrefour as Group Data Architect. \nJava developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language. \nInnovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the \"usual\" problems that it solves.\nMore generally, he likes helping people stucks on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) and Twitter (@gblaquiere)\n\n\nGuillaume est Google Developer Expert sur Cloud Platform et travaille chez Carrefour en tant que Architect Data Groupe. \nDéveloppeur Java depuis plus de 15 ans, et malgré des précédents postes à responsabilités, il a toujours conservé son envie de créer, de développer, de découvrir et de tester de nouvelles solutions, notamment dans le Cloud, le machine learning ou les langages Go et Python.\nPassionné d’innovation et certifié 3x Google Cloud, writer et speaker sur son temps libre, il est fasciné par le serverless et les problèmes “traditionnels” qu’il résout.\nPlus généralement, il aime aider les personnes bloquées sur Google Cloud. Vous pouvez le croiser sur Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) et Twitter (@gblaquiere)",
-    "bioFr": "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Carrefour as Group Data Architect. \nJava developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language. \nInnovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the \"usual\" problems that it solves.\nMore generally, he likes helping people stucks on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) and Twitter (@gblaquiere)\n\n\nGuillaume est Google Developer Expert sur Cloud Platform et travaille chez Carrefour en tant que Architect Data Groupe. \nDéveloppeur Java depuis plus de 15 ans, et malgré des précédents postes à responsabilités, il a toujours conservé son envie de créer, de développer, de découvrir et de tester de nouvelles solutions, notamment dans le Cloud, le machine learning ou les langages Go et Python.\nPassionné d’innovation et certifié 3x Google Cloud, writer et speaker sur son temps libre, il est fasciné par le serverless et les problèmes “traditionnels” qu’il résout.\nPlus généralement, il aime aider les personnes bloquées sur Google Cloud. Vous pouvez le croiser sur Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) et Twitter (@gblaquiere)",
-    "bioEn": "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Carrefour as Group Data Architect. \nJava developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language. \nInnovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the \"usual\" problems that it solves.\nMore generally, he likes helping people stucks on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) and Twitter (@gblaquiere)\n\n\nGuillaume est Google Developer Expert sur Cloud Platform et travaille chez Carrefour en tant que Architect Data Groupe. \nDéveloppeur Java depuis plus de 15 ans, et malgré des précédents postes à responsabilités, il a toujours conservé son envie de créer, de développer, de découvrir et de tester de nouvelles solutions, notamment dans le Cloud, le machine learning ou les langages Go et Python.\nPassionné d’innovation et certifié 3x Google Cloud, writer et speaker sur son temps libre, il est fasciné par le serverless et les problèmes “traditionnels” qu’il résout.\nPlus généralement, il aime aider les personnes bloquées sur Google Cloud. Vous pouvez le croiser sur Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) et Twitter (@gblaquiere)",
+    "bio": "Guillaume est Google Developer Expert sur Cloud Platform et travaille chez Carrefour en tant que Group Data Architect. \n\nDéveloppeur Java depuis plus de 15 ans, et malgré des précédents postes à responsabilités, il a toujours conservé son envie de créer, de développer, de découvrir et de tester de nouvelles solutions, notamment dans le Cloud, le machine learning ou les langages Go et Python.\n\nPassionné d’innovation et certifié 3x Google Cloud, writer et speaker sur son temps libre, il est fasciné par le serverless et les problèmes “traditionnels” qu’il résout.",
+    "bioFr": "Guillaume est Google Developer Expert sur Cloud Platform et travaille chez Carrefour en tant que Group Data Architect. \n\nDéveloppeur Java depuis plus de 15 ans, et malgré des précédents postes à responsabilités, il a toujours conservé son envie de créer, de développer, de découvrir et de tester de nouvelles solutions, notamment dans le Cloud, le machine learning ou les langages Go et Python.\n\nPassionné d’innovation et certifié 3x Google Cloud, writer et speaker sur son temps libre, il est fasciné par le serverless et les problèmes “traditionnels” qu’il résout.",
+    "bioEn": "Guillaume est Google Developer Expert sur Cloud Platform et travaille chez Carrefour en tant que Group Data Architect. \n\nDéveloppeur Java depuis plus de 15 ans, et malgré des précédents postes à responsabilités, il a toujours conservé son envie de créer, de développer, de découvrir et de tester de nouvelles solutions, notamment dans le Cloud, le machine learning ou les langages Go et Python.\n\nPassionné d’innovation et certifié 3x Google Cloud, writer et speaker sur son temps libre, il est fasciné par le serverless et les problèmes “traditionnels” qu’il résout.",
     "twitter": "https://x.com/gblaquiere",
     "linkedin": "",
     "github": "https://github.com/guillaumeblaquiere",
     "avatar": "https://lh5.googleusercontent.com/-FQBr5NRaPHA/AAAAAAAAAAI/AAAAAAAAdFA/LL7UhMB5N1Y/photo.jpg"
   },
-  "aicha": {
-    "position": "SQLI",
+  "Aicha Laafia": {
+    "position": "Java Consultant",
     "company": "SQLI",
-    "bio": "Aicha Laafia est ingénieure logicielle chez SQLI, passionnée de code, de durabilité et d'empowerment des femmes dans la tech.\n\nWomen Techmakers et Girls Code ambassador, Oracle ACE Associate, membre de l'Association Marocaine d'Informatique et contributrice au programme JetBrains Community, elle se concentre sur la création de logiciels à impact environnemental minimal tout en accompagnant et soutenant les femmes dans la technologie.\n\nQuand elle ne code pas, elle explore la gastronomie et fan de la Formule 1.",
-    "bioFr": "Aicha Laafia est ingénieure logicielle chez SQLI, passionnée de code, de durabilité et d'empowerment des femmes dans la tech.\n\nWomen Techmakers et Girls Code ambassador, Oracle ACE Associate, membre de l'Association Marocaine d'Informatique et contributrice au programme JetBrains Community, elle se concentre sur la création de logiciels à impact environnemental minimal tout en accompagnant et soutenant les femmes dans la technologie.\n\nQuand elle ne code pas, elle explore la gastronomie et fan de la Formule 1.",
-    "bioEn": "Aicha Laafia est ingénieure logicielle chez SQLI, passionnée de code, de durabilité et d'empowerment des femmes dans la tech.\n\nWomen Techmakers et Girls Code ambassador, Oracle ACE Associate, membre de l'Association Marocaine d'Informatique et contributrice au programme JetBrains Community, elle se concentre sur la création de logiciels à impact environnemental minimal tout en accompagnant et soutenant les femmes dans la technologie.\n\nQuand elle ne code pas, elle explore la gastronomie et fan de la Formule 1.",
+    "bio": "Aicha Laafia, a Java software engineer at SQLI with a love for coding, an interest in sustainability, and a commitment to empowering women in tech.\n\nI am a Women Techmakers and Girls Code ambassador, an Oracle ACE Associate, a member of the Moroccan Association of Computing Science, and part of the JetBrains Community Contributor program.\n\nWhen I’m not coding, I enjoy exploring delicious food, phone photography, and watching Formula 1.",
+    "bioFr": "Aicha Laafia, a Java software engineer at SQLI with a love for coding, an interest in sustainability, and a commitment to empowering women in tech.\n\nI am a Women Techmakers and Girls Code ambassador, an Oracle ACE Associate, a member of the Moroccan Association of Computing Science, and part of the JetBrains Community Contributor program.\n\nWhen I’m not coding, I enjoy exploring delicious food, phone photography, and watching Formula 1.",
+    "bioEn": "Aicha Laafia, a Java software engineer at SQLI with a love for coding, an interest in sustainability, and a commitment to empowering women in tech.\n\nI am a Women Techmakers and Girls Code ambassador, an Oracle ACE Associate, a member of the Moroccan Association of Computing Science, and part of the JetBrains Community Contributor program.\n\nWhen I’m not coding, I enjoy exploring delicious food, phone photography, and watching Formula 1.",
     "twitter": "https://x.com/AichaLaafia",
     "linkedin": "https://www.linkedin.com/in/aicha-laafia-0266a6126/",
     "github": "",
     "avatar": "https://pbs.twimg.com/profile_images/2040766384460685312/oyjmoiUs.jpg"
   },
   "Alexis Scolan": {
-    "position": "Onepoint",
+    "position": "Architecte technique",
     "company": "Onepoint",
-    "bio": "Intégrer, agiliser, innover sont mes axiomes. Architecte technique, je mets mon bagage d'expertise à profit dans des modernisations progressive et judicieuses des systèmes et des pratiques de conception.\nConvaincu que la clarté est le moteur de la vélocité, je m'investis aujourd'hui dans les approches as-Code.",
-    "bioFr": "Intégrer, agiliser, innover sont mes axiomes. Architecte technique, je mets mon bagage d'expertise à profit dans des modernisations progressive et judicieuses des systèmes et des pratiques de conception.\nConvaincu que la clarté est le moteur de la vélocité, je m'investis aujourd'hui dans les approches as-Code.",
-    "bioEn": "Intégrer, agiliser, innover sont mes axiomes. Architecte technique, je mets mon bagage d'expertise à profit dans des modernisations progressive et judicieuses des systèmes et des pratiques de conception.\nConvaincu que la clarté est le moteur de la vélocité, je m'investis aujourd'hui dans les approches as-Code.",
+    "bio": "Concepteur de systèmes adaptatifs et maintenables, j'exerce en tant qu'architecte technique dans le secteur public, pour optimiser le cycle de vie des applications et l'expérience utilisateur.",
+    "bioFr": "Concepteur de systèmes adaptatifs et maintenables, j'exerce en tant qu'architecte technique dans le secteur public, pour optimiser le cycle de vie des applications et l'expérience utilisateur.",
+    "bioEn": "Concepteur de systèmes adaptatifs et maintenables, j'exerce en tant qu'architecte technique dans le secteur public, pour optimiser le cycle de vie des applications et l'expérience utilisateur.",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/scolan",
     "github": "",
     "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLPRYHnWPax4uWA1OH-QWsHoojnOSl7lkCcDoVGLTdHylc2DTk1TQ=s2808-c-no"
   },
   "Paul-Alexandre Chrétien": {
-    "position": "HoppR",
+    "position": "Principal Lead Platform",
     "company": "HoppR",
-    "bio": "**Principal Lead chez HoppR** et co-fondateur de la conférence **Cloud Nord** ☁️, je baigne dans l’écosystème Cloud Native avec un penchant assumé pour l'automatisation et la sécurité Kubernetes. ☸️\n\nGrand fan de **Platform Engineering** 🏗️, j'adore construire des outils qui facilitent la vie des équipes sans sacrifier la sécurité. Mon approche ? Rendre le DevSecOps pragmatique et (enfin) accessible, sans oublier que derrière chaque plateforme, il y a des humain·e·s. 🤝\n\nCe que je préfère dans les confs tech ? Autant décortiquer une pépite de la CNCF sur scène que refaire le monde avec les autres passionné·e·s autour d'un verre après les talks. 🍻\n\nToujours partant pour échanger sur vos galères de prod, l'expérience développeur ou juste pour partager un bon moment avec la commu \\! ✨\n\n**Réseaux sociaux**\n\n[https://www.linkedin.com/in/paulalexandrechretien/](https://www.linkedin.com/in/paulalexandrechretien/)",
-    "bioFr": "**Principal Lead chez HoppR** et co-fondateur de la conférence **Cloud Nord** ☁️, je baigne dans l’écosystème Cloud Native avec un penchant assumé pour l'automatisation et la sécurité Kubernetes. ☸️\n\nGrand fan de **Platform Engineering** 🏗️, j'adore construire des outils qui facilitent la vie des équipes sans sacrifier la sécurité. Mon approche ? Rendre le DevSecOps pragmatique et (enfin) accessible, sans oublier que derrière chaque plateforme, il y a des humain·e·s. 🤝\n\nCe que je préfère dans les confs tech ? Autant décortiquer une pépite de la CNCF sur scène que refaire le monde avec les autres passionné·e·s autour d'un verre après les talks. 🍻\n\nToujours partant pour échanger sur vos galères de prod, l'expérience développeur ou juste pour partager un bon moment avec la commu \\! ✨\n\n**Réseaux sociaux**\n\n[https://www.linkedin.com/in/paulalexandrechretien/](https://www.linkedin.com/in/paulalexandrechretien/)",
-    "bioEn": "**Principal Lead chez HoppR** et co-fondateur de la conférence **Cloud Nord** ☁️, je baigne dans l’écosystème Cloud Native avec un penchant assumé pour l'automatisation et la sécurité Kubernetes. ☸️\n\nGrand fan de **Platform Engineering** 🏗️, j'adore construire des outils qui facilitent la vie des équipes sans sacrifier la sécurité. Mon approche ? Rendre le DevSecOps pragmatique et (enfin) accessible, sans oublier que derrière chaque plateforme, il y a des humain·e·s. 🤝\n\nCe que je préfère dans les confs tech ? Autant décortiquer une pépite de la CNCF sur scène que refaire le monde avec les autres passionné·e·s autour d'un verre après les talks. 🍻\n\nToujours partant pour échanger sur vos galères de prod, l'expérience développeur ou juste pour partager un bon moment avec la commu \\! ✨\n\n**Réseaux sociaux**\n\n[https://www.linkedin.com/in/paulalexandrechretien/](https://www.linkedin.com/in/paulalexandrechretien/)",
+    "bio": "**Principal Lead chez HoppR** et co-fondateur de la conférence **Cloud Nord** ☁️, je baigne dans l’écosystème Cloud Native avec un penchant assumé pour l'automatisation et la sécurité Kubernetes. ☸️\n\nGrand fan de **Platform Engineering** 🏗️, j'adore construire des outils qui facilitent la vie des équipes sans sacrifier la sécurité. Mon approche ? Rendre le DevSecOps pragmatique et (enfin) accessible, sans oublier que derrière chaque plateforme, il y a des humain·e·s. 🤝\n\nCe que je préfère dans les confs tech ? Autant décortiquer une pépite de la CNCF sur scène que refaire le monde avec les autres passionné·e·s autour d'un verre après les talks. 🍻\n\nToujours partant pour échanger sur vos galères de prod, l'expérience développeur ou juste pour partager un bon moment avec la commu ! ✨",
+    "bioFr": "**Principal Lead chez HoppR** et co-fondateur de la conférence **Cloud Nord** ☁️, je baigne dans l’écosystème Cloud Native avec un penchant assumé pour l'automatisation et la sécurité Kubernetes. ☸️\n\nGrand fan de **Platform Engineering** 🏗️, j'adore construire des outils qui facilitent la vie des équipes sans sacrifier la sécurité. Mon approche ? Rendre le DevSecOps pragmatique et (enfin) accessible, sans oublier que derrière chaque plateforme, il y a des humain·e·s. 🤝\n\nCe que je préfère dans les confs tech ? Autant décortiquer une pépite de la CNCF sur scène que refaire le monde avec les autres passionné·e·s autour d'un verre après les talks. 🍻\n\nToujours partant pour échanger sur vos galères de prod, l'expérience développeur ou juste pour partager un bon moment avec la commu ! ✨",
+    "bioEn": "**Principal Lead chez HoppR** et co-fondateur de la conférence **Cloud Nord** ☁️, je baigne dans l’écosystème Cloud Native avec un penchant assumé pour l'automatisation et la sécurité Kubernetes. ☸️\n\nGrand fan de **Platform Engineering** 🏗️, j'adore construire des outils qui facilitent la vie des équipes sans sacrifier la sécurité. Mon approche ? Rendre le DevSecOps pragmatique et (enfin) accessible, sans oublier que derrière chaque plateforme, il y a des humain·e·s. 🤝\n\nCe que je préfère dans les confs tech ? Autant décortiquer une pépite de la CNCF sur scène que refaire le monde avec les autres passionné·e·s autour d'un verre après les talks. 🍻\n\nToujours partant pour échanger sur vos galères de prod, l'expérience développeur ou juste pour partager un bon moment avec la commu ! ✨",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/paulalexandrechretien",
     "github": "",
     "avatar": "https://lh3.googleusercontent.com/a-/AOh14Gi3oGLwSt7L18UczO3XHNnhEQX_jqIC19t3Y4va"
   },
   "Thomas Dupont": {
-    "position": "",
-    "company": "",
-    "bio": "Thomas Dupont est développeur freelance senior, spécialisé dans l’écosystème JavaScript/TypeScript, depuis 12 ans. Il accompagne des équipes dans la conception d’applications maintenables, la réduction de dette technique et la mise en place de pratiques d’ingénierie d'excellence.\n\nIl a travaillé pour Hermès, Lemonway, Albin Michel, Shadow (PC cloud) et M2I.\n\nTrès impliqué dans les démarches Domain Driven Design, Clean Architecture, TDD et software craft, il défend une approche pragmatique de l’architecture : moins de dogme, plus d’intention explicite et une meilleur User Experience pour les clients.\n\nSes sujets de prédilection portent sur la complexité cognitive, la gestion de la dette technique, la modélisation métier et l’impact des outils d’IA sur les pratiques de développement.",
-    "bioFr": "Thomas Dupont est développeur freelance senior, spécialisé dans l’écosystème JavaScript/TypeScript, depuis 12 ans. Il accompagne des équipes dans la conception d’applications maintenables, la réduction de dette technique et la mise en place de pratiques d’ingénierie d'excellence.\n\nIl a travaillé pour Hermès, Lemonway, Albin Michel, Shadow (PC cloud) et M2I.\n\nTrès impliqué dans les démarches Domain Driven Design, Clean Architecture, TDD et software craft, il défend une approche pragmatique de l’architecture : moins de dogme, plus d’intention explicite et une meilleur User Experience pour les clients.\n\nSes sujets de prédilection portent sur la complexité cognitive, la gestion de la dette technique, la modélisation métier et l’impact des outils d’IA sur les pratiques de développement.",
-    "bioEn": "Thomas Dupont est développeur freelance senior, spécialisé dans l’écosystème JavaScript/TypeScript, depuis 12 ans. Il accompagne des équipes dans la conception d’applications maintenables, la réduction de dette technique et la mise en place de pratiques d’ingénierie d'excellence.\n\nIl a travaillé pour Hermès, Lemonway, Albin Michel, Shadow (PC cloud) et M2I.\n\nTrès impliqué dans les démarches Domain Driven Design, Clean Architecture, TDD et software craft, il défend une approche pragmatique de l’architecture : moins de dogme, plus d’intention explicite et une meilleur User Experience pour les clients.\n\nSes sujets de prédilection portent sur la complexité cognitive, la gestion de la dette technique, la modélisation métier et l’impact des outils d’IA sur les pratiques de développement.",
+    "position": "Senior software engineer",
+    "company": "Freelance",
+    "bio": "Thomas est développeur senior depuis plus de 12 ans. Il travaille principalement autour de TypeScript, Node.js et des architectures backend, avec un goût prononcé pour le Domain-Driven Design et les systèmes complexes.\n\nDepuis l’arrivée des agents de codage, il s’intéresse surtout à une question : que reste-t-il de notre compréhension du code quand une partie croissante de celui-ci est produite à notre place ? Entre dette cognitive, perte d’intention et accélération parfois trompeuse, il explore les nouveaux compromis qu’impose le développement assisté par IA.",
+    "bioFr": "Thomas est développeur senior depuis plus de 12 ans. Il travaille principalement autour de TypeScript, Node.js et des architectures backend, avec un goût prononcé pour le Domain-Driven Design et les systèmes complexes.\n\nDepuis l’arrivée des agents de codage, il s’intéresse surtout à une question : que reste-t-il de notre compréhension du code quand une partie croissante de celui-ci est produite à notre place ? Entre dette cognitive, perte d’intention et accélération parfois trompeuse, il explore les nouveaux compromis qu’impose le développement assisté par IA.",
+    "bioEn": "Thomas est développeur senior depuis plus de 12 ans. Il travaille principalement autour de TypeScript, Node.js et des architectures backend, avec un goût prononcé pour le Domain-Driven Design et les systèmes complexes.\n\nDepuis l’arrivée des agents de codage, il s’intéresse surtout à une question : que reste-t-il de notre compréhension du code quand une partie croissante de celui-ci est produite à notre place ? Entre dette cognitive, perte d’intention et accélération parfois trompeuse, il explore les nouveaux compromis qu’impose le développement assisté par IA.",
     "twitter": "",
     "linkedin": "",
     "github": "",
     "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJQ5cDXAtWIWV0_rW_myyUhFSIyfy511p58-sbQCc2KvTlN-p4Y=s96-c"
   },
   "Florian Leux": {
-    "position": "Back Market",
+    "position": "Frontend Engineer",
     "company": "Back Market",
-    "bio": "Je suis Florian Leux, et je suis ingénieur frontend depuis 2014 !\n\nJe travaille depuis 2022 chez BackMarket en tant que Senior Frontend Engineer.\nEn dehors du code, je suis illustrateur et j'aime inclure cette activités dans la création de présentations illustrées et immersives.",
-    "bioFr": "Je suis Florian Leux, et je suis ingénieur frontend depuis 2014 !\n\nJe travaille depuis 2022 chez BackMarket en tant que Senior Frontend Engineer.\nEn dehors du code, je suis illustrateur et j'aime inclure cette activités dans la création de présentations illustrées et immersives.",
-    "bioEn": "Je suis Florian Leux, et je suis ingénieur frontend depuis 2014 !\n\nJe travaille depuis 2022 chez BackMarket en tant que Senior Frontend Engineer.\nEn dehors du code, je suis illustrateur et j'aime inclure cette activités dans la création de présentations illustrées et immersives.",
+    "bio": "Ingénieur front-end depuis 12 ans, donc 4 à Back Market",
+    "bioFr": "Ingénieur front-end depuis 12 ans, donc 4 à Back Market",
+    "bioEn": "Ingénieur front-end depuis 12 ans, donc 4 à Back Market",
     "twitter": "",
     "linkedin": "",
     "github": "",
     "avatar": "https://avatars.githubusercontent.com/u/10267793?v=4"
   },
   "Wouter Van Schandevijl": {
-    "position": "",
-    "company": "",
-    "bio": "A full stack .NET generalist that turned a childhood hobby into a career. I also play ping-pong!",
-    "bioFr": "A full stack .NET generalist that turned a childhood hobby into a career. I also play ping-pong!",
-    "bioEn": "A full stack .NET generalist that turned a childhood hobby into a career. I also play ping-pong!",
+    "position": "CEO",
+    "company": "itenium",
+    "bio": "A driven and flexible .NET generalist who has turned a childhood hobby into his career. As CTO and Competence Center lead at itenium, Wouter gives weekly tech talks and hands-on workshops on a variety of subjects, mostly Frontend, Architecture, Security and, more recently, AI.\n\nHe is an architect, coach and Scrum Master but most of all a developer and avid pingpong player. Interested in pretty much everything IT but especially excited about lean, software design, documentation, continuous integration and usability.",
+    "bioFr": "A driven and flexible .NET generalist who has turned a childhood hobby into his career. As CTO and Competence Center lead at itenium, Wouter gives weekly tech talks and hands-on workshops on a variety of subjects, mostly Frontend, Architecture, Security and, more recently, AI.\n\nHe is an architect, coach and Scrum Master but most of all a developer and avid pingpong player. Interested in pretty much everything IT but especially excited about lean, software design, documentation, continuous integration and usability.",
+    "bioEn": "A driven and flexible .NET generalist who has turned a childhood hobby into his career. As CTO and Competence Center lead at itenium, Wouter gives weekly tech talks and hands-on workshops on a variety of subjects, mostly Frontend, Architecture, Security and, more recently, AI.\n\nHe is an architect, coach and Scrum Master but most of all a developer and avid pingpong player. Interested in pretty much everything IT but especially excited about lean, software design, documentation, continuous integration and usability.",
     "twitter": "",
     "linkedin": "",
     "github": "",
     "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVgqaHltma5bG6C5Hrc0V9jeUD4zP-GXf0qnm1BnTYNUvi9nDSbYxrautKgOt13x0FluDsfFQd6olrePCtaAjfig6wapK84ZJJaH6gf2k86yD1xd3kqa-fS1HsA8lS8WZxd27XX4KTT5AcFua3an5HMQGHlNn-vY-g3ZZFXnczlQx8h6cCsClPHHntLvBBnpjt5pRomVZPDlUdWvw8iyEK_bYQV0MNgoMTZRyVCfoJoaUrjH6Q-PTl9q_3PtpDtoV2WaPjesFWEOpTOGrTUOnM7CTH_z3SibLiY1i47eiZHJ4B10csDBJlcjKm2inv7ArfBLufYIFr47ygIfNgXcsxB4uzvrHZEsTHwYog1y1LWo7rBON7WOxj2cA8yh63DUCvekhYg5qHBTZpfHQzCW755dLSjHSb6qksiunS7dtqlwRt2G5SGrLI6PXxZaqk5TPEu6WtD5WKHRPFSpnEHVRkuhv1W5uJiiEEuL3PyYpqrZP8Y6wmMlZsbZ_Xuj78j2TyFymX-9-EzXlJ4pfKDVtidsPYCtDG5SUF95zP4foXX-iwJwNH8cSJPxFt84fX11IBBL0TX_fg-0U-ekuIsXZdRDOMp2Lgs2lIPw4bwn4xATB-uFmj3XDdhSN-3AKcT1uYWnWGZapKDReXaYXpjfke3UVdQLPwG5VnHytEh4ipOtkAg9ownhr22xVs1ThYvSrbfTKbFKhl6l0i2Q39MoNiMpyk-qQeQhmoQ0oNzZz1JOdt-r8DiN8ikTJ0Waei_o-0g2J1yezEMjxqVaCXOejALHLlEPA6Euqw24_38EvBXyi0NTuUYWR2F0ZEw3x9OCbmdQGeiT9qejzyQkY3rxBpd8g7AzuxCzvpowaUfCsx-k3u87cmgJ7p-u16KkcuK3d2KwDQb4eniyNK7a16qjbhfZcG0tyi6Eli2MCr0lvlqh56lS6gs-JuYTfWKtBu80MSYU4zgcug_goutYdUgRMxl1tU=s96-c"
   },
-  "Brice FOTZO": {
-    "position": "Servier",
+  "Brice Fotzo": {
+    "position": "Tech Lead Data",
     "company": "Servier",
-    "bio": "Brice Fotzo est Tech Lead Data, avec une forte coloration GCP - BigQuery et Cloud Run en particulier.\n\nContributeur régulier sur LinkedIn et Medium, il partage ce qu'il apprend et ce qu'il pense utile à la communauté : Python, DBT, BigQuery, et tout ce qui gravite autour de la data et du cloud. \n\nIl enseigne le SQL, le NoSQL et l'intégration d'IA, et anime le MUG Paris - MongoDB User Group. \n\nIl enchaîne aussi les side projects open source,  dont le GCP Release Notes Navigator, déployé sur Cloud Run et disponible sur GitHub.\n\nSide projects sur lesquels il embarque volontiers des juniors qui veulent mettre les mains dans le cambouis.",
-    "bioFr": "Brice Fotzo est Tech Lead Data, avec une forte coloration GCP - BigQuery et Cloud Run en particulier.\n\nContributeur régulier sur LinkedIn et Medium, il partage ce qu'il apprend et ce qu'il pense utile à la communauté : Python, DBT, BigQuery, et tout ce qui gravite autour de la data et du cloud. \n\nIl enseigne le SQL, le NoSQL et l'intégration d'IA, et anime le MUG Paris - MongoDB User Group. \n\nIl enchaîne aussi les side projects open source,  dont le GCP Release Notes Navigator, déployé sur Cloud Run et disponible sur GitHub.\n\nSide projects sur lesquels il embarque volontiers des juniors qui veulent mettre les mains dans le cambouis.",
-    "bioEn": "Brice Fotzo est Tech Lead Data, avec une forte coloration GCP - BigQuery et Cloud Run en particulier.\n\nContributeur régulier sur LinkedIn et Medium, il partage ce qu'il apprend et ce qu'il pense utile à la communauté : Python, DBT, BigQuery, et tout ce qui gravite autour de la data et du cloud. \n\nIl enseigne le SQL, le NoSQL et l'intégration d'IA, et anime le MUG Paris - MongoDB User Group. \n\nIl enchaîne aussi les side projects open source,  dont le GCP Release Notes Navigator, déployé sur Cloud Run et disponible sur GitHub.\n\nSide projects sur lesquels il embarque volontiers des juniors qui veulent mettre les mains dans le cambouis.",
+    "bio": "I'm a Data Engineering Tech Lead. I spend my days building and running data pipelines and data products. A fan of GCP, containers and developer experience, I co-organises MUG Paris and teaches at ESIGELEC. I also create and share learning content on LinkedIn and Medium mainly.",
+    "bioFr": "I'm a Data Engineering Tech Lead. I spend my days building and running data pipelines and data products. A fan of GCP, containers and developer experience, I co-organises MUG Paris and teaches at ESIGELEC. I also create and share learning content on LinkedIn and Medium mainly.",
+    "bioEn": "I'm a Data Engineering Tech Lead. I spend my days building and running data pipelines and data products. A fan of GCP, containers and developer experience, I co-organises MUG Paris and teaches at ESIGELEC. I also create and share learning content on LinkedIn and Medium mainly.",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/bricefotzo",
     "github": "https://github.com/bricefotzo",
-    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKJpi4MMwEfCzIiRYuFrL2M9xUtsPjgl_bSjpyN97hpPw79mQ=s96-c"
+    "avatar": "images/speakers/brice-fotzo.jpg"
   },
   "Laurine LE NET": {
     "position": "TAKIMA",
@@ -902,21 +902,21 @@ const speakerProfiles = {
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/victoire-ladreit-de-lacharrière/",
     "github": "",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHiGmZ2JGtL6A/profile-displayphoto-crop_800_800/B4EZ7KMbqUKwAI-/0/1781508717526?e=1783555200&v=beta&t=Q8jJmDsgMDNul3rJabr_0XYur6ztS2L3WnWIEwwiAug"
+    "avatar": "images/speakers/victoire-de-lacharriere.jpg"
   },
   "Kevin Davin": {
-    "position": "Gradle",
-    "company": "Gradle",
-    "bio": "Google Developer Expert on Google Cloud & Kotlin, Gitlab Hero, I am above all passionate about tech, languages, infrastructure, and automation.\n\nOn a daily basis, I work with languages such as Kotlin, Java, SQL, and YAML.\nLeveraging the power of the Google Kubernetes Engine and GitLab's Continuous Integration, I deploy and manage applications seamlessly.\n\nI am an ardent advocate of agility and DevOps, and I had the privilege of guiding teams in adopting these principles successfully.\n\nFrom code quality analysis to unit or end-to-end tests setup all the way to continuous deployment and operation, I ensure a project's journey from inception to production is smooth and efficient.\n\nCurrently, I'm Principal Software Engineer at Gradle, focusing on the development of Develocity. This groundbreaking product enhances developer productivity by reducing build and test times, while also providing valuable insights into all aspects of the development process.",
-    "bioFr": "Google Developer Expert on Google Cloud & Kotlin, Gitlab Hero, I am above all passionate about tech, languages, infrastructure, and automation.\n\nOn a daily basis, I work with languages such as Kotlin, Java, SQL, and YAML.\nLeveraging the power of the Google Kubernetes Engine and GitLab's Continuous Integration, I deploy and manage applications seamlessly.\n\nI am an ardent advocate of agility and DevOps, and I had the privilege of guiding teams in adopting these principles successfully.\n\nFrom code quality analysis to unit or end-to-end tests setup all the way to continuous deployment and operation, I ensure a project's journey from inception to production is smooth and efficient.\n\nCurrently, I'm Principal Software Engineer at Gradle, focusing on the development of Develocity. This groundbreaking product enhances developer productivity by reducing build and test times, while also providing valuable insights into all aspects of the development process.",
-    "bioEn": "Google Developer Expert on Google Cloud & Kotlin, Gitlab Hero, I am above all passionate about tech, languages, infrastructure, and automation.\n\nOn a daily basis, I work with languages such as Kotlin, Java, SQL, and YAML.\nLeveraging the power of the Google Kubernetes Engine and GitLab's Continuous Integration, I deploy and manage applications seamlessly.\n\nI am an ardent advocate of agility and DevOps, and I had the privilege of guiding teams in adopting these principles successfully.\n\nFrom code quality analysis to unit or end-to-end tests setup all the way to continuous deployment and operation, I ensure a project's journey from inception to production is smooth and efficient.\n\nCurrently, I'm Principal Software Engineer at Gradle, focusing on the development of Develocity. This groundbreaking product enhances developer productivity by reducing build and test times, while also providing valuable insights into all aspects of the development process.",
+    "position": "Principal Software Engineer",
+    "company": "Develocity.ai",
+    "bio": "Google Developer Expert sur Google Cloud & Kotlin, GitLab Hero, je suis avant tout un passionné de tech, de langages, d'infrastructure et d'automatisation.\n\nAu quotidien, je travaille avec des langages tels que Kotlin, Java, SQL et YAML. En exploitant la puissance de Google Kubernetes Engine et de la CI GitLab, je déploie et gère des applications de manière transparente.\n\nArdent défenseur de l'agilité et du DevOps, j'ai eu le privilège d'accompagner des équipes dans l'adoption réussie de ces principes.\n\nDe l'analyse de la qualité du code à la mise en place de tests unitaires ou de bout en bout, jusqu'au déploiement et à l'exploitation continue, je veille à ce que le parcours d'un projet, de sa conception à sa mise en production, soit fluide et efficace.\n\nActuellement, je suis Principal Software Engineer chez Gradle/Develocity.ai, où je me concentre sur le développement de Develocity. Ce produit révolutionnaire améliore la productivité des développeurs en réduisant les temps de build et de test, tout en fournissant des informations précieuses sur tous les aspects du processus de développement.",
+    "bioFr": "Google Developer Expert sur Google Cloud & Kotlin, GitLab Hero, je suis avant tout un passionné de tech, de langages, d'infrastructure et d'automatisation.\n\nAu quotidien, je travaille avec des langages tels que Kotlin, Java, SQL et YAML. En exploitant la puissance de Google Kubernetes Engine et de la CI GitLab, je déploie et gère des applications de manière transparente.\n\nArdent défenseur de l'agilité et du DevOps, j'ai eu le privilège d'accompagner des équipes dans l'adoption réussie de ces principes.\n\nDe l'analyse de la qualité du code à la mise en place de tests unitaires ou de bout en bout, jusqu'au déploiement et à l'exploitation continue, je veille à ce que le parcours d'un projet, de sa conception à sa mise en production, soit fluide et efficace.\n\nActuellement, je suis Principal Software Engineer chez Gradle/Develocity.ai, où je me concentre sur le développement de Develocity. Ce produit révolutionnaire améliore la productivité des développeurs en réduisant les temps de build et de test, tout en fournissant des informations précieuses sur tous les aspects du processus de développement.",
+    "bioEn": "Google Developer Expert sur Google Cloud & Kotlin, GitLab Hero, je suis avant tout un passionné de tech, de langages, d'infrastructure et d'automatisation.\n\nAu quotidien, je travaille avec des langages tels que Kotlin, Java, SQL et YAML. En exploitant la puissance de Google Kubernetes Engine et de la CI GitLab, je déploie et gère des applications de manière transparente.\n\nArdent défenseur de l'agilité et du DevOps, j'ai eu le privilège d'accompagner des équipes dans l'adoption réussie de ces principes.\n\nDe l'analyse de la qualité du code à la mise en place de tests unitaires ou de bout en bout, jusqu'au déploiement et à l'exploitation continue, je veille à ce que le parcours d'un projet, de sa conception à sa mise en production, soit fluide et efficace.\n\nActuellement, je suis Principal Software Engineer chez Gradle/Develocity.ai, où je me concentre sur le développement de Develocity. Ce produit révolutionnaire améliore la productivité des développeurs en réduisant les temps de build et de test, tout en fournissant des informations précieuses sur tous les aspects du processus de développement.",
     "twitter": "https://x.com/davinkevin",
     "linkedin": "",
     "github": "https://github.com/davinkevin",
     "avatar": "https://download.davinkevin.fr/avatar/kevin.jpeg"
   },
-  "Etienne IDOUX": {
-    "position": "Zenika",
+  "Etienne Idoux": {
+    "position": "Senior Frontend Engineer",
     "company": "Zenika",
     "bio": "💁‍♂️ Jeune développeur animé par sa passion, Etienne IDOUX se présente comme un consultant web travaillant à Zenika 🔴. Entrain de parfaire ses armes en tant que Senior Développeur Frontend 🖼️ à Bedrock ⚫, il pimente son temps libre de toute sorte de projet. Il aime se rendre à des conférences afin d'apprendre et de faire apprendre à travers des talks variés !",
     "bioFr": "💁‍♂️ Jeune développeur animé par sa passion, Etienne IDOUX se présente comme un consultant web travaillant à Zenika 🔴. Entrain de parfaire ses armes en tant que Senior Développeur Frontend 🖼️ à Bedrock ⚫, il pimente son temps libre de toute sorte de projet. Il aime se rendre à des conférences afin d'apprendre et de faire apprendre à travers des talks variés !",
@@ -926,19 +926,19 @@ const speakerProfiles = {
     "github": "",
     "avatar": "https://lh3.googleusercontent.com/a-/AFdZucrL5kWEUXMLAnMhQM3DVsd44PrecTtc2ZbMC35vfw=s96-c"
   },
-  "Mickael Alves": {
-    "position": "Zenika",
+  "Mickaël Alves": {
+    "position": "Tech Lead",
     "company": "Zenika",
-    "bio": "👋🏼 Web Maker, application builder, and passionate speaker on web development, design, computing, and new technologies! 👨🏻‍💻\n\nTech Lead Frontend at @Zenika 🔴 & @BedrockStreaming 📺 , I also enjoy sharing my knowledge through teaching and speaking at conferences. I’m a co-founder of @DevFestLyon and a co-organizer of @LyonJS 🦁, an @Appwrite Hero 🦸🏼‍♂️, and a @Remotion Expert 🎬",
-    "bioFr": "👋🏼 Web Maker, application builder, and passionate speaker on web development, design, computing, and new technologies! 👨🏻‍💻\n\nTech Lead Frontend at @Zenika 🔴 & @BedrockStreaming 📺 , I also enjoy sharing my knowledge through teaching and speaking at conferences. I’m a co-founder of @DevFestLyon and a co-organizer of @LyonJS 🦁, an @Appwrite Hero 🦸🏼‍♂️, and a @Remotion Expert 🎬",
-    "bioEn": "👋🏼 Web Maker, application builder, and passionate speaker on web development, design, computing, and new technologies! 👨🏻‍💻\n\nTech Lead Frontend at @Zenika 🔴 & @BedrockStreaming 📺 , I also enjoy sharing my knowledge through teaching and speaking at conferences. I’m a co-founder of @DevFestLyon and a co-organizer of @LyonJS 🦁, an @Appwrite Hero 🦸🏼‍♂️, and a @Remotion Expert 🎬",
+    "bio": "👋🏼 Web Maker, application builder, et speaker ! Je suis passionné par les technologies web, le tooling et surtout l'expérience développeur. Je cherche constamment à simplifier la vie des devs 🧑🏼‍💻\n\nJe suis actuellement Tech Lead Frontend chez Zenika 🔴 et BedrockStreaming 📺. J'aime aussi partager mes connaissances à travers l'enseignement et des conférences.\nJe suis très impliqué dans les communautés tech. Je suis cofondateur de DevFestLyon, coorganisateur de LyonJS 🦁",
+    "bioFr": "👋🏼 Web Maker, application builder, et speaker ! Je suis passionné par les technologies web, le tooling et surtout l'expérience développeur. Je cherche constamment à simplifier la vie des devs 🧑🏼‍💻\n\nJe suis actuellement Tech Lead Frontend chez Zenika 🔴 et BedrockStreaming 📺. J'aime aussi partager mes connaissances à travers l'enseignement et des conférences.\nJe suis très impliqué dans les communautés tech. Je suis cofondateur de DevFestLyon, coorganisateur de LyonJS 🦁",
+    "bioEn": "👋🏼 Web Maker, application builder, et speaker ! Je suis passionné par les technologies web, le tooling et surtout l'expérience développeur. Je cherche constamment à simplifier la vie des devs 🧑🏼‍💻\n\nJe suis actuellement Tech Lead Frontend chez Zenika 🔴 et BedrockStreaming 📺. J'aime aussi partager mes connaissances à travers l'enseignement et des conférences.\nJe suis très impliqué dans les communautés tech. Je suis cofondateur de DevFestLyon, coorganisateur de LyonJS 🦁",
     "twitter": "https://bsky.app/profile/mickaelalvs.dev",
     "linkedin": "",
     "github": "https://github.com/mickaelalvs",
     "avatar": "https://github.com/user-attachments/assets/b08c2280-1a9c-4378-a65e-4e78e212b031"
   },
   "Julien Salvi": {
-    "position": "Aircall",
+    "position": "Engineering Lead",
     "company": "Aircall",
     "bio": "With over a decade in the Android world, I’ve lived the fast-paced startup life in California before returning to France. Today, I’m leading and managing the Android team at Aircall, where we're building the best phone system for modern businesses.\n\nBeyond Android, I’m passionate about backend development with Kotlin and exploring the possibilities of AR/VR. In 2021, I was honored to become an Android GDE—continuing my mission to share knowledge and grow alongside the amazing Android community.\n\nOutside of work, you’ll find me traveling the globe or on the hunt for the perfect IPA.",
     "bioFr": "With over a decade in the Android world, I’ve lived the fast-paced startup life in California before returning to France. Today, I’m leading and managing the Android team at Aircall, where we're building the best phone system for modern businesses.\n\nBeyond Android, I’m passionate about backend development with Kotlin and exploring the possibilities of AR/VR. In 2021, I was honored to become an Android GDE—continuing my mission to share knowledge and grow alongside the amazing Android community.\n\nOutside of work, you’ll find me traveling the globe or on the hunt for the perfect IPA.",
@@ -949,18 +949,18 @@ const speakerProfiles = {
     "avatar": "https://cache.sessionize.com/image/dd30-400o400o2-4NcyaNMS4awH1Zr87u5Gve.png"
   },
   "Benjamin Bourgeois": {
-    "position": "TechTown",
+    "position": "Consultant Cloud & IA",
     "company": "TechTown",
-    "bio": "Consultant Cloud & IA chez TechTown | Google Developer Expert Cloud - AI | Google Cloud Certified\n\nSpécialisé en développement Backend, Cloud et IA. J'aime explorer les nouvelles technologies et leurs impacts pour mieux les partager avec la communauté.",
-    "bioFr": "Consultant Cloud & IA chez TechTown | Google Developer Expert Cloud - AI | Google Cloud Certified\n\nSpécialisé en développement Backend, Cloud et IA. J'aime explorer les nouvelles technologies et leurs impacts pour mieux les partager avec la communauté.",
-    "bioEn": "Consultant Cloud & IA chez TechTown | Google Developer Expert Cloud - AI | Google Cloud Certified\n\nSpécialisé en développement Backend, Cloud et IA. J'aime explorer les nouvelles technologies et leurs impacts pour mieux les partager avec la communauté.",
+    "bio": "Specialized in Backend Development, Cloud, and AI, I design scalable and resilient systems while integrating AI-driven solutions to enhance system intelligence and the Developer Experience (DX).",
+    "bioFr": "Specialized in Backend Development, Cloud, and AI, I design scalable and resilient systems while integrating AI-driven solutions to enhance system intelligence and the Developer Experience (DX).",
+    "bioEn": "Specialized in Backend Development, Cloud, and AI, I design scalable and resilient systems while integrating AI-driven solutions to enhance system intelligence and the Developer Experience (DX).",
     "twitter": "https://bsky.app/profile/bbourgeois.dev",
     "linkedin": "https://www.linkedin.com/in/bengeois",
     "github": "https://github.com/bengeois",
     "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIdISIS3kiFxT18u5_-tL9a4kFv_UNAIoy0d3dnXWXPmX3v3oP1tw=s96-c"
   },
-  "Jean-Phi Baconnais": {
-    "position": "Zenika",
+  "Jean-Philippe Baconnais": {
+    "position": "Consultant & Directeur Technique Zenika Nantes",
     "company": "Zenika",
     "bio": "**Consultant & Directeur Technique @Zenika Nantes**\n\nPlongé dans le développement avec l'éco-système Java, curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.\n\n#GitLabHeroes 🦊 | ⛅ Google Developer Expert Cloud & Cloud AI\n\nOrga Meetup GitLab France\n\nhttp://nantes.community",
     "bioFr": "**Consultant & Directeur Technique @Zenika Nantes**\n\nPlongé dans le développement avec l'éco-système Java, curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.\n\n#GitLabHeroes 🦊 | ⛅ Google Developer Expert Cloud & Cloud AI\n\nOrga Meetup GitLab France\n\nhttp://nantes.community",
@@ -971,33 +971,33 @@ const speakerProfiles = {
     "avatar": "https://pbs.twimg.com/profile_images/1450357066749644800/GvDZOM_Y_400x400.jpg"
   },
   "Mehdi Elketroussi": {
-    "position": "",
-    "company": "",
-    "bio": "Je suis marié et papa de deux petites princesses qui occupent une grande partie de mon quotidien. \n\nQuand tout le monde est à l’école ou au travail, je suis [développeur Java](https://www.linkedin.com/in/melketroussi)\nPassionné de sciences, j’ai découvert l’informatique un peu sur le tard, et je me suis rapidement passionné pour l’architecture logicielle, l’algorithmique et les performances applicatives. \n\nJ’aime transmettre et partager , ce qui m’a conduit à enseigner dans plusieurs écoles (EILCO de Calais et l'université Catholique de Lille), mais aussi à open sourcer un de mes side projects : [OllamAssist](https://plugins.jetbrains.com/plugin/26388-ollamassist) qui me sert de laboratoire personnel (j'approche les 30K downloads avec une notre 4.2 sur 5 au moment ou je poste ma proposition).",
-    "bioFr": "Je suis marié et papa de deux petites princesses qui occupent une grande partie de mon quotidien. \n\nQuand tout le monde est à l’école ou au travail, je suis [développeur Java](https://www.linkedin.com/in/melketroussi)\nPassionné de sciences, j’ai découvert l’informatique un peu sur le tard, et je me suis rapidement passionné pour l’architecture logicielle, l’algorithmique et les performances applicatives. \n\nJ’aime transmettre et partager , ce qui m’a conduit à enseigner dans plusieurs écoles (EILCO de Calais et l'université Catholique de Lille), mais aussi à open sourcer un de mes side projects : [OllamAssist](https://plugins.jetbrains.com/plugin/26388-ollamassist) qui me sert de laboratoire personnel (j'approche les 30K downloads avec une notre 4.2 sur 5 au moment ou je poste ma proposition).",
-    "bioEn": "Je suis marié et papa de deux petites princesses qui occupent une grande partie de mon quotidien. \n\nQuand tout le monde est à l’école ou au travail, je suis [développeur Java](https://www.linkedin.com/in/melketroussi)\nPassionné de sciences, j’ai découvert l’informatique un peu sur le tard, et je me suis rapidement passionné pour l’architecture logicielle, l’algorithmique et les performances applicatives. \n\nJ’aime transmettre et partager , ce qui m’a conduit à enseigner dans plusieurs écoles (EILCO de Calais et l'université Catholique de Lille), mais aussi à open sourcer un de mes side projects : [OllamAssist](https://plugins.jetbrains.com/plugin/26388-ollamassist) qui me sert de laboratoire personnel (j'approche les 30K downloads avec une notre 4.2 sur 5 au moment ou je poste ma proposition).",
+    "position": "Software Engineer",
+    "company": "Baretto",
+    "bio": "Je suis marié et papa de deux petites princesses qui occupent une grande partie de mon quotidien. Et quand tout le monde est à l’école ou au travail, je suis développeur Java.\n\nPassionné de sciences, j’ai découvert l’informatique un peu sur le tard et je me suis rapidement pris de passion pour l’architecture logicielle, l’algorithmique et les performances applicatives.\n\nJ’aime transmettre et partager, ce qui m’a conduit à enseigner dans plusieurs établissements, notamment à l’EILCO de Calais et à l’Université Catholique de Lille. Je suis également l’auteur d’\"OllamAssist\" (https://plugins.jetbrains.com/plugin/26388-ollamassist), un plugin open source pour IntelliJ qui me sert de laboratoire personnel pour expérimenter autour de l’IA et du développement logiciel.",
+    "bioFr": "Je suis marié et papa de deux petites princesses qui occupent une grande partie de mon quotidien. Et quand tout le monde est à l’école ou au travail, je suis développeur Java.\n\nPassionné de sciences, j’ai découvert l’informatique un peu sur le tard et je me suis rapidement pris de passion pour l’architecture logicielle, l’algorithmique et les performances applicatives.\n\nJ’aime transmettre et partager, ce qui m’a conduit à enseigner dans plusieurs établissements, notamment à l’EILCO de Calais et à l’Université Catholique de Lille. Je suis également l’auteur d’\"OllamAssist\" (https://plugins.jetbrains.com/plugin/26388-ollamassist), un plugin open source pour IntelliJ qui me sert de laboratoire personnel pour expérimenter autour de l’IA et du développement logiciel.",
+    "bioEn": "Je suis marié et papa de deux petites princesses qui occupent une grande partie de mon quotidien. Et quand tout le monde est à l’école ou au travail, je suis développeur Java.\n\nPassionné de sciences, j’ai découvert l’informatique un peu sur le tard et je me suis rapidement pris de passion pour l’architecture logicielle, l’algorithmique et les performances applicatives.\n\nJ’aime transmettre et partager, ce qui m’a conduit à enseigner dans plusieurs établissements, notamment à l’EILCO de Calais et à l’Université Catholique de Lille. Je suis également l’auteur d’\"OllamAssist\" (https://plugins.jetbrains.com/plugin/26388-ollamassist), un plugin open source pour IntelliJ qui me sert de laboratoire personnel pour expérimenter autour de l’IA et du développement logiciel.",
     "twitter": "",
     "linkedin": "https://fr.linkedin.com/in/melketroussi",
     "github": "https://github.com/mehdi-elke",
-    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIwjbLgutJ7lwiBcU56DjGyO90jwgXkgEPZWz2NWXa7QkN_JQ=s96-c"
+    "avatar": "images/speakers/mehdi-elketroussi.jpg"
   },
   "Julien Landuré": {
-    "position": "TechTown",
+    "position": "CTO",
     "company": "TechTown",
-    "bio": "Co-Fondateur & CTO de TechTown, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes. Julien organise également une nouvelle conférence appelée TechReady.",
-    "bioFr": "Co-Fondateur & CTO de TechTown, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes. Julien organise également une nouvelle conférence appelée TechReady.",
-    "bioEn": "Co-Fondateur & CTO de TechTown, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes. Julien organise également une nouvelle conférence appelée TechReady.",
+    "bio": "Co-fondateur et CTO de TechTown, Julien est aussi Google Developer Expert Cloud & Cursor Ambassador. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes. Il vient aussi de créer une nouvelle conférence : TechReady dédiée au sujet IA & Cloud.",
+    "bioFr": "Co-fondateur et CTO de TechTown, Julien est aussi Google Developer Expert Cloud & Cursor Ambassador. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes. Il vient aussi de créer une nouvelle conférence : TechReady dédiée au sujet IA & Cloud.",
+    "bioEn": "Co-fondateur et CTO de TechTown, Julien est aussi Google Developer Expert Cloud & Cursor Ambassador. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes. Il vient aussi de créer une nouvelle conférence : TechReady dédiée au sujet IA & Cloud.",
     "twitter": "https://x.com/jlandure",
     "linkedin": "",
     "github": "https://github.com/jlandure",
     "avatar": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/photo.jpg"
   },
   "Luiz Carneiro": {
-    "position": "",
-    "company": "",
-    "bio": "Luiz Carneiro is a Senior Solution Engineer at smapiot GmbH and a Google Developer Expert (GDE) for Cloud & AI. With a PhD in Physics, Luiz combines deep technical expertise with a passion for making complex topics accessible. Regarding community contributions, he leads the GDG Cloud Munich, a community with 2.6k+ members. That last means a long track record leading, organizing, and facilitating technical community events, talks, and workshops, with a primary focus on Cloud and AI.\n\nps: I had to write this text in the third person, but I am just Luiz :)\n\nlinkedin: https://www.linkedin.com/in/carneirodotdev/",
-    "bioFr": "Luiz Carneiro is a Senior Solution Engineer at smapiot GmbH and a Google Developer Expert (GDE) for Cloud & AI. With a PhD in Physics, Luiz combines deep technical expertise with a passion for making complex topics accessible. Regarding community contributions, he leads the GDG Cloud Munich, a community with 2.6k+ members. That last means a long track record leading, organizing, and facilitating technical community events, talks, and workshops, with a primary focus on Cloud and AI.\n\nps: I had to write this text in the third person, but I am just Luiz :)\n\nlinkedin: https://www.linkedin.com/in/carneirodotdev/",
-    "bioEn": "Luiz Carneiro is a Senior Solution Engineer at smapiot GmbH and a Google Developer Expert (GDE) for Cloud & AI. With a PhD in Physics, Luiz combines deep technical expertise with a passion for making complex topics accessible. Regarding community contributions, he leads the GDG Cloud Munich, a community with 2.6k+ members. That last means a long track record leading, organizing, and facilitating technical community events, talks, and workshops, with a primary focus on Cloud and AI.\n\nps: I had to write this text in the third person, but I am just Luiz :)\n\nlinkedin: https://www.linkedin.com/in/carneirodotdev/",
+    "position": "Solutions Engineer",
+    "company": "smapiot GmbH",
+    "bio": "Luiz Carneiro is a Senior Solution Engineer at smapiot GmbH and a Google Developer Expert (GDE) for Cloud & AI. With a PhD in Physics, Luiz combines deep technical expertise with a passion for making complex topics accessible. Regarding community contributions, he leads the GDG Cloud Munich, a community with 2.6k+ members. That last means a long track record leading, organizing, and facilitating technical community events, talks, and workshops, with a primary focus on Cloud and AI.\n\nps: I had to write this text in the third person, but I am just Luiz :)",
+    "bioFr": "Luiz Carneiro is a Senior Solution Engineer at smapiot GmbH and a Google Developer Expert (GDE) for Cloud & AI. With a PhD in Physics, Luiz combines deep technical expertise with a passion for making complex topics accessible. Regarding community contributions, he leads the GDG Cloud Munich, a community with 2.6k+ members. That last means a long track record leading, organizing, and facilitating technical community events, talks, and workshops, with a primary focus on Cloud and AI.\n\nps: I had to write this text in the third person, but I am just Luiz :)",
+    "bioEn": "Luiz Carneiro is a Senior Solution Engineer at smapiot GmbH and a Google Developer Expert (GDE) for Cloud & AI. With a PhD in Physics, Luiz combines deep technical expertise with a passion for making complex topics accessible. Regarding community contributions, he leads the GDG Cloud Munich, a community with 2.6k+ members. That last means a long track record leading, organizing, and facilitating technical community events, talks, and workshops, with a primary focus on Cloud and AI.\n\nps: I had to write this text in the third person, but I am just Luiz :)",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/carneirodotdev/",
     "github": "https://github.com/carneiroDotDev",

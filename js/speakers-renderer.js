@@ -9,11 +9,16 @@ const SPEAKER_COLORS = [
 
 const TRACK_COLORS_MAP = {
     'Salle Keynote':    { text: 'text-blue-400',   bg: 'bg-blue-500/20 border-blue-500/30' },
-    'Salle Conf #1':    { text: 'text-red-400',    bg: 'bg-red-500/20 border-red-500/30' },
-    'Salle Conf #2':    { text: 'text-yellow-400', bg: 'bg-yellow-500/20 border-yellow-500/30' },
-    'Salle Workshop #1':{ text: 'text-green-400',  bg: 'bg-green-500/20 border-green-500/30' },
-    'Salle Workshop #2':{ text: 'text-purple-400', bg: 'bg-purple-500/20 border-purple-500/30' },
+    'Salle 1':    { text: 'text-red-400',    bg: 'bg-red-500/20 border-red-500/30' },
+    'Salle 2':    { text: 'text-yellow-400', bg: 'bg-yellow-500/20 border-yellow-500/30' },
+    'Salle 3':{ text: 'text-green-400',  bg: 'bg-green-500/20 border-green-500/30' },
+    'Salle 4':{ text: 'text-purple-400', bg: 'bg-purple-500/20 border-purple-500/30' },
 };
+
+function resolveSpeakerAvatar(avatar) {
+    if (!avatar || !avatar.startsWith('images/')) return avatar;
+    return window.location.protocol === 'file:' ? avatar : `/${avatar}`;
+}
 
 function buildSpeakerList() {
     const data = window.agendaData || [];
@@ -35,7 +40,7 @@ function buildSpeakerList() {
                     twitter: profile.twitter || '',
                     linkedin: profile.linkedin || '',
                     github: profile.github || '',
-                    avatar: sp.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(sp.name)}&background=1a1209&color=C8943E&bold=true&size=200`,
+                    avatar: resolveSpeakerAvatar(profile.avatar || sp.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(sp.name)}&background=1a1209&color=C8943E&bold=true&size=200`),
                     sessions: [session]
                 });
             } else {
@@ -75,8 +80,8 @@ function renderSpeakers() {
             </div>
 
             <h3 class="text-xl font-bold text-white mb-1 relative z-10 group-hover:${c.text} transition-colors">${speaker.name}</h3>
-            <p class="${c.text} text-xs font-black uppercase tracking-widest mb-1 relative z-10">${speaker.company}</p>
-            <p class="text-white/40 text-xs mb-4 relative z-10">${speaker.position}</p>
+            <p class="${c.text} text-xs font-black uppercase tracking-widest mb-1 relative z-10">${speaker.position}</p>
+            <p class="text-white/40 text-xs mb-4 relative z-10">${speaker.company}</p>
 
             <div class="mt-auto border-t border-white/5 pt-4 w-full">
                 <p class="text-slate-400 text-xs leading-relaxed italic line-clamp-2">"${sessionTitle}"</p>
@@ -220,8 +225,10 @@ window.openSpeakerModal = function(index) {
     sessionsEl.innerHTML = sp.sessions.map(s => {
         const tc = TRACK_COLORS_MAP[s.track] || { text: 'text-amber-400', bg: 'bg-amber-500/10 border-amber-500/20' };
         const langBadge = s.lang === 'en' ? `<span class="ml-2 text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-bold">🇬🇧 EN</span>` : '';
+        const sessionTitle = JSON.stringify(s.title).replace(/"/g, '&quot;');
         return `
-        <div class="glass-panel p-5 rounded-2xl border-white/5">
+        <button type="button" onclick="openSessionFromSpeaker(${sessionTitle}, '${s.timeStart}')"
+            class="glass-panel w-full p-5 rounded-2xl border border-white/5 text-left transition-all hover:border-amber-500/40 hover:bg-white/5 group/session">
             <div class="flex flex-wrap gap-2 mb-3">
                 <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/5 text-white/50 text-xs font-bold border border-white/10">
                     <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
@@ -234,8 +241,11 @@ window.openSpeakerModal = function(index) {
                 <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-bold">${s.type}</span>
                 ${langBadge}
             </div>
-            <h5 class="text-white font-bold text-sm leading-snug">${s.title}</h5>
-        </div>`;
+            <div class="flex items-start gap-3">
+                <h5 class="flex-1 text-white font-bold text-sm leading-snug group-hover/session:text-amber-300 transition-colors">${s.title}</h5>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 shrink-0 text-white/25 group-hover/session:text-amber-300 transition-colors"></i>
+            </div>
+        </button>`;
     }).join('');
 
     // Show modal
