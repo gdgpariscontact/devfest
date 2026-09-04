@@ -35,6 +35,8 @@ const TRACKS_ORDER = [
   "Salle 4"
 ];
 
+const TRACK_CAPACITY_ORDER = Object.fromEntries(TRACKS_ORDER.map((track, index) => [track, index]));
+
 let currentAgendaView = 'time'; // 'time' or 'track'
 // Multiselect sets — empty = no filter (show all)
 let activeTypeFilters = new Set();
@@ -57,14 +59,13 @@ function agendaText(key, fallback) {
 }
 
 function localizedTrackName(track) {
-  if ((document.documentElement.lang || 'fr') !== 'en') return track;
   const names = {
-    'Salle Keynote': 'Keynote Room',
-    'Salle 1': 'Salle 1',
-    'Salle 2': 'Salle 2',
-    'Salle 3': 'Salle 3',
-    'Salle 4': 'Salle 4',
-    'All': 'All rooms'
+    'Salle Keynote': agendaText('main_hall', 'Salle 2.1'),
+    'Salle 1': agendaText('conf_1', 'Salle 1.2'),
+    'Salle 2': agendaText('conf_2', 'Salle 1.3 · 100 places'),
+    'Salle 3': agendaText('workshop_1', 'Salle 0.3 · 32 places'),
+    'Salle 4': agendaText('workshop_2', 'Salle 0.2 · 18 places'),
+    'All': agendaText('all_rooms', 'Toutes les salles')
   };
   return names[track] || track;
 }
@@ -462,15 +463,22 @@ function renderByTime(data) {
     slot.sessions.push(session);
   });
 
+  // Keep parallel rooms in capacity order in the timeline as well as the room view.
+  timeSlots.forEach(slot => slot.sessions.sort((a, b) =>
+    (TRACK_CAPACITY_ORDER[a.track] ?? Number.MAX_SAFE_INTEGER) -
+    (TRACK_CAPACITY_ORDER[b.track] ?? Number.MAX_SAFE_INTEGER)
+  ));
+
   let html = `<div class="flex flex-col gap-10">`;
 
   timeSlots.forEach(slot => {
     const isKeynoteSlot = slot.sessions.some(s => s.type === 'Keynote');
+    const isClosingSlot = slot.sessions.some(s => s.title === 'Closing');
 
     html += `<div class="relative pl-4 md:pl-8 border-l-2 ${isKeynoteSlot ? 'border-amber-500/50' : 'border-white/10'}">`;
     html += `<div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full ${isKeynoteSlot ? 'bg-amber-400 ring-4 ring-amber-500/20' : 'bg-amber-500'} border-4 border-[#0a0a0a]"></div>`;
 
-    if (isKeynoteSlot) {
+    if (isKeynoteSlot && !isClosingSlot) {
       html += `
         <div class="flex items-center gap-2 mb-4 sticky top-20 bg-[#0a0a0a]/90 backdrop-blur z-10 py-2 inline-flex rounded-lg pr-4">
           <h3 class="text-2xl font-bold text-amber-400">${slot.startTime}</h3>
@@ -482,8 +490,15 @@ function renderByTime(data) {
       html += `<h3 class="text-2xl font-bold text-amber-400 mb-6 sticky top-20 bg-[#0a0a0a]/80 backdrop-blur z-10 py-2 inline-block rounded-lg pr-4">${slot.startTime}</h3>`;
     }
 
-    // Single session in time slot (Keynote, Break, Closing) -> Render full width
-    if (slot.sessions.length === 1) {
+    // Closing uses the compact transition-banner treatment rather than a keynote card.
+    if (isClosingSlot && slot.sessions.length === 1) {
+      html += renderBreakBanner(
+        slot.sessions[0],
+        '🎉',
+        agendaText('closing', 'Clôture du DevFest')
+      );
+    // Single session in time slot (Keynote or Break) -> Render full width
+    } else if (slot.sessions.length === 1) {
       html += `<div class="w-full">`;
       html += renderSessionCard(slot.sessions[0], true);
       html += `</div>`;
@@ -516,7 +531,7 @@ function renderBreakBanner(breakSession, icon, label, sub) {
           <span class="text-base font-bold text-white ml-2">${label}</span>
         </div>
       </div>
-      <span class="text-xs font-bold text-amber-300/80 uppercase tracking-wider hidden sm:inline">${sub}</span>
+      ${sub ? `<span class="text-xs font-bold text-amber-300/80 uppercase tracking-wider hidden sm:inline">${sub}</span>` : ''}
     </div>
   `;
 }
