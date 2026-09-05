@@ -98,7 +98,7 @@ const agendaData = [
     "speakers": [
       {
         "name": "Nicolas Frizzarin",
-        "role": "SFEIR",
+        "role": "Senior Staff Engineer",
         "avatar": "https://lh4.googleusercontent.com/-QZhPN3UNDBA/AAAAAAAAAAI/AAAAAAAAAEs/Ki7Avw5jkKg/photo.jpg"
       }
     ],
@@ -132,7 +132,7 @@ const agendaData = [
     "speakers": [
       {
         "name": "Adriana Nava Aguilar",
-        "role": "Néosoft",
+        "role": "Senior Software Engineer",
         "avatar": "https://lh3.googleusercontent.com/a-/AFdZucoyjX9DCjNJvoR0111jdDMHLRcDjrGM9yMl2P75Fg=s96-c"
       },
       {
@@ -276,7 +276,7 @@ const agendaData = [
     "speakers": [
       {
         "name": "Simon Poulet",
-        "role": "AWS",
+        "role": "AI & ML engineer",
         "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQEKQZAk0wEgEg/profile-displayphoto-scale_400_400/B4EZ5Bbr0ZHcAg-/0/1779214238104?e=1784764800&v=beta&t=uU4IBQm-YaDhRZwOLadS5dyBRdUJpSePMdp01yNfMQc"
       }
     ],
@@ -520,7 +520,7 @@ const agendaData = [
     "speakers": [
       {
         "name": "Victoire de Lacharrière",
-        "role": "Takima",
+        "role": "Software Engineer",
         "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHiGmZ2JGtL6A/profile-displayphoto-crop_800_800/B4EZ7KMbqUKwAI-/0/1781508717526?e=1783555200&v=beta&t=Q8jJmDsgMDNul3rJabr_0XYur6ztS2L3WnWIEwwiAug"
       }
     ],
@@ -652,7 +652,7 @@ const speakerProfiles = {
     "avatar": "https://lh3.googleusercontent.com/a/AAcHTtc1WzG8-N60nzkWYnNsVfwKs70Ju84kXUjvX91M=s96-c"
   },
   "Adriana Nava Aguilar": {
-    "position": "Néosoft",
+    "position": "Senior Software Engineer",
     "company": "Néosoft",
     "bio": "Adriana Nava Aguilar (she/her) est Senior Software Engineer chez Néosoft | Orano, Software Craftswoman et AI Curious. \n\nExpatriée mexicaine à Paris, elle a construit sa carrière entre le Mexique et la France dans des environnements tech exigeants, ce qui lui a autant appris sur l'architecture logicielle que sur l'art de survivre à une codebase legacy.\n\nInternational Speaker et Women Techmakers Ambassador, elle est Lead Organiser de WTM Paris et participe activement à Women.TechRocks, FIA - Femmes dans l'IA, Duchess et LadiesCodeParis. Depuis plus de 10 ans, elle construit des communautés, les anime et en porte les cicatrices avec fierté.\n\nQuand elle ne code pas, elle cherche le meilleur taco de Paris et tente de convaincre son chien que les stand-ups meetings sont une excellente idée.",
     "bioFr": "Adriana Nava Aguilar (she/her) est Senior Software Engineer chez Néosoft | Orano, Software Craftswoman et AI Curious. \n\nExpatriée mexicaine à Paris, elle a construit sa carrière entre le Mexique et la France dans des environnements tech exigeants, ce qui lui a autant appris sur l'architecture logicielle que sur l'art de survivre à une codebase legacy.\n\nInternational Speaker et Women Techmakers Ambassador, elle est Lead Organiser de WTM Paris et participe activement à Women.TechRocks, FIA - Femmes dans l'IA, Duchess et LadiesCodeParis. Depuis plus de 10 ans, elle construit des communautés, les anime et en porte les cicatrices avec fierté.\n\nQuand elle ne code pas, elle cherche le meilleur taco de Paris et tente de convaincre son chien que les stand-ups meetings sont une excellente idée.",
@@ -707,7 +707,7 @@ const speakerProfiles = {
     "avatar": "https://devoxxian-image-thumbnails.s3-eu-west-1.amazonaws.com/profile-3431b1a9-dcfd-498e-ae9e-5ff49e9f01c0.jpg"
   },
   "Simon Poulet": {
-    "position": "AWS",
+    "position": "AI & ML engineer",
     "company": "AWS",
     "bio": "Hi I'm Simon, current AI & ML engineer at AWS, delivering professional services to help our customers in their cloud journey. I also worked per my master thesis as a research engineer at the ITER Organization on machine learning anomaly detection for robotic system sensors. My interests are mainly in the area of machine learning and machine learning ops, i.e. all the engineering and automation that can be done around it. This love for computer science all started on Minecraft building redstone systems, and then playing around with Arduino board and electronics.\nIn general, I am a space, science, tech and fusion enthusiast.",
     "bioFr": "Hi I'm Simon, current AI & ML engineer at AWS, delivering professional services to help our customers in their cloud journey. I also worked per my master thesis as a research engineer at the ITER Organization on machine learning anomaly detection for robotic system sensors. My interests are mainly in the area of machine learning and machine learning ops, i.e. all the engineering and automation that can be done around it. This love for computer science all started on Minecraft building redstone systems, and then playing around with Arduino board and electronics.\nIn general, I am a space, science, tech and fusion enthusiast.",
@@ -718,7 +718,7 @@ const speakerProfiles = {
     "avatar": "images/speakers/simon-poulet.jpg"
   },
   "Nicolas Frizzarin": {
-    "position": "SFEIR",
+    "position": "Senior Staff Engineer",
     "company": "SFEIR",
     "bio": "Nicolas Frizzarin is a Google Developer Expert (GDE) in Web Technologies and Angular, a Former Microsoft Most Valuable Professional (MVP), and a JetBrains Community Contributor. As a Senior Staff Engineer and Developer Advocate at Sfeir, he leverages his expertise to build powerful web applications, with a strong focus on performance and creating an exceptional user experience.\n\nNicolas is a passionate open-source contributor, notably as a core team member of the popular NG-ZORRO Angular UI library. He regularly shares his knowledge and insights on front-end technologies as a speaker at major conferences like Devoxx and We Are Developer, and through technical articles on Dev.to. His work is driven by a passion for creating high-quality digital products and a commitment to helping others grow",
     "bioFr": "Nicolas Frizzarin is a Google Developer Expert (GDE) in Web Technologies and Angular, a Former Microsoft Most Valuable Professional (MVP), and a JetBrains Community Contributor. As a Senior Staff Engineer and Developer Advocate at Sfeir, he leverages his expertise to build powerful web applications, with a strong focus on performance and creating an exceptional user experience.\n\nNicolas is a passionate open-source contributor, notably as a core team member of the popular NG-ZORRO Angular UI library. He regularly shares his knowledge and insights on front-end technologies as a speaker at major conferences like Devoxx and We Are Developer, and through technical articles on Dev.to. His work is driven by a passion for creating high-quality digital products and a commitment to helping others grow",
@@ -894,7 +894,7 @@ const speakerProfiles = {
     "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIcAYlGLkrzOhgtY5WI7-aIDzBofn6UVg1wvJjzBbZNKA=s96-c"
   },
   "Victoire de Lacharrière": {
-    "position": "Takima",
+    "position": "Software Engineer",
     "company": "Takima",
     "bio": "Victoire n’était pas vraiment destinée au dev. Au départ, elle visait le DevOps, munie d’un master en data… et pourtant, elle a fini par devenir accro au combo Java, Kotlin et Spring Boot.\n\nOn la reconnaît facilement : c’est celle qui sourit tout le temps, même quand IntelliJ lui crie dessus !\n\nPourquoi ? Parce qu'elle sait que son code est béton.\n\nSa théorie : être un peu *control freak* n'est pas un défaut, c'est la meilleure *best practice* pour transformer le chaos en confiance !",
     "bioFr": "Victoire n’était pas vraiment destinée au dev. Au départ, elle visait le DevOps, munie d’un master en data… et pourtant, elle a fini par devenir accro au combo Java, Kotlin et Spring Boot.\n\nOn la reconnaît facilement : c’est celle qui sourit tout le temps, même quand IntelliJ lui crie dessus !\n\nPourquoi ? Parce qu'elle sait que son code est béton.\n\nSa théorie : être un peu *control freak* n'est pas un défaut, c'est la meilleure *best practice* pour transformer le chaos en confiance !",
