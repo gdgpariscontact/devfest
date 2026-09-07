@@ -62,9 +62,9 @@ function localizedTrackName(track) {
   const names = {
     'Salle Keynote': agendaText('main_hall', 'Salle 2.1'),
     'Salle 1': agendaText('conf_1', 'Salle 1.2'),
-    'Salle 2': agendaText('conf_2', 'Salle 1.3 · 100 places'),
-    'Salle 3': agendaText('workshop_1', 'Salle 0.3 · 32 places'),
-    'Salle 4': agendaText('workshop_2', 'Salle 0.2 · 18 places'),
+    'Salle 2': agendaText('conf_2', 'Salle 1.3 '),
+    'Salle 3': agendaText('workshop_1', 'Salle 0.3 '),
+    'Salle 4': agendaText('workshop_2', 'Salle 0.2 '),
     'All': agendaText('all_rooms', 'Toutes les salles')
   };
   return names[track] || track;
