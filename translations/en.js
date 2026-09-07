@@ -213,9 +213,9 @@ window.translations_en = {
     "placeholder_desc2": "The names of the first speakers will be revealed very soon. Stay tuned!",
     "placeholder_desc3": "Frontend Wizard",
     "placeholder_desc4": "A leader from the web community will join us for an exceptional session.",
-    "you_title": "You?",
-    "you_desc": "Submit your talk!",
-    "you_cta": "Access the CFP"
+    "you_title": "2027 Calendar",
+    "you_desc": "Stay tuned for 2027 calendar!",
+    "you_cta": "Coming Soon"
   },
   "gallery": {
     "label": "Memories",

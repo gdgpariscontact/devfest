@@ -96,18 +96,19 @@ function renderSpeakers() {
         </div>`;
     });
 
-    // "Vous?" card
+    // "2027 Calendar" card
+    const language = document.documentElement.lang || 'fr';
+    const isEn = language === 'en';
+    const titleText = isEn ? '2027 Calendar' : 'Calendrier 2027';
+    const descText = isEn ? 'Stay tuned for 2027 calendar!' : 'Restez à l\'écoute pour le calendrier 2027 !';
+
     html += `
-    <div class="glass-panel p-8 rounded-[2.5rem] border-white/10 border-dashed text-center group cursor-pointer hover:bg-white/5 transition-all duration-500 opacity-70 flex flex-col justify-center items-center hover:opacity-100">
+    <div class="glass-panel p-8 rounded-[2.5rem] border-white/10 border-dashed text-center group hover:bg-white/5 transition-all duration-500 opacity-70 flex flex-col justify-center items-center hover:opacity-100">
         <div class="w-32 h-32 rounded-full mx-auto mb-5 flex items-center justify-center bg-slate-900 border-2 border-dashed border-slate-700 group-hover:border-amber-400/50 group-hover:scale-105 transition-all">
-            <i data-lucide="user-plus" class="w-10 h-10 text-slate-700 group-hover:text-amber-400 transition-colors"></i>
+            <i data-lucide="calendar" class="w-10 h-10 text-slate-700 group-hover:text-amber-400 transition-colors"></i>
         </div>
-        <h3 class="text-xl font-bold text-slate-400 mb-1">Vous ?</h3>
-        <p class="text-slate-500 text-xs font-medium mb-6">Proposez votre talk !</p>
-        <a href="javascript:void(0)" onclick="event.stopPropagation(); if(window.scrollToSection) scrollToSection('cfp');"
-            class="inline-block bg-amber-500/10 text-amber-400 px-6 py-2 rounded-full text-xs font-black uppercase tracking-tighter hover:bg-amber-500 hover:text-black transition-all">
-            Accéder au CFP
-        </a>
+        <h3 class="text-xl font-bold text-slate-400 mb-1" data-i18n="speakers.you_title">${titleText}</h3>
+        <p class="text-slate-500 text-xs font-medium" data-i18n="speakers.you_desc">${descText}</p>
     </div>`;
 
     container.innerHTML = html;
@@ -270,6 +271,11 @@ window.closeSpeakerModal = function() {
 // Close on Escape
 document.addEventListener('keydown', e => {
     if (e.key === 'Escape') window.closeSpeakerModal?.();
+});
+
+// Listen for language changes
+window.addEventListener('devfestlanguagechange', () => {
+    renderSpeakers();
 });
 
 // Initialize on DOM load

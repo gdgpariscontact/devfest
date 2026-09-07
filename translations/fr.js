@@ -217,9 +217,9 @@ window.translations_fr = {
     "placeholder_desc2": "Le nom des premiers speakers sera dévoilé très prochainement. Restez à l'écoute !",
     "placeholder_desc3": "Magicien Frontend",
     "placeholder_desc4": "Un leader de la communauté web nous rejoindra pour une session exceptionnelle.",
-    "you_title": "Vous ?",
-    "you_desc": "Proposez votre talk !",
-    "you_cta": "Accéder au CFP"
+    "you_title": "Calendrier 2027",
+    "you_desc": "Restez à l'écoute pour le calendrier 2027 !",
+    "you_cta": "Bientôt disponible"
   },
   "gallery": {
     "label": "Souvenirs",
