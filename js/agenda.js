@@ -175,7 +175,7 @@ const agendaData = [
     "timeStart": "11:30",
     "timeEnd": "12:15",
     "title": "Chaque token compte : de l'assistant IA à la pipeline",
-    "track": "Salle 2",
+    "track": "Salle Keynote",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
@@ -192,7 +192,7 @@ const agendaData = [
     "timeStart": "11:30",
     "timeEnd": "12:15",
     "title": "A l'abordage du score Lighthouse !",
-    "track": "Salle Keynote",
+    "track": "Salle 2",
     "type": "Conference",
     "lang": "en",
     "speakers": [
@@ -219,7 +219,7 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "Sécurisez vos prototypes avec OAuth2-Proxy, Anubis",
-    "track": "Salle 1",
+    "track": "Salle 4",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
@@ -236,7 +236,7 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "Coupable ! Le procès d'un container malveillant dans Kubernetes",
-    "track": "Salle 2",
+    "track": "Salle 3",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
@@ -253,7 +253,7 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "Gemma 4 & Serverless GPU ou comment déployer facilement son LLM",
-    "track": "Salle Keynote",
+    "track": "Salle 2",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
@@ -270,7 +270,7 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "MLOps - Comprendre et répondre à la dégradation des modèles de machine learning en production",
-    "track": "Salle 3",
+    "track": "Salle 1",
     "type": "Quick Talk",
     "lang": "en",
     "speakers": [
@@ -287,7 +287,7 @@ const agendaData = [
     "timeStart": "12:25",
     "timeEnd": "12:45",
     "title": "Dette cognitive et dette d’intention : le coût caché du code généré par IA",
-    "track": "Salle 4",
+    "track": "Salle Keynote",
     "type": "Quick Talk",
     "lang": "fr",
     "speakers": [
@@ -331,7 +331,7 @@ const agendaData = [
     "timeStart": "13:45",
     "timeEnd": "14:30",
     "title": "Industrialiser l'IA en équipe : des skills qui encodent vos conventions",
-    "track": "Salle 2",
+    "track": "Salle Keynote",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
@@ -353,7 +353,7 @@ const agendaData = [
     "timeStart": "13:45",
     "timeEnd": "14:30",
     "title": "Hello JDK 25, bye les Streams chiants!",
-    "track": "Salle Keynote",
+    "track": "Salle 2",
     "type": "Conference",
     "lang": "fr",
     "speakers": [
@@ -531,7 +531,7 @@ const agendaData = [
     "timeStart": "15:45",
     "timeEnd": "17:00",
     "title": "SQL Showdown: A Competitive Query-Writing Workshop",
-    "track": "Salle 3",
+    "track": "Salle 4",
     "type": "Workshop",
     "lang": "en",
     "speakers": [
@@ -548,7 +548,7 @@ const agendaData = [
     "timeStart": "15:45",
     "timeEnd": "17:00",
     "title": "Antigravity : De l'idée à l'app, de l'assistance à l'orchestration",
-    "track": "Salle 4",
+    "track": "Salle 3",
     "type": "Workshop",
     "lang": "fr",
     "speakers": [
