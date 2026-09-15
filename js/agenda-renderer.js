@@ -176,7 +176,7 @@ function renderSessionCard(session, showTrack = true, isParSalle = false) {
   const colorClasses = TRACK_COLORS[session.track] || TRACK_COLORS['All'];
   const langBadge = session.lang === 'en'
     ? `<span class="inline-flex items-center justify-center bg-indigo-500/20 text-indigo-300 text-xs font-bold px-2 py-0.5 rounded border border-indigo-500/30">🇬🇧 EN</span>`
-    : '';
+    : `<span class="inline-flex items-center justify-center bg-blue-500/20 text-blue-300 text-xs font-bold px-2 py-0.5 rounded border border-blue-500/30">🇫🇷 FR</span>`;
 
   // Register this session and get its index
   let sessionIndex = window._sessionsList.findIndex(s => s === session);

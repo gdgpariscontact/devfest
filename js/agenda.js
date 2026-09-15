@@ -34,7 +34,7 @@ const agendaData = [
     "title": "Panel",
     "track": "Salle Keynote",
     "type": "Keynote",
-    "lang": "fr",
+    "lang": "en",
     "speakers": [],
     "description": "Panel d’échange autour des enjeux et tendances de la communauté tech."
   },

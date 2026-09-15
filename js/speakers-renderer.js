@@ -225,7 +225,9 @@ window.openSpeakerModal = function(index) {
     const sessionsEl = document.getElementById('modal-sessions');
     sessionsEl.innerHTML = sp.sessions.map(s => {
         const tc = TRACK_COLORS_MAP[s.track] || { text: 'text-amber-400', bg: 'bg-amber-500/10 border-amber-500/20' };
-        const langBadge = s.lang === 'en' ? `<span class="ml-2 text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-bold">🇬🇧 EN</span>` : '';
+        const langBadge = s.lang === 'en'
+            ? `<span class="ml-2 text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-bold">🇬🇧 EN</span>`
+            : `<span class="ml-2 text-[10px] px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 font-bold">🇫🇷 FR</span>`;
         const sessionTitle = JSON.stringify(s.title).replace(/"/g, '&quot;');
         return `
         <button type="button" onclick="openSessionFromSpeaker(${sessionTitle}, '${s.timeStart}')"
