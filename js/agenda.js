@@ -544,9 +544,9 @@ const agendaData = [
     "description": "Most SQL workshops bore you with SELECT * FROM tutorial. This one has a leaderboard. Bring your laptop, spin up a Docker container, and join a live competition where every query you write earns points — for being correct, for being short, and for being fast. Two engines (PostgreSQL and SQL Server), three real datasets (a World atlas, a school administration, and the FIFA World Cup), and a room full of developers racing each other to the top of the board. Whether you're a junior who has only ever written `WHERE id = ?` or a senior who dreams in window functions, you will write SQL you didn't know you could write — and you'll see how everyone else solved the same problem when the endgame reveals all submissions."
   },
   {
-    "timeLabel": "03:45 PM - 05:00 PM",
+    "timeLabel": "03:45 PM - 05:25 PM",
     "timeStart": "15:45",
-    "timeEnd": "17:00",
+    "timeEnd": "17:25",
     "title": "Antigravity : De l'idée à l'app, de l'assistance à l'orchestration",
     "track": "Salle 3",
     "type": "Workshop",
