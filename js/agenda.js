@@ -529,7 +529,7 @@ const agendaData = [
   {
     "timeLabel": "03:45 PM - 05:00 PM",
     "timeStart": "15:45",
-    "timeEnd": "17:00",
+    "timeEnd": "17:25",
     "title": "SQL Showdown: A Competitive Query-Writing Workshop",
     "track": "Salle 4",
     "type": "Workshop",
