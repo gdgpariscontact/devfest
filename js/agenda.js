@@ -527,7 +527,7 @@ const agendaData = [
     "description": "Pendant longtemps, on a pensé que le test-coverage était le meilleur indicateur pour suivre la qualité de sa stratégie de test. Spoiler alert : ça ne suffit pas. L'enjeu n'est pas de tout tester, mais de **bien tester**.\n\nDans cette session, je vous propose de découvrir le Mutation Testing, une pratique qui met à l'épreuve vos tests en introduisant des bugs volontairement. \n\nOui, vous avez bien lu : on sabote notre application pour mieux la fiabiliser !\n\nAu programme :\n\n- Comprendre pourquoi la couverture de code ne suffit pas, et ce que vos tests valident vraiment\n- Découvrir le Mutation Testing : principes, types de mutations, interprétation des résultats\n- Aller plus loin que le mutation score : faux positifs, test strength, lecture fine des rapports\n- Intégrer le Mutation Testing dans votre workflow : CI/CD, optimisation des performances, adoption progressive\n- Explorer comment l'IA peut accélérer l'analyse, et comment industrialiser cette approche sur vos projets\n\nVous repartirez avec une compréhension fine du sujet et la capacité de le mettre en œuvre simplement sur vos projets Java ou Kotlin.\n\nPrêts à tester vos tests ?"
   },
   {
-    "timeLabel": "03:45 PM - 05:00 PM",
+    "timeLabel": "03:45 PM - 05:25 PM",
     "timeStart": "15:45",
     "timeEnd": "17:25",
     "title": "SQL Showdown: A Competitive Query-Writing Workshop",
