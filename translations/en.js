@@ -9,8 +9,8 @@ window.translations_en = {
   },
   "ticketing": {
     "title": "Ticketing",
-    "subtitle": "🎟️ Early Bird — €59",
-    "desc": "Early Bird ticket sales are now open! Grab your tickets for €59 before prices go up.",
+    "subtitle": "🎟️ Regular — €59",
+    "desc": "Regular ticket sales are now open! Grab your tickets for €59.",
     "cta": "Get my ticket"
   },
   "sponsoring": {

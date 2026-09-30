@@ -9,8 +9,8 @@ window.translations_fr = {
   },
   "ticketing": {
     "title": "Billetterie",
-    "subtitle": "🎟️ Early Bird — 59€",
-    "desc": "La billetterie Early Bird est officiellement ouverte ! Profitez du tarif exceptionnel à 59€ dès maintenant.",
+    "subtitle": "🎟️ Regular — 59€",
+    "desc": "La billetterie est officiellement ouverte ! Profitez du tarif à 59€ dès maintenant.",
     "cta": "Prendre mon billet"
   },
   "sponsoring": {
