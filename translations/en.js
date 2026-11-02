@@ -45,6 +45,7 @@ window.translations_en = {
     "workshop_2": "Room 0.2",
     "all_rooms": "All rooms",
     "room": "Room",
+    "locate_room": "Locate room",
     "details": "Details",
     "description": "Description",
     "speakers": "Speaker(s)",
@@ -102,6 +103,16 @@ window.translations_en = {
     "feat6": "Fiber Wifi",
     "feat7": "Parking / Cloakroom",
     "feat8": "Networking Zone"
+  },
+  "venue_map": {
+    "eyebrow": "Find your way",
+    "title": "Explore the venue",
+    "intro": "Choose a floor, then select a room to explore its schedule.",
+    "badge": "4 levels · 3D map",
+    "hint": "Select a room",
+    "programmed": "Room with sessions",
+    "other_rooms": "Other spaces",
+    "terrace": "Terrace"
   },
   "why": {
     "title": "Why Become a Sponsor?",

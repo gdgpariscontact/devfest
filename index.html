@@ -433,7 +433,42 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
+        </section>
+
+        <!-- Interactive venue map -->
+        <section data-route="home,agenda" id="venue-map" class="venue-map-section relative z-10 border-t border-white/5">
+            <div class="max-w-7xl mx-auto">
+                <div class="venue-map-heading mb-8 md:mb-10">
+                    <div>
+                        <p class="text-amber-400 text-sm font-bold uppercase tracking-widest mb-3" data-i18n="venue_map.eyebrow">Se repérer sur place</p>
+                        <h2 class="text-4xl md:text-5xl font-display font-black text-white" data-i18n="venue_map.title">Explorez le lieu</h2>
+                        <p class="text-amber-100/55 mt-3 max-w-2xl" data-i18n="venue_map.intro">Choisissez un étage, puis une salle pour découvrir son programme.</p>
+                    </div>
+                    <span class="venue-map-badge"><i data-lucide="layers-3" class="w-4 h-4"></i> <span data-i18n="venue_map.badge">4 niveaux · plan 3D</span></span>
+                    <button type="button" id="venue-map-toggle" class="venue-map-toggle" aria-controls="venue-map-layout" aria-expanded="false">
+                        <i data-lucide="map" class="w-4 h-4" aria-hidden="true"></i>
+                        <span id="venue-map-toggle-label">Afficher le plan</span>
+                        <i data-lucide="chevron-down" class="venue-map-toggle-chevron w-4 h-4" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="venue-map-layout" id="venue-map-layout">
+                    <div class="venue-map-main">
+                        <div class="venue-map-toolbar">
+                            <div class="venue-map-floors" id="venue-map-floors" role="group" aria-label="Étages"></div>
+                            <span class="venue-map-hint hidden sm:inline-flex"><i data-lucide="mouse-pointer-2" class="w-4 h-4"></i> <span data-i18n="venue_map.hint">Cliquez sur une salle</span></span>
+                        </div>
+                        <div class="venue-map-canvas" id="venue-map-canvas" aria-live="polite"></div>
+                        <div class="venue-map-legend">
+                            <span><i class="venue-map-key venue-map-key-active"></i><span data-i18n="venue_map.programmed">Salle avec programme</span></span>
+                            <span><i class="venue-map-key venue-map-key-other"></i><span data-i18n="venue_map.other_rooms">Autres espaces</span></span>
+                            <span><i class="venue-map-key venue-map-key-terrace"></i><span data-i18n="venue_map.terrace">Terrasse</span></span>
+                        </div>
+                    </div>
+                    <aside class="venue-map-details" id="venue-map-details" aria-live="polite"></aside>
+                </div>
+            </div>
         </section>
 
         <!-- Ticket Sales -->
@@ -1528,6 +1563,7 @@
                     el.classList.add('hidden');
                 }
             });
+            window.updateVenueMapRoute?.(route);
             window.scrollTo(0, 0);
             if (window.lucide) lucide.createIcons();
         }
@@ -1675,6 +1711,7 @@
     <script src="js/agenda.js"></script>
     <script src="js/agenda-renderer.js"></script>
     <script src="js/speakers-renderer.js"></script>
+    <script src="js/venue-map.js"></script>
 </body>
 
 </html>

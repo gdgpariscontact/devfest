@@ -325,6 +325,11 @@ function ensureSessionModal() {
     if (e.target === overlay) closeSessionModal();
   });
 
+  overlay.querySelector('#session-modal-badges').addEventListener('click', e => {
+    const locateButton = e.target.closest('[data-locate-track]');
+    if (locateButton) window.focusVenueRoomByTrack?.(locateButton.dataset.locateTrack);
+  });
+
   document.body.appendChild(overlay);
   if (window.lucide) lucide.createIcons();
 }
@@ -347,8 +352,12 @@ window.openSessionModal = function(index) {
       ${session.timeLabel}
     </span>
     <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full ${trackColor} text-xs font-bold border">
-      <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
       ${localizedTrackName(session.track)}
+      ${TRACKS_ORDER.includes(session.track) ? `<button type="button" data-locate-track="${session.track}"
+        class="session-room-locate" title="${agendaText('locate_room', 'Localiser la salle')}"
+        aria-label="${agendaText('locate_room', 'Localiser la salle')} ${localizedTrackName(session.track)}">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Z"/><path d="M9 3v15m6-12v15"/></svg>
+      </button>` : ''}
     </span>
     <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-bold">${session.type}</span>
     ${langBadge}`;
