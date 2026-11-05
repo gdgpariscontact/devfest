@@ -143,7 +143,7 @@ function sessionTopics(session) {
 function getFilteredData() {
     const data = window.agendaData || [];
     return data.filter(session => {
-        if (session.type === 'Break') return true;
+        if (session.type === 'Break' || session.type === 'End') return true;
         const matchType  = activeTypeFilters.size  === 0 || activeTypeFilters.has(session.type);
         const matchTrack = activeTrackFilters.size === 0 || activeTrackFilters.has(session.track);
         const matchTopic = activeTopicFilters.size === 0 || sessionTopics(session).some(topic => activeTopicFilters.has(topic));
@@ -481,13 +481,16 @@ function renderByTime(data) {
   let html = `<div class="flex flex-col gap-10">`;
 
   timeSlots.forEach(slot => {
+    if (slot.sessions.length === 1 && slot.sessions[0].type === 'End') {
+      html += renderBreakBanner(slot.sessions[0], '🏁', agendaText('closing', 'Fin du DevFest'));
+      return;
+    }
     const isKeynoteSlot = slot.sessions.some(s => s.type === 'Keynote');
-    const isClosingSlot = slot.sessions.some(s => s.title === 'Closing');
 
     html += `<div class="relative pl-4 md:pl-8 border-l-2 ${isKeynoteSlot ? 'border-amber-500/50' : 'border-white/10'}">`;
     html += `<div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full ${isKeynoteSlot ? 'bg-amber-400 ring-4 ring-amber-500/20' : 'bg-amber-500'} border-4 border-[#0a0a0a]"></div>`;
 
-    if (isKeynoteSlot && !isClosingSlot) {
+    if (isKeynoteSlot) {
       html += `
         <div class="flex items-center gap-2 mb-4 sticky top-20 bg-[#0a0a0a]/90 backdrop-blur z-10 py-2 inline-flex rounded-lg pr-4">
           <h3 class="text-2xl font-bold text-amber-400">${slot.startTime}</h3>
@@ -499,15 +502,8 @@ function renderByTime(data) {
       html += `<h3 class="text-2xl font-bold text-amber-400 mb-6 sticky top-20 bg-[#0a0a0a]/80 backdrop-blur z-10 py-2 inline-block rounded-lg pr-4">${slot.startTime}</h3>`;
     }
 
-    // Closing uses the compact transition-banner treatment rather than a keynote card.
-    if (isClosingSlot && slot.sessions.length === 1) {
-      html += renderBreakBanner(
-        slot.sessions[0],
-        '🎉',
-        agendaText('closing', 'Clôture du DevFest')
-      );
     // Single session in time slot (Keynote or Break) -> Render full width
-    } else if (slot.sessions.length === 1) {
+    if (slot.sessions.length === 1) {
       html += `<div class="w-full">`;
       html += renderSessionCard(slot.sessions[0], true);
       html += `</div>`;
@@ -611,7 +607,7 @@ function renderByTrack(data) {
   let html = `<div class="flex flex-col gap-8">`;
 
   // 1. Morning Opening Keynotes block (09:20 AM - 10:25 AM)
-  const openingKeynotes = data.filter(s => s.type === 'Keynote' && s.title !== 'Closing' && s.timeStart < '10:25');
+  const openingKeynotes = data.filter(s => s.type === 'Keynote' && s.timeStart < '10:25');
   if (openingKeynotes.length > 0 && (activeTrackFilters.size === 0 || activeTrackFilters.has('Salle Keynote'))) {
     html += `
       <div class="glass-panel p-6 rounded-3xl border border-blue-500/30 bg-gradient-to-br from-blue-950/40 via-amber-950/20 to-black/60 shadow-xl">
@@ -667,26 +663,9 @@ function renderByTrack(data) {
     html += renderParallelBlock(afternoonParallel2);
   }
 
-  // 8. Closing Plenary block (05:00 PM - 05:30 PM)
-  const closingSessions = data.filter(s => s.title === 'Closing' || (s.type === 'Keynote' && s.timeStart >= '16:00'));
-  if (closingSessions.length > 0 && (activeTrackFilters.size === 0 || activeTrackFilters.has('Salle Keynote'))) {
-    html += `
-      <div class="glass-panel p-6 rounded-3xl border border-amber-500/30 bg-gradient-to-br from-amber-950/40 via-orange-950/20 to-black/60 shadow-xl">
-        <div class="flex flex-wrap items-center justify-between gap-3 mb-4 border-b border-white/10 pb-3">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-xl">🎉</div>
-            <div>
-              <h3 class="text-xl font-bold font-display text-white">${agendaText('closing', 'Clôture du DevFest')} (${agendaText('main_hall', 'Main Hall')})</h3>
-              <p class="text-xs text-amber-300/80">${agendaText('closing_sessions', 'Session de fin')} • 05:00 PM - 05:30 PM</p>
-            </div>
-          </div>
-          <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 uppercase tracking-widest">${agendaText('closing_tag', 'Clôture')}</span>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    `;
-    closingSessions.forEach(session => { html += renderSessionCard(session, false); });
-    html += `</div></div>`;
-  }
+  // 8. End-of-day marker at 05:00 PM; there is no closing talk.
+  const endOfDay = data.find(s => s.type === 'End');
+  if (endOfDay) html += renderBreakBanner(endOfDay, '🏁', agendaText('closing', 'Fin du DevFest'));
 
   // Accepted talks without a published room/time assignment
   const unscheduled = data.filter(s => s.timeStart === '99:00');

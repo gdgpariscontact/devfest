@@ -60,9 +60,7 @@ window.translations_fr = {
     "coffee_break": "Pause café",
     "coffee_detail": "Pause café (20 min)",
     "scroll_hint": "Faites glisser pour voir toutes les salles",
-    "closing": "Clôture du DevFest",
-    "closing_sessions": "Session de fin",
-    "closing_tag": "Clôture",
+    "closing": "Fin du DevFest",
     "schedule_tba": "Horaire à confirmer"
   },
   "hero": {

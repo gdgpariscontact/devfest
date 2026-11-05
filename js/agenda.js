@@ -627,15 +627,14 @@ const agendaData = [
     "description": "“C’est pas Versailles ici”. Tu éteins bien la lumière ou tu débranches tes appareils électroniques quand tu ne les utilises pas. Et si on faisait pareil pour nos workloads Kubernetes sur nos environnements de dev.\nSache que c’est possible et de façon très simple grâce au projet open-source kube-green.\n\nA travers une démo pas à pas je te propose de découvrir son installation, son fonctionnement, sa configuration et un retour chiffré sur les économies réalisées."
   },
   {
-    "timeLabel": "05:00 PM - 05:30 PM",
+    "timeLabel": "05:00 PM",
     "timeStart": "17:00",
-    "timeEnd": "17:30",
-    "title": "Closing",
-    "track": "Salle Keynote",
-    "type": "Keynote",
+    "timeEnd": "17:00",
+    "title": "DevFest ends",
+    "track": "All",
+    "type": "End",
     "lang": "fr",
-    "speakers": [],
-    "description": "Clôture du DevFest Paris 2026."
+    "speakers": []
   }
 ];
 

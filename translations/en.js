@@ -60,9 +60,7 @@ window.translations_en = {
     "coffee_break": "Coffee break",
     "coffee_detail": "Coffee break (20 min)",
     "scroll_hint": "Swipe to see all rooms",
-    "closing": "DevFest closing",
-    "closing_sessions": "Closing session",
-    "closing_tag": "Closing",
+    "closing": "DevFest ends",
     "schedule_tba": "Schedule TBA"
   },
   "hero": {
