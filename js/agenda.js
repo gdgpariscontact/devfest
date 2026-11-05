@@ -269,7 +269,7 @@ const agendaData = [
     "timeLabel": "12:25 PM - 12:45 PM",
     "timeStart": "12:25",
     "timeEnd": "12:45",
-    "title": "MLOps - Comprendre et répondre à la dégradation des modèles de machine learning en production",
+    "title": "MLOps - Understand and mitigate machine learning models decay in production",
     "track": "Salle 1",
     "type": "Quick Talk",
     "lang": "en",
@@ -280,7 +280,7 @@ const agendaData = [
         "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQEKQZAk0wEgEg/profile-displayphoto-scale_400_400/B4EZ5Bbr0ZHcAg-/0/1779214238104?e=1784764800&v=beta&t=uU4IBQm-YaDhRZwOLadS5dyBRdUJpSePMdp01yNfMQc"
       }
     ],
-    "description": "Déployer des modèles de machine learning en production, ce n’est jamais vraiment “terminé”. **ll arrive fréquemment qu’un modèle soit performant - exemple : 90 % de précision - lors des phases d’entraînement et de validation, et voie ses performances se dégrader progressivement en production**. Après quelques semaines ou quelques mois, on constate une baisse significative de cette performance (parfois jusqu’à 60 %) avec un impact direct sur la qualité du service rendu aux utilisateurs ou aux systèmes qui en dépendent.\n\nDans cette présentation, nous nous intéressons à ce qui se passe après le déploiement. En une vingtaine de minutes, nous verrons comment suivre et évaluer correctement les performances d’un modèle en production, identifier les causes les plus courantes de leur dégradation (évolution des données, changements d’usage, biais, dérive du modèle, etc.) et, surtout, quelles actions mettre en place pour y remédier.\n\nCette présentation s’adresse à un public de niveau débutant à intermédiaire, intéressé de près ou de loin par le machine learning. Aucune connaissance approfondie en MLOps n’est nécessaire pour suivre."
+    "description": "Deploying machine learning models to production does not mean things are \"over\". A model will often look great — 90% accuracy — during training and validation, then quietly decay once it's live. A few weeks or months in, you see a drop-off (sometimes all the way down to 60%), and that strongly impacts the quality of what you're delivering to users or to whatever systems rely on it downstream.\n\nThis talk is about what happens after you deploy. In about twenty minutes, we'll cover how to track and measure a model's performance in production the right way, pin down the usual suspects behind the decline (shifting data, changing usage patterns, bias, model drift, ...), and what can be done about it.\n\nIt's aimed at a beginner-to-intermediate audience with any level of interest in machine learning. You don't need an MLOps background to follow along."
   },
   {
     "timeLabel": "12:25 PM - 12:45 PM",
