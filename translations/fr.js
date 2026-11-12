@@ -49,6 +49,7 @@ window.translations_fr = {
     "details": "Détails",
     "description": "Description",
     "speakers": "Speaker(s)",
+    "moderator": "Modérateur",
     "session_details": "Les détails complets de cette session seront disponibles prochainement. Retrouvez \"{title}\" le 27 novembre 2026 à La Fabrique de la Connaissance, Nanterre.",
     "opening": "Keynotes & ouverture",
     "opening_sessions": "Sessions plénières",

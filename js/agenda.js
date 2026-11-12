@@ -31,12 +31,29 @@ const agendaData = [
     "timeLabel": "09:55 AM - 10:25 AM",
     "timeStart": "09:55",
     "timeEnd": "10:25",
-    "title": "Panel",
+    "title": "AI Hype vs. Ground Reality: Where Does the Time (and Money) Actually Go?",
     "track": "Salle Keynote",
     "type": "Keynote",
     "lang": "en",
-    "speakers": [],
-    "description": "Panel d’échange autour des enjeux et tendances de la communauté tech."
+    "speakers": [
+      {
+        "name": "Seifeddin Mansri",
+        "role": "Cloud CTO at SFEIR",
+        "avatar": "images/speakers/seifeddin-mansri.png"
+      },
+      {
+        "name": "Dawid Ostrowski",
+        "role": "Engineer at Google",
+        "avatar": "images/speakers/dawid-ostrowski.png"
+      },
+      {
+        "name": "Raphaël Semeteys",
+        "role": "Head of Developer Relations at Worldline",
+        "panelRole": "moderator",
+        "avatar": "images/speakers/raphael-semeteys.jpeg"
+      }
+    ],
+    "description": "AI promised to cut development time in half, yet many engineering teams are burning through annual tool budgets in months while drowning in code review fatigue. Join Raphael Semeteys as he moderates a candid roundtable contrasting executive financial imperatives with the daily reality of shipping code.\n\nFeaturing Seifeddin Mansri (Cloud CTO, SFEIR) and Dawid Ostrowski (Engineer, Google), this 30-minute session cuts past the marketing to examine:\n\n• ROI vs. Token Bills: Are teams genuinely shipping faster, or just shifting effort to debugging AI-generated code?\n• Cognitive Overload & Team Dynamics: Avoiding codebase alienation while managing heterogeneous workflows.\n• Production Guardrails: Balancing governance and token caps against velocity so autonomous agents don't break production.\n• The 5-Year Horizon: How engineering roles, hiring criteria, and team structures will evolve when raw code becomes a commodity."
   },
   {
     "timeLabel": "10:25 AM - 10:35 AM",
@@ -639,6 +656,39 @@ const agendaData = [
 ];
 
 const speakerProfiles = {
+  "Raphaël Semeteys": {
+    "position": "Head of Developer Relations",
+    "company": "Worldline",
+    "bio": "Head of Developer Relations at Worldline, bringing over twenty years of expertise in Free and Open Source Software governance, training, and community engagement. Spearheading the #TechAtWorldline initiative to position Worldline as a tech-driven organization while leading internal tech evangelism programs, including global conferences and knowledge-sharing events.\n\nWith a strong focus on fostering collaboration and innovation, contributing to open-source policy development, training, and the creation of the Open Source Club. Passionate about bridging technical communities and organizations, leveraging podcasting, conference organization, and open-source governance to build meaningful connections and drive impactful change.",
+    "bioFr": "Head of Developer Relations at Worldline, bringing over twenty years of expertise in Free and Open Source Software governance, training, and community engagement. Spearheading the #TechAtWorldline initiative to position Worldline as a tech-driven organization while leading internal tech evangelism programs, including global conferences and knowledge-sharing events.\n\nWith a strong focus on fostering collaboration and innovation, contributing to open-source policy development, training, and the creation of the Open Source Club. Passionate about bridging technical communities and organizations, leveraging podcasting, conference organization, and open-source governance to build meaningful connections and drive impactful change.",
+    "bioEn": "Head of Developer Relations at Worldline, bringing over twenty years of expertise in Free and Open Source Software governance, training, and community engagement. Spearheading the #TechAtWorldline initiative to position Worldline as a tech-driven organization while leading internal tech evangelism programs, including global conferences and knowledge-sharing events.\n\nWith a strong focus on fostering collaboration and innovation, contributing to open-source policy development, training, and the creation of the Open Source Club. Passionate about bridging technical communities and organizations, leveraging podcasting, conference organization, and open-source governance to build meaningful connections and drive impactful change.",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/raphaelsemeteys/",
+    "github": "",
+    "avatar": "images/speakers/raphael-semeteys.jpeg"
+  },
+  "Seifeddin Mansri": {
+    "position": "Cloud CTO",
+    "company": "SFEIR",
+    "bio": "Seifeddin est le CTO Cloud de SFEIR, responsable des activités Cloud Infrastructure, DevOps et Sécurité. Il a de multiples certifications techniques Cloud (GCP, AWS, Kubernetes). Il est aussi formateur officiel Google Cloud et Kubernetes. Enfin, il a été reconnu, depuis 2022, comme Google Developer Expert (GDE) sur les technos Google Cloud.",
+    "bioFr": "Seifeddin est le CTO Cloud de SFEIR, responsable des activités Cloud Infrastructure, DevOps et Sécurité. Il a de multiples certifications techniques Cloud (GCP, AWS, Kubernetes). Il est aussi formateur officiel Google Cloud et Kubernetes. Enfin, il a été reconnu, depuis 2022, comme Google Developer Expert (GDE) sur les technos Google Cloud.",
+    "bioEn": "Seifeddin is SFEIR's Cloud CTO, responsible for Cloud Infrastructure, DevOps and Security. He holds multiple technical certifications in GCP, AWS and Kubernetes. He is also an official Google Cloud and Kubernetes trainer and has been recognized as a Google Developer Expert (GDE) in Google Cloud technologies since 2022.",
+    "twitter": "",
+    "linkedin": "",
+    "github": "",
+    "avatar": "images/speakers/seifeddin-mansri.png"
+  },
+  "Dawid Ostrowski": {
+    "position": "Engineer",
+    "company": "Google",
+    "bio": "As a Senior Program Manager in Google's Developer Ecosystem team, I leverage my expertise in Developer Advocacy, building relationships, educating and enabling developers, to drive the adoption of new products and technologies.\n\nI joined Google Developer Relations back in 2012, and since then, I've had the privilege of leading global community initiatives like Google Developer Experts, Cloud Champions, and Google for Startups Accelerator Mentors. I thrive on connecting with developers and startups, building communities, and encouraging collaboration across the globe.\n\nMy interests lie at the intersection of AI, Cloud, and biotechnology (with a special focus on genetics and rare diseases). I truly believe technology can be a powerful force for good in business, health, and our daily lives.\n\nBased in Switzerland since 2015, I'm actively involved in bridging the Polish and Swiss tech worlds.",
+    "bioFr": "As a Senior Program Manager in Google's Developer Ecosystem team, I leverage my expertise in Developer Advocacy, building relationships, educating and enabling developers, to drive the adoption of new products and technologies.\n\nI joined Google Developer Relations back in 2012, and since then, I've had the privilege of leading global community initiatives like Google Developer Experts, Cloud Champions, and Google for Startups Accelerator Mentors. I thrive on connecting with developers and startups, building communities, and encouraging collaboration across the globe.\n\nMy interests lie at the intersection of AI, Cloud, and biotechnology (with a special focus on genetics and rare diseases). I truly believe technology can be a powerful force for good in business, health, and our daily lives.\n\nBased in Switzerland since 2015, I'm actively involved in bridging the Polish and Swiss tech worlds.",
+    "bioEn": "As a Senior Program Manager in Google's Developer Ecosystem team, I leverage my expertise in Developer Advocacy, building relationships, educating and enabling developers, to drive the adoption of new products and technologies.\n\nI joined Google Developer Relations back in 2012, and since then, I've had the privilege of leading global community initiatives like Google Developer Experts, Cloud Champions, and Google for Startups Accelerator Mentors. I thrive on connecting with developers and startups, building communities, and encouraging collaboration across the globe.\n\nMy interests lie at the intersection of AI, Cloud, and biotechnology (with a special focus on genetics and rare diseases). I truly believe technology can be a powerful force for good in business, health, and our daily lives.\n\nBased in Switzerland since 2015, I'm actively involved in bridging the Polish and Swiss tech worlds.",
+    "twitter": "",
+    "linkedin": "",
+    "github": "",
+    "avatar": "images/speakers/dawid-ostrowski.png"
+  },
   "Nicolas Guillot": {
     "position": "Founder",
     "company": "We Spot Turtles!",

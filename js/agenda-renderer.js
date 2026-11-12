@@ -200,7 +200,7 @@ function renderSessionCard(session, showTrack = true, isParSalle = false) {
           class="flex items-center gap-2 group/sp hover:bg-white/5 rounded-lg px-1.5 py-0.5 transition-colors text-left w-full">
           <div class="w-6 h-6 rounded-full bg-white/10 overflow-hidden shrink-0">${avatar}</div>
           <div class="flex flex-col min-w-0 flex-1">
-            <span class="text-xs font-bold text-white group-hover/sp:text-amber-400 transition-colors truncate">${speaker.name}</span>
+            <span class="text-xs font-bold text-white group-hover/sp:text-amber-400 transition-colors truncate">${speaker.name}${speaker.panelRole === 'moderator' ? ` · ${agendaText('moderator', 'Moderator')}` : ''}</span>
             ${company ? `<span class="text-[10px] text-white/40 truncate">${company}</span>` : ''}
           </div>
           <i data-lucide="chevron-right" class="w-3 h-3 text-white/20 group-hover/sp:text-amber-400 ml-auto transition-colors shrink-0"></i>
@@ -315,7 +315,7 @@ function ensureSessionModal() {
         <!-- Description -->
         <div>
           <h4 class="text-[10px] font-black uppercase tracking-widest text-white/30 mb-2">${agendaText('description', 'Description')}</h4>
-          <p id="session-modal-desc" class="text-slate-300 text-sm leading-relaxed"></p>
+          <p id="session-modal-desc" class="text-slate-300 text-sm leading-relaxed whitespace-pre-line"></p>
         </div>
 
       </div>
@@ -387,7 +387,7 @@ window.openSessionModal = function(index) {
           class="w-full flex items-center gap-4 glass-panel p-4 rounded-2xl hover:bg-white/5 hover:border-amber-500/30 border border-white/5 transition-all group/speaker text-left">
           <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-white/10 shrink-0 bg-black/50">${avatar}</div>
           <div class="flex-1">
-            <p class="font-bold text-white group-hover/speaker:text-amber-400 transition-colors">${sp.name}</p>
+            <p class="font-bold text-white group-hover/speaker:text-amber-400 transition-colors">${sp.name}${sp.panelRole === 'moderator' ? ` <span class="ml-1 rounded-full bg-amber-500/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-amber-300">${agendaText('moderator', 'Moderator')}</span>` : ''}</p>
             ${sp.role ? `<p class="text-xs text-white/50 mt-0.5">${sp.role}</p>` : ''}
           </div>
           <svg class="w-4 h-4 text-white/20 group-hover/speaker:text-amber-400 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>

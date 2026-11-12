@@ -33,6 +33,7 @@ function buildSpeakerList() {
                 const profile = profiles[sp.name] || {};
                 map.set(sp.name, {
                     name: sp.name,
+                    panelRole: sp.panelRole || '',
                     role: sp.role || profile.company || '',
                     position: profile.position || sp.role || '',
                     company: profile.company || sp.role || '',
@@ -57,6 +58,7 @@ function renderSpeakers() {
     if (!container) return;
 
     const speakers = buildSpeakerList();
+    const language = document.documentElement.lang || 'fr';
     let html = '';
 
     speakers.forEach((speaker, i) => {
@@ -80,6 +82,7 @@ function renderSpeakers() {
             </div>
 
             <h3 class="text-xl font-bold text-white mb-1 relative z-10 group-hover:${c.text} transition-colors">${speaker.name}</h3>
+            ${speaker.panelRole === 'moderator' ? `<span class="mb-2 relative z-10 rounded-full bg-amber-500/20 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-amber-300">${language === 'en' ? 'Moderator' : 'Modérateur'}</span>` : ''}
             <p class="${c.text} text-xs font-black uppercase tracking-widest mb-1 relative z-10">${speaker.position}</p>
             <p class="text-white/40 text-xs mb-4 relative z-10">${speaker.company}</p>
 
@@ -97,7 +100,6 @@ function renderSpeakers() {
     });
 
     // "2027 Calendar" card
-    const language = document.documentElement.lang || 'fr';
     const isEn = language === 'en';
     const titleText = isEn ? '2027 Calendar' : 'Calendrier 2027';
     const descText = isEn ? 'Stay tuned for 2027 calendar!' : 'Restez à l\'écoute pour le calendrier 2027 !';
@@ -194,7 +196,9 @@ window.openSpeakerModal = function(index) {
     document.getElementById('modal-avatar').src = sp.avatar;
     document.getElementById('modal-avatar').alt = sp.name;
     document.getElementById('modal-name').textContent = sp.name;
-    document.getElementById('modal-position').textContent = sp.position;
+    document.getElementById('modal-position').textContent = sp.panelRole === 'moderator'
+        ? `${document.documentElement.lang === 'en' ? 'Moderator' : 'Modérateur'} · ${sp.position}`
+        : sp.position;
     document.getElementById('modal-company').textContent = sp.company;
 
     // Gradient color
