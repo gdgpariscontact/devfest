@@ -157,6 +157,7 @@
                     sponsor</a>
                 <a href="/speakers" class="hover:text-white transition-colors" data-i18n="nav.speakers">Speakers</a>
                 <a href="/agenda" class="hover:text-white transition-colors" data-i18n="nav.agenda">Agenda</a>
+                <a href="/badge" class="hover:text-white transition-colors" data-i18n="nav.badge">Badge</a>
 
                 <a href="#contact"
                     class="bg-amber-700 text-white px-5 py-2.5 rounded-full hover:bg-amber-600 transition-all font-bold shadow-lg shadow-amber-500/20"
@@ -205,6 +206,9 @@
                     <a href="/agenda"
                         class="text-xl font-bold text-white hover:text-amber-400 w-full pb-4 border-b border-white/5"
                         onclick="toggleMenu()" data-i18n="nav.agenda">Agenda</a>
+                    <a href="/badge"
+                        class="text-xl font-bold text-white hover:text-amber-400 w-full pb-4 border-b border-white/5"
+                        onclick="toggleMenu()" data-i18n="nav.badge">Badge</a>
                     <a href="#contact"
                         class="bg-amber-700 text-white px-6 py-3 rounded-full font-bold text-lg w-full text-center mt-2 shadow-lg shadow-amber-500/20 active:scale-95 transition-transform"
                         onclick="toggleMenu()" data-i18n="nav.contact">Contactez-nous</a>
@@ -1337,6 +1341,51 @@
             </div>
         </section>
 
+        <!-- Badge Builder Route -->
+        <section data-route="badge" id="badge-builder" class="badge-route relative z-10 px-6 py-14 md:py-20">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-8 md:mb-10">
+                    <p class="text-amber-400 text-xs font-black uppercase tracking-[.2em] mb-3" data-i18n="badge.eyebrow">DevFest Paris 2026</p>
+                    <h1 class="text-4xl md:text-5xl font-display font-black text-white" data-i18n="badge.heading">Créez votre badge</h1>
+                    <p class="text-amber-100/60 mt-3 max-w-2xl" data-i18n="badge.intro">Personnalisez votre badge et téléchargez-le en PNG, prêt à partager.</p>
+                </div>
+                <div class="badge-layout">
+                    <form id="badge-form" class="badge-form glass-panel rounded-3xl p-6 md:p-8" autocomplete="on">
+                        <fieldset class="mb-7">
+                            <legend class="badge-label mb-3" data-i18n="badge.type_label">Je participe en tant que</legend>
+                            <div class="badge-type-list" id="badge-types" role="group">
+                                <button type="button" class="badge-type is-active" data-badge-type="attendee" aria-pressed="true" data-i18n="badge.attendee">Participant</button>
+                                <button type="button" class="badge-type" data-badge-type="speaker" aria-pressed="false" data-i18n="badge.speaker">Speaker</button>
+                                <button type="button" class="badge-type" data-badge-type="volunteer" aria-pressed="false" data-i18n="badge.volunteer">Bénévole</button>
+                            </div>
+                        </fieldset>
+                        <label class="badge-label" for="badge-name" data-i18n="badge.name_label">Nom complet</label>
+                        <input id="badge-name" name="name" type="text" class="badge-input" required maxlength="70" autocomplete="name" placeholder="Votre nom" data-i18n-placeholder="badge.name_placeholder">
+                        <label class="badge-label" for="badge-title" data-i18n="badge.title_label">Titre (facultatif)</label>
+                        <input id="badge-title" name="title" type="text" class="badge-input" maxlength="80" autocomplete="organization-title" placeholder="Votre fonction" data-i18n-placeholder="badge.title_placeholder">
+                        <label class="badge-label" for="badge-company" data-i18n="badge.company_label">Entreprise (facultatif)</label>
+                        <input id="badge-company" name="company" type="text" class="badge-input" maxlength="80" autocomplete="organization" placeholder="Votre entreprise" data-i18n-placeholder="badge.company_placeholder">
+                        <div class="badge-photo-field">
+                            <label class="badge-label" for="badge-photo" data-i18n="badge.photo_label">Photo (facultative)</label>
+                            <input id="badge-photo" type="file" accept="image/*" class="badge-file-input">
+                            <p class="badge-help" data-i18n="badge.photo_hint">Glissez la photo dans l’aperçu pour ajuster le cadrage.</p>
+                            <div id="badge-photo-controls" class="badge-photo-controls" hidden>
+                                <label class="badge-label" for="badge-photo-zoom" data-i18n="badge.zoom_label">Zoom photo</label>
+                                <input id="badge-photo-zoom" type="range" min="1" max="2" step="0.01" value="1" class="badge-zoom">
+                            </div>
+                        </div>
+                        <button type="submit" class="badge-download"><i data-lucide="download" class="w-5 h-5" aria-hidden="true"></i><span data-i18n="badge.download">Télécharger mon badge PNG</span></button>
+                        <p id="badge-status" class="badge-status" role="status" aria-live="polite"></p>
+                        <p class="badge-privacy" data-i18n="badge.privacy">Vos informations et votre photo restent dans votre navigateur.</p>
+                    </form>
+                    <div class="badge-preview-panel">
+                        <div class="badge-preview-top"><span data-i18n="badge.preview">Aperçu en direct</span><span>1122 × 1402 PNG</span></div>
+                        <canvas id="badge-preview" width="1122" height="1402" role="img" aria-label="Aperçu du badge DevFest Paris 2026"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Code of Conduct Route -->
         <section data-route="coc" class="py-24 px-6 relative z-10 max-w-4xl mx-auto">
             <div class="glass-panel p-10 md:p-16 rounded-[2rem] border-white/5 relative overflow-hidden">
@@ -1453,6 +1502,7 @@
                     class="hover:text-amber-400 transition-colors" data-i18n="nav.cfp">Appel à conférences</a>
                 <a href="/coc" class="hover:text-amber-400 transition-colors" data-i18n="contact.coc">Code de
                     conduite</a>
+                <a href="/badge" class="hover:text-amber-400 transition-colors" data-i18n="nav.badge">Badge</a>
             </div>
 
             <h2 class="text-4xl font-display font-black mb-6" data-i18n="contact.title">Contactez-nous</h2>
@@ -1509,8 +1559,15 @@
 
         // --- Router (dual-mode: path on server, hash on file://) ---
         const IS_FILE = window.location.protocol === 'file:';
-        // Auto-detect base path for subdirectory hosting (like GitHub Pages)
-        const BASE_PATH = !IS_FILE ? window.location.pathname.replace(/\/(index\.html)?$/, '').replace(/\/$/, '') : '';
+        // Generated route pages use ../style.css; remove their route segment when finding the hosting base.
+        const IS_GENERATED_ROUTE = !!document.querySelector('link[href="../style.css"]');
+        const BASE_PATH = IS_FILE ? '' : IS_GENERATED_ROUTE
+            ? window.location.pathname.replace(/\/[^/]+(?:\/(?:index\.html)?)?$/, '')
+            : window.location.pathname.replace(/\/(?:index\.html)?$/, '').replace(/\/$/, '');
+        const fallbackPath = !IS_FILE ? new URLSearchParams(window.location.search).get('p') : null;
+        if (fallbackPath && fallbackPath.startsWith('/') && !fallbackPath.startsWith('//')) {
+            history.replaceState(null, '', fallbackPath + window.location.hash);
+        }
 
         function getRoute() {
             if (IS_FILE) {
@@ -1520,7 +1577,7 @@
                 const fullPath = window.location.pathname;
                 // Remove base path to get the logical route
                 const path = BASE_PATH ? fullPath.replace(BASE_PATH, '') : fullPath;
-                return path.split('?')[0].replace(/^\//, '').replace(/\/$/, '') || 'home';
+                return path.split('?')[0].replace(/^\//, '').replace(/\/$/, '').replace(/(?:^|\/)index\.html$/, '') || 'home';
             }
         }
 
@@ -1546,6 +1603,7 @@
                 'sponsoring': 'Devenir Sponsor - DevFest Paris 2026',
                 'speakers': 'Speakers - DevFest Paris 2026',
                 'agenda': 'Agenda - DevFest Paris 2026',
+                'badge': 'Créer mon badge - DevFest Paris 2026',
                 'coc': 'Code of Conduct - DevFest Paris 2026'
             };
             document.title = titles[route] || titles['home'];
@@ -1564,6 +1622,7 @@
                 }
             });
             window.updateVenueMapRoute?.(route);
+            window.dispatchEvent(new CustomEvent('devfestroutechange', { detail: { route } }));
             window.scrollTo(0, 0);
             if (window.lucide) lucide.createIcons();
         }
@@ -1712,6 +1771,7 @@
     <script src="js/agenda-renderer.js"></script>
     <script src="js/speakers-renderer.js"></script>
     <script src="js/venue-map.js"></script>
+    <script src="js/badge.js"></script>
 </body>
 
 </html>

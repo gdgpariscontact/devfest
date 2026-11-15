@@ -399,3 +399,146 @@ table.pricing-table {
     font-size: 1.1rem;
     line-height: 1;
 }
+
+/* Badge builder */
+@font-face {
+    font-family: 'Badge Google Sans';
+    src: url('fonts/badge/google-sans-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Badge Google Sans';
+    src: url('fonts/badge/google-sans-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Badge Google Sans Mono';
+    src: url('fonts/badge/google-sans-mono-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Badge Google Sans Mono';
+    src: url('fonts/badge/google-sans-mono-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+.badge-route {
+    background: radial-gradient(circle at 70% 12%, rgba(246, 170, 55, .08), transparent 35%);
+    font-family: 'Badge Google Sans', sans-serif;
+}
+.badge-layout {
+    display: grid;
+    grid-template-columns: minmax(300px, .85fr) minmax(330px, 1fr);
+    gap: clamp(1.5rem, 4vw, 4rem);
+    align-items: start;
+}
+.badge-form { background: rgba(15, 24, 39, .82); }
+.badge-label {
+    display: block;
+    color: #ffe7a6;
+    font-size: .94rem;
+    font-weight: 500;
+    margin-bottom: .55rem;
+}
+.badge-type-list { display: flex; flex-wrap: wrap; gap: .65rem; }
+.badge-type {
+    border: 1px solid rgba(255, 231, 166, .4);
+    border-radius: 999px;
+    color: #ffe7a6;
+    background: rgba(255, 231, 166, .04);
+    padding: .65rem 1rem;
+    font-weight: 500;
+    transition: background .18s, border-color .18s;
+}
+.badge-type:hover, .badge-type:focus-visible { border-color: #ffaf45; }
+.badge-type.is-active { background: #ffaf45; border-color: #ffaf45; color: #08213a; }
+.badge-input {
+    width: 100%;
+    margin-bottom: 1.2rem;
+    padding: .85rem 1rem;
+    border-radius: .8rem;
+    border: 1px solid rgba(255, 231, 166, .3);
+    background: #06172b;
+    color: #ffe7a6;
+    font: 400 1rem 'Badge Google Sans', sans-serif;
+}
+.badge-input::placeholder { color: #b7af9e; }
+.badge-input:focus-visible, .badge-file-input:focus-visible, .badge-zoom:focus-visible {
+    outline: 2px solid #ffaf45;
+    outline-offset: 2px;
+}
+.badge-photo-field { margin-top: .2rem; }
+.badge-file-input {
+    display: block;
+    max-width: 100%;
+    color: #e5dcc7;
+    font: 400 .92rem 'Badge Google Sans', sans-serif;
+}
+.badge-file-input::file-selector-button {
+    margin-right: .8rem;
+    padding: .65rem .9rem;
+    border-radius: .7rem;
+    border: 1px solid #ffaf45;
+    background: transparent;
+    color: #ffe7a6;
+    font: 500 .9rem 'Badge Google Sans', sans-serif;
+    cursor: pointer;
+}
+.badge-help, .badge-privacy { color: #c0b8a7; font-size: .84rem; line-height: 1.45; }
+.badge-help { margin-top: .6rem; }
+.badge-photo-controls { margin-top: 1rem; }
+.badge-photo-controls[hidden] { display: none; }
+.badge-zoom { display: block; width: 100%; accent-color: #ffaf45; }
+.badge-download {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+    width: 100%;
+    margin-top: 1.6rem;
+    padding: .9rem 1.2rem;
+    border-radius: .85rem;
+    background: #ffaf45;
+    color: #09213a;
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+.badge-download:hover { background: #ffc269; }
+.badge-download:disabled { opacity: .55; cursor: wait; }
+.badge-status { min-height: 1.3rem; margin-top: .7rem; color: #ffe7a6; font-size: .85rem; }
+.badge-preview-panel {
+    border-radius: 1.5rem;
+    padding: 1rem;
+    background: #111d2b;
+    border: 1px solid rgba(255, 175, 69, .3);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, .25);
+}
+.badge-preview-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: .15rem .35rem .85rem;
+    color: #ffe7a6;
+    font-size: .85rem;
+    font-weight: 500;
+}
+.badge-preview-top span:last-child { color: #b7af9e; font-family: 'Badge Google Sans Mono', monospace; }
+.badge-preview-panel canvas {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin-inline: auto;
+    border-radius: .7rem;
+    background: #03172b;
+    touch-action: none;
+}
+.badge-preview-panel canvas.is-draggable { cursor: grab; }
+.badge-preview-panel canvas.is-dragging { cursor: grabbing; }
+@media (max-width: 850px) {
+    .badge-layout { grid-template-columns: 1fr; }
+    .badge-preview-panel { max-width: 640px; width: 100%; margin-inline: auto; }
+}
