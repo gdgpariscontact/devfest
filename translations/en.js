@@ -97,6 +97,7 @@ window.translations_en = {
     "title2": "DevFest Paris 2026.",
     "subtitle": "GDG Paris' tech conference in Nanterre: AI, Cloud, Web, Mobile, and DevSecOps — 8th edition, independent and non-profit.",
     "reserve": "Reserve my place",
+    "create_badge": "Create my badge",
     "cta_cfp": "Agenda Coming Soon",
     "cta_venue": "Discover the Venue"
   },

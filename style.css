@@ -435,7 +435,7 @@ table.pricing-table {
     gap: clamp(1.5rem, 4vw, 4rem);
     align-items: start;
 }
-.badge-form { background: rgba(15, 24, 39, .82); }
+.badge-form { min-width: 0; background: rgba(15, 24, 39, .82); }
 .badge-label {
     display: block;
     color: #ffe7a6;
@@ -510,6 +510,7 @@ table.pricing-table {
 .badge-download:disabled { opacity: .55; cursor: wait; }
 .badge-status { min-height: 1.3rem; margin-top: .7rem; color: #ffe7a6; font-size: .85rem; }
 .badge-preview-panel {
+    min-width: 0;
     border-radius: 1.5rem;
     padding: 1rem;
     background: #111d2b;
@@ -539,6 +540,27 @@ table.pricing-table {
 .badge-preview-panel canvas.is-draggable { cursor: grab; }
 .badge-preview-panel canvas.is-dragging { cursor: grabbing; }
 @media (max-width: 850px) {
-    .badge-layout { grid-template-columns: 1fr; }
-    .badge-preview-panel { max-width: 640px; width: 100%; margin-inline: auto; }
+    .badge-layout { grid-template-columns: 1fr; gap: 1.25rem; }
+    .badge-preview-panel { order: -1; max-width: 640px; width: 100%; margin-inline: auto; }
+}
+@media (max-width: 600px) {
+    .badge-route[data-route="badge"] { padding: 2.5rem 1rem; }
+    .badge-route h1 { font-size: clamp(1.9rem, 8vw, 2.35rem); line-height: 1.12; }
+    .badge-route > div > div:first-child { margin-bottom: 1.25rem; }
+    .badge-route .badge-form { padding: 1.25rem; }
+    .badge-preview-panel { padding: .55rem; border-radius: 1.1rem; }
+    .badge-preview-top { padding: .25rem .35rem .6rem; font-size: .75rem; }
+    .badge-preview-panel canvas { border-radius: .55rem; }
+    .badge-type-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .3rem; }
+    .badge-type {
+        min-width: 0;
+        min-height: 44px;
+        padding: .7rem .15rem;
+        border-radius: .7rem;
+        font-size: clamp(.72rem, 3.5vw, .85rem);
+        line-height: 1.2;
+        white-space: nowrap;
+        text-align: center;
+    }
+    .badge-input { margin-bottom: 1rem; }
 }
