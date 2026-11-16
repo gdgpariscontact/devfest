@@ -1,5 +1,15 @@
 const agendaData = [
   {
+    "timeLabel": "08:45 AM - 09:20 AM",
+    "timeStart": "08:45",
+    "timeEnd": "09:20",
+    "title": "Accueil et petit-déjeuner",
+    "track": "All",
+    "type": "Arrival",
+    "lang": "fr",
+    "speakers": []
+  },
+  {
     "timeLabel": "09:20 AM - 09:35 AM",
     "timeStart": "09:20",
     "timeEnd": "09:35",

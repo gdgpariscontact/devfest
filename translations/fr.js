@@ -81,6 +81,7 @@ window.translations_fr = {
     "opening": "Keynotes & ouverture",
     "opening_sessions": "Sessions plénières",
     "opening_tag": "Ouverture",
+    "arrival": "Accueil et petit-déjeuner",
     "transition_break": "Pause de transition",
     "transition_detail": "Pause & installation dans les salles",
     "lunch_break": "Pause déjeuner",

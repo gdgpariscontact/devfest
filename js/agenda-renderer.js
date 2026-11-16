@@ -143,7 +143,7 @@ function sessionTopics(session) {
 function getFilteredData() {
     const data = window.agendaData || [];
     return data.filter(session => {
-        if (session.type === 'Break' || session.type === 'End') return true;
+        if (session.type === 'Arrival' || session.type === 'Break' || session.type === 'End') return true;
         const matchType  = activeTypeFilters.size  === 0 || activeTypeFilters.has(session.type);
         const matchTrack = activeTrackFilters.size === 0 || activeTrackFilters.has(session.track);
         const matchTopic = activeTopicFilters.size === 0 || sessionTopics(session).some(topic => activeTopicFilters.has(topic));
@@ -481,6 +481,10 @@ function renderByTime(data) {
   let html = `<div class="flex flex-col gap-10">`;
 
   timeSlots.forEach(slot => {
+    if (slot.sessions.length === 1 && slot.sessions[0].type === 'Arrival') {
+      html += renderBreakBanner(slot.sessions[0], '🥐', agendaText('arrival', 'Accueil et petit-déjeuner'));
+      return;
+    }
     if (slot.sessions.length === 1 && slot.sessions[0].type === 'End') {
       html += renderBreakBanner(slot.sessions[0], '🏁', agendaText('closing', 'Fin du DevFest'));
       return;
@@ -605,6 +609,9 @@ function renderParallelBlock(blockSessions) {
 
 function renderByTrack(data) {
   let html = `<div class="flex flex-col gap-8">`;
+
+  const arrival = data.find(s => s.type === 'Arrival');
+  if (arrival) html += renderBreakBanner(arrival, '🥐', agendaText('arrival', 'Accueil et petit-déjeuner'));
 
   // 1. Morning Opening Keynotes block (09:20 AM - 10:25 AM)
   const openingKeynotes = data.filter(s => s.type === 'Keynote' && s.timeStart < '10:25');
