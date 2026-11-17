@@ -11,7 +11,7 @@ const routes = [
     keywords: 'Sponsor DevFest, Sponsoring Conférence Tech, GDG Paris, Pack Sponsor, Visibilité Tech, Recrutement Développeurs, DevFest Paris 2026',
     ogDescription: 'Devenez sponsor du DevFest Paris 2026. Packs Silver, Gold et Premium. 450+ développeurs, 30+ speakers experts.',
     twitterDescription: 'Devenez sponsor du DevFest Paris 2026. Packs Silver, Gold et Premium disponibles.',
-    headingKey: 'sponsoring.packs_title'
+    headingKey: 'sponsoring.partners_title'
   },
   {
     path: 'speakers',

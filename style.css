@@ -95,6 +95,127 @@ h1, h2, h3, h4, .font-display {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
+/* Ticket discount dialog and spacing into sponsors */
+#cfp { padding-bottom: 0; }
+#sponsors { padding-top: 1.5rem; }
+.discount-dialog { width: min(90vw, 31rem); padding: 0; border: 1px solid rgba(233, 180, 93, .48); border-radius: 1.75rem; background: #21180f; color: #f7ead5; box-shadow: 0 30px 80px rgba(0, 0, 0, .6); }
+.discount-dialog::backdrop { background: rgba(10, 8, 5, .78); backdrop-filter: blur(5px); }
+.discount-dialog-inner { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 1rem; padding: 2rem; }
+.discount-dialog-close { position: absolute; top: 1.25rem; right: 1.25rem; display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border: 1px solid rgba(233, 180, 93, .4); border-radius: 50%; color: #f7ead5; font-size: 1.8rem; line-height: 1; }
+.discount-dialog-icon { display: grid; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 1rem; background: rgba(233, 180, 93, .15); color: #f5c87c; }
+.discount-dialog h2 { color: #fff1d7; font-size: clamp(1.65rem, 4vw, 2.2rem); font-weight: 800; line-height: 1.15; }
+.discount-dialog p { color: #d3c2a8; line-height: 1.6; }
+#discount-email { display: inline-flex; max-width: 100%; margin-top: .5rem; padding: .75rem 1.25rem; border-radius: 999px; background: #c8943e; color: #1a1209; font-weight: 800; overflow-wrap: anywhere; }
+#discount-email:hover { background: #e9b45d; }
+.discount-dialog button:focus-visible, .discount-dialog a:focus-visible, #discount-open:focus-visible { outline: 2px solid #ffd58c; outline-offset: 4px; }
+@media (max-width: 640px) { .discount-dialog-inner { padding: 1.5rem; } }
+
+/* Sponsors and partnership disclosure */
+.sponsor-section-heading { margin-bottom: 2.5rem; }
+.sponsor-eyebrow, .partnership-eyebrow {
+    color: #e9b45d;
+    font-size: .76rem;
+    font-weight: 800;
+    letter-spacing: .16em;
+}
+.sponsor-section-heading h2 { color: #fff1d7; line-height: 1.05; }
+.sponsor-section-heading > p:last-child { max-width: 40rem; color: #c4b4a0; line-height: 1.65; }
+.sponsor-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.sponsor-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    padding: 2rem;
+    border: 1px solid rgba(233, 180, 93, .48);
+    border-radius: 2rem;
+    background: linear-gradient(155deg, rgba(93, 57, 22, .68), rgba(35, 25, 15, .95));
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .22);
+    text-align: center;
+    transition: border-color .2s, transform .2s;
+}
+.sponsor-card:hover { border-color: #e9b45d; transform: translateY(-3px); }
+.sponsor-card-merchandise { border-color: rgba(154, 174, 118, .46); background: linear-gradient(155deg, rgba(66, 72, 43, .65), rgba(30, 27, 17, .95)); }
+.sponsor-card-open { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; border: 0; border-radius: inherit; background: transparent; cursor: pointer; }
+.sponsor-card-open:focus-visible { outline: 2px solid #ffd58c; outline-offset: 4px; }
+.sponsor-role {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.3rem;
+    padding: .5rem 1rem;
+    border: 1px solid rgba(255, 220, 155, .3);
+    border-radius: 999px;
+    background: rgba(255, 236, 194, .12);
+    color: #ffe5ae;
+    font-weight: 800;
+    font-size: .8rem;
+}
+.sponsor-card-merchandise .sponsor-role { border-color: rgba(192, 215, 154, .3); background: rgba(158, 183, 120, .13); color: #dce9bd; }
+.sponsor-logo-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12rem;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 1.4rem;
+    background: #fffaf2;
+    overflow: hidden;
+}
+.sponsor-logo-frame img { display: block; width: 100%; height: 100%; max-width: 25rem; min-width: 0; min-height: 0; object-fit: contain; }
+.sponsor-card h3 { color: #fff2dc; font-size: clamp(1.35rem, 2.3vw, 1.9rem); font-weight: 800; line-height: 1.2; }
+.sponsor-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .8rem; margin-top: auto; padding-top: 1.5rem; }
+.sponsor-actions a {
+    position: relative;
+    z-index: 2;
+    border: 1px solid rgba(233, 180, 93, .62);
+    border-radius: 999px;
+    background: rgba(233, 180, 93, .09);
+    color: #ffe2a6;
+    padding: .55rem 1rem;
+    font-weight: 800;
+    font-size: .83rem;
+    cursor: pointer;
+    transition: background .2s, transform .2s;
+}
+.sponsor-actions a:hover { background: rgba(233, 180, 93, .22); transform: translateY(-2px); }
+.sponsor-actions a:focus-visible, .partnership-disclosure summary:focus-visible, .sponsor-dialog button:focus-visible, .sponsor-dialog a:focus-visible { outline: 2px solid #ffd58c; outline-offset: 4px; }
+
+.partnership-disclosure { overflow: hidden; margin-bottom: 4rem; border: 1px solid rgba(233, 180, 93, .36); border-radius: 2rem; background: rgba(33, 24, 14, .88); box-shadow: 0 20px 50px rgba(0, 0, 0, .22); }
+.partnership-disclosure summary { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 2rem 2.25rem; cursor: pointer; list-style: none; }
+.partnership-disclosure summary::-webkit-details-marker { display: none; }
+.partnership-summary-copy { display: flex; flex-direction: column; gap: .45rem; }
+.partnership-title { color: #fff1d7; font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 800; line-height: 1.1; }
+.partnership-subtitle { color: #c4b4a0; font-size: .93rem; }
+.partnership-toggle { display: grid; flex: none; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 50%; background: rgba(233, 180, 93, .15); color: #f5c87c; font-family: 'Outfit', sans-serif; font-size: 2.5rem; font-weight: 400; line-height: 1; transition: transform .25s, background .25s; }
+.partnership-disclosure[open] .partnership-toggle { transform: rotate(45deg); background: rgba(233, 180, 93, .25); }
+.partnership-content { padding: 2rem 2.25rem 2.5rem; border-top: 1px solid rgba(233, 180, 93, .18); }
+
+.sponsor-dialog { width: min(90vw, 44rem); max-height: min(90vh, 52rem); padding: 0; border: 1px solid rgba(233, 180, 93, .48); border-radius: 2rem; background: #21180f; color: #f7ead5; box-shadow: 0 30px 80px rgba(0, 0, 0, .6); }
+.sponsor-dialog::backdrop { background: rgba(10, 8, 5, .78); backdrop-filter: blur(5px); }
+.sponsor-dialog-inner { position: relative; padding: 2rem; }
+.sponsor-dialog-close { position: absolute; top: 1.25rem; right: 1.25rem; display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border: 1px solid rgba(233, 180, 93, .4); border-radius: 50%; color: #f7ead5; font-size: 1.8rem; line-height: 1; }
+.sponsor-dialog-role { padding-right: 3rem; color: #e9b45d; font-size: .84rem; font-weight: 800; }
+.sponsor-dialog-logo { display: flex; align-items: center; justify-content: center; height: 12rem; margin: 1.5rem 0; padding: 1.5rem; border-radius: 1.25rem; background: #fffaf2; overflow: hidden; }
+.sponsor-dialog-logo img { display: block; width: 100%; height: 100%; min-width: 0; min-height: 0; object-fit: contain; }
+.sponsor-dialog h2 { color: #fff1d7; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; }
+#sponsor-dialog-description { margin: 1rem 0 1.75rem; color: #d3c2a8; line-height: 1.65; }
+#sponsor-dialog-link { display: inline-flex; padding: .75rem 1.25rem; border-radius: 999px; background: #c8943e; color: #1a1209; font-weight: 800; }
+#sponsor-dialog-link:hover { background: #e9b45d; }
+@media (max-width: 640px) {
+    .sponsor-grid { grid-template-columns: 1fr; gap: 1rem; }
+    .partnership-disclosure { margin-bottom: 2.5rem; }
+    .sponsor-card { padding: 1.25rem; }
+    .sponsor-logo-frame { height: 9rem; }
+    .partnership-disclosure summary { padding: 1.5rem; }
+    .partnership-toggle { width: 2.6rem; height: 2.6rem; font-size: 2rem; }
+    .partnership-content { padding: 1.5rem; }
+    .sponsor-dialog-inner { padding: 1.5rem; }
+    .sponsor-dialog-logo { height: 9rem; }
+}
+
 /* ─── Interactive venue map ─────────────────────────────── */
 .venue-map-section {
     padding: 4rem 1.5rem;
