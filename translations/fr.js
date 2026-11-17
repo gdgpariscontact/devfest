@@ -111,9 +111,6 @@ window.translations_fr = {
     "label": "L'événement",
     "title": "DevFest Paris 2026",
     "subtitle": "Une journée dédiée à la tech, 100% indépendante et à but non lucratif.",
-    "stat1_n": "450",
-    "stat1_t": "Participants",
-    "stat1_s": "Développeurs, Ingénieurs, Data Scientists",
     "stat2_n": "5",
     "stat2_t": "Tracks",
     "stat2_s": "Conf, Workshops, Quick talks & Table ronde",
@@ -154,7 +151,7 @@ window.translations_fr = {
     "r2_t": "Visibilité & Rayonnement",
     "r2_d": "Valoriser votre engagement auprès de la communauté et positionner votre entreprise comme un acteur clé de l'innovation. Profitez d'une exposition maximale pour notre 8ème édition.",
     "r3_t": "Recrutement de Talents",
-    "r3_d": "Accédez à un vivier qualifié de plus de 450 profils, des étudiants aux seniors, renforçant votre marque employeur.",
+    "r3_d": "Accédez à un vivier de profils qualifiés, des étudiants aux seniors, et renforcez votre marque employeur.",
     "r4_t": "Montée en compétences",
     "r4_d": "Permettez à vos équipes de découvrir les sujets tech actuels et futurs avec des professionnels du secteur."
   },

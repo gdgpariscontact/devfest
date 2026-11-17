@@ -7,9 +7,9 @@ const routes = [
   {
     path: 'sponsoring',
     title: 'Devenir Sponsor - DevFest Paris 2026 | GDG Paris',
-    description: 'Devenez sponsor du DevFest Paris 2026. Packs Silver, Gold et Premium disponibles. Networking avec 450+ développeurs, visibilité maximale, recrutement de talents tech. Rejoignez la 8ème édition le 27 novembre 2026.',
+    description: 'Devenez sponsor du DevFest Paris 2026. Packs Silver, Gold et Premium disponibles. Networking avec la communauté tech, visibilité et recrutement de talents. Rejoignez la 8ème édition le 27 novembre 2026.',
     keywords: 'Sponsor DevFest, Sponsoring Conférence Tech, GDG Paris, Pack Sponsor, Visibilité Tech, Recrutement Développeurs, DevFest Paris 2026',
-    ogDescription: 'Devenez sponsor du DevFest Paris 2026. Packs Silver, Gold et Premium. 450+ développeurs, 30+ speakers experts.',
+    ogDescription: 'Devenez sponsor du DevFest Paris 2026. Packs Silver, Gold et Premium et 30+ speakers experts.',
     twitterDescription: 'Devenez sponsor du DevFest Paris 2026. Packs Silver, Gold et Premium disponibles.',
     headingKey: 'sponsoring.partners_title'
   },
