@@ -10,8 +10,8 @@ window.translations_fr = {
   },
   "ticketing": {
     "title": "Billetterie",
-    "subtitle": "🎟️ Regular — 79€",
-    "desc": "La billetterie est officiellement ouverte ! Réservez votre billet Regular à 79€.",
+    "subtitle": "🎟️ Late Bird — 79€",
+    "desc": "La billetterie est officiellement ouverte ! Réservez votre billet Late Bird à 79€.",
     "cta": "Prendre mon billet",
     "discount_button": "Demander une réduction",
     "discount_title": "Besoin d'une réduction ?",

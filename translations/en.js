@@ -10,8 +10,8 @@ window.translations_en = {
   },
   "ticketing": {
     "title": "Ticketing",
-    "subtitle": "🎟️ Regular — €79",
-    "desc": "Regular ticket sales are now open! Get your Regular ticket for €79.",
+    "subtitle": "🎟️ Late Bird — €79",
+    "desc": "Late Bird tickets are now available! Get yours for €79.",
     "cta": "Get my ticket",
     "discount_button": "Ask for a discount",
     "discount_title": "Need a discount?",
