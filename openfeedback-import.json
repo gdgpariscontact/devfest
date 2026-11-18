@@ -1,0 +1,977 @@
+{
+  "sessions": {
+    "df26-000": {
+      "id": "df26-000",
+      "title": "Keynote GDG",
+      "description": "Ouverture officielle du DevFest Paris 2026 par le GDG Paris.",
+      "tags": [
+        "Keynote",
+        "FR"
+      ],
+      "speakers": [],
+      "startTime": "2026-11-27T09:20:00+01:00",
+      "endTime": "2026-11-27T09:35:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-001": {
+      "id": "df26-001",
+      "title": "Silence... Ça tourne ! : De l'éco-volontariat à la promotion de mon side project en Australie !",
+      "description": "Comment une mission d’éco-volontariat sur un atoll paradisiaque peut transformer un développeur mobile et donner naissance à un projet qui fera le tour du monde ?\n\nJe vous propose de découvrir mon parcours atypique, des plages de Tetiaroa en Polynésie française où j'ai effectué le suivi des sites de pontes des tortues marines jusqu’en Australie où mon application “We Spot Turtles!” a été mise en avant dans la campagne #WeArePlay de Google.\n\nCette aventure reste avant tout une histoire humaine, celle d’un side-project né d’une passion, développé sur mon canapé entre deux missions freelance, qui grandit et devient un outil concret de protection de la biodiversité marine.\n\nAu travers de ce talk je vous ferais part de comment passer d’une expertise technique à un projet à impact, des difficultés et doutes qui jalonnent la route et de l'importance de la communauté et des rencontres qui font vivre le projet !\n\nDéveloppeuse et développeur en quête de sens à donner à vos compétences, ou curieuse et curieux de découvrir comment un side-project peut vous amener bien plus loin que prévu, cette présentation vous montrera qu’il est possible de concilier passion, impact social, et développement professionnel.",
+      "tags": [
+        "Keynote",
+        "FR"
+      ],
+      "speakers": [
+        "nicolas-guillot"
+      ],
+      "startTime": "2026-11-27T09:35:00+01:00",
+      "endTime": "2026-11-27T09:55:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-002": {
+      "id": "df26-002",
+      "title": "AI Hype vs. Ground Reality: Where Does the Time (and Money) Actually Go?",
+      "description": "AI promised to cut development time in half, yet many engineering teams are burning through annual tool budgets in months while drowning in code review fatigue. Join Raphael Semeteys as he moderates a candid roundtable contrasting executive financial imperatives with the daily reality of shipping code.\n\nFeaturing Seifeddin Mansri (Cloud CTO, SFEIR) and Dawid Ostrowski (Engineer, Google), this 30-minute session cuts past the marketing to examine:\n\n• ROI vs. Token Bills: Are teams genuinely shipping faster, or just shifting effort to debugging AI-generated code?\n• Cognitive Overload & Team Dynamics: Avoiding codebase alienation while managing heterogeneous workflows.\n• Production Guardrails: Balancing governance and token caps against velocity so autonomous agents don't break production.\n• The 5-Year Horizon: How engineering roles, hiring criteria, and team structures will evolve when raw code becomes a commodity.",
+      "tags": [
+        "Keynote",
+        "EN"
+      ],
+      "speakers": [
+        "seifeddin-mansri",
+        "dawid-ostrowski"
+      ],
+      "startTime": "2026-11-27T09:55:00+01:00",
+      "endTime": "2026-11-27T10:25:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-003": {
+      "id": "df26-003",
+      "title": "Astro GitOps - Press ⓧ to start",
+      "description": "Tout le monde dit faire du GitOps, mais le seul point commun c'est qu'à la fin on met tout dans Git… 🤔\n\nEt si c'était justement la meilleure chose à faire ? Dans un monde où l'IA génère du code, assiste nos déploiements et analyse nos incidents, avoir un référentiel déclaratif, lisible et versionné dans Git devient un atout aussi bien pour les humains que pour les agents IA.\n\nEn repartant des fondamentaux du GitOps, nous découvrirons les bonnes et mauvaises pratiques qui façonnent cet univers. Simplicité, prédictibilité, auditabilité : des principes qui simplifient la vie des devs, des ops… et des IA.\n\nAu travers d'exemples concrets (Kubernetes, infrastructure, secret management), nous verrons comment ces pratiques préparent nos systèmes à l'ère de l'IA.\n\nEmbarquons pour ce voyage vers la production, accompagné de nos bots favoris 🤖 !",
+      "tags": [
+        "Conference",
+        "EN"
+      ],
+      "speakers": [
+        "kevin-davin"
+      ],
+      "startTime": "2026-11-27T10:35:00+01:00",
+      "endTime": "2026-11-27T11:20:00+01:00",
+      "trackTitle": "Salle 1"
+    },
+    "df26-004": {
+      "id": "df26-004",
+      "title": "Du frigo à l’assiette : ce que mijote vraiment votre bundler JavaScript",
+      "description": "Pour faire un site aujourd’hui, il suffit théoriquement de trois ingrédients : de l’HTML, du CSS et du JavaScript. 🍳 La recette semble très simple… jusqu’à ce que l’on ouvre le frigo des technologies. Aujourd’hui, personne ne cuisine avec ces ingrédients \"bruts\", vous avez du TypeScript, du SCSS, des images, des polices, des JSON… et même parfois du code dont vous n’avez pas besoin ! 🥴\n\nC’est là qu’intervient le bundler 🧑🏼‍🍳 Comme un chef, il prend tous ces ingrédients éparpillés, les prépare, les assemble et les transforme en un plat prêt à être servi au navigateur. Au menu : transpilation, minification, tree-shaking et code splitting… autant d’étapes indispensables qui rendent votre application optimisée et performante.\n\nInstallez‑vous confortablement et mettez les pieds sous la table, dans ce talk nous lèverons le couvercle pour enfin comprendre l’intérieur de votre bundler 🥘",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "etienne-idoux",
+        "mickael-alves"
+      ],
+      "startTime": "2026-11-27T10:35:00+01:00",
+      "endTime": "2026-11-27T11:20:00+01:00",
+      "trackTitle": "Salle 2"
+    },
+    "df26-005": {
+      "id": "df26-005",
+      "title": "3 Mois Au Lieu De 8: Comment L'IA Structurée amplifie le développement",
+      "description": "Nous avons recodé une app fullstack complexe en 3 mois avec l'IA.\n40% du code généré a été rejeté.\n\nÇa semble mauvais. C'est en réalité comment on a livré du code solide.\n\nParce qu'on ne s'est pas dit \"donnons l'IA à tout le monde\".\nOn a structuré: un agent qui connaît l'architecture, \ndes sub-agents spécialisés (front/back/review), \ndes skills pour chaque framework.\n\nComment on a fait? Pourquoi les autres équipes échouent?\nEt comment utiliser l'IA pour amplifier l'expertise au lieu de la contourner.\n\nÀ travers notre architecture réelle (agents + skills), \nvous repartirez avec un modèle reproductible pour transformer l'IA \nde \"copilot cool\" en \"partenaire d'architecture\".",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "nicolas-frizzarin"
+      ],
+      "startTime": "2026-11-27T10:35:00+01:00",
+      "endTime": "2026-11-27T11:20:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-006": {
+      "id": "df26-006",
+      "title": "Build the DevFest Concierge: Live, with Google CX Agent Studio",
+      "description": "In this session, you will build an assistant that will answer questions from DevFest Paris attendees!\n\nIn 90 minutes, you will deploy a multi-agent conversational system on CX Agent Studio. \nYou will learn how to orchestrate specialized agents connected to tools and external data. \nWith AI Augmentation, you will generate agent instructions in seconds. You will then evaluate quality and monitor live conversations.\n\nYou will leave with an agent deployed on your GCP project and a pattern you can adapt to your own use cases.",
+      "tags": [
+        "Workshop",
+        "FR"
+      ],
+      "speakers": [
+        "jules-mermet-husson"
+      ],
+      "startTime": "2026-11-27T10:35:00+01:00",
+      "endTime": "2026-11-27T12:15:00+01:00",
+      "trackTitle": "Salle 3"
+    },
+    "df26-007": {
+      "id": "df26-007",
+      "title": "Tactical DDD : Redonnons du sens au code par la pratique",
+      "description": "Domain-Driven Design (DDD) impressionne encore. Trop souvent perçu comme une théorie complexe réservée à une élite, c'est pourtant directement dans le code que le DDD prend tout son sens.\n\nNous vous proposons un atelier 100% pratique pour lever les barrières du jargon. \nA travers un cas d’usage concret, nous découvrirons étape par étape comment structurer notre code surtout à l’ère de l’IA et comment faire émerger la logique métier.\n\nAu programme de cette session immersive :\n- La trinité tactique en action : Implémentation pas-à-pas de Value Objects, Entities et Aggregates pour terrasser les modèles anémiques.\n- Du code, pas du fluff : Alternance de phases de live-coding et de mises en perspective théoriques pour ancrer les concepts (langage omniprésent, bounded contexts).\n- Le DDD augmenté par l'IA : Comment utiliser les LLM pour générer des composants conformes et détecter les violations de design sans saborder votre architecture.\n\nQue vous soyez novice ou en quête de validation, vous découvrirez des techniques concrètes pour exprimer toute la saveur de votre métier dans votre code. \nÉtonnez-vous à pratiquer le DDD avec plaisir et simplicité !",
+      "tags": [
+        "Workshop",
+        "FR"
+      ],
+      "speakers": [
+        "adriana-nava-aguilar",
+        "dorra-bartaguiz"
+      ],
+      "startTime": "2026-11-27T10:35:00+01:00",
+      "endTime": "2026-11-27T12:15:00+01:00",
+      "trackTitle": "Salle 4"
+    },
+    "df26-008": {
+      "id": "df26-008",
+      "title": "Qui a marqué le plus de buts ? construire un agent IA qui interroge des données en langage naturel",
+      "description": "Concevoir une application agentique de bout en bout reste un défi dès qu’il s’agit d’intégrer des données réelles et des règles métiers.\n\nDans ce talk, je présente un cas concret : un agent de statistiques sur la Coupe du monde de football ⚽, capable de répondre à des questions en langage naturel, de générer et exécuter des requêtes SQL, puis de restituer les résultats de manière compréhensible, accompagnés de graphiques générés dynamiquement dans une UI conversationnelle.\n\nNous verrons comment construire cet agent avec le framework Agent Development Kit (ADK), en combinant prompting et règles métiers pour produire des requêtes fiables. L’agent est connecté à BigQuery via le protocole MCP et déployé sur Google Cloud, avec différents modes d’exécution (Cloud Run et Agent Engine).\n\nL’objectif est d’illustrer, à travers ce cas concret, une architecture agentique complète ainsi que les choix de conception et de déploiement nécessaires pour passer à la production. Même si cette implémentation s’appuie sur Google Cloud, les patterns présentés restent réutilisables avec d’autres infrastructures et sources de données exposées via MCP.",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "mazlum-tosun"
+      ],
+      "startTime": "2026-11-27T11:30:00+01:00",
+      "endTime": "2026-11-27T12:15:00+01:00",
+      "trackTitle": "Salle 1"
+    },
+    "df26-009": {
+      "id": "df26-009",
+      "title": "Chaque token compte : de l'assistant IA à la pipeline",
+      "description": "# Chaque token compte : de l'assistant IA à la pipeline\n\nLa réduction des coûts a toujours été une préoccupation majeure des systèmes informatiques — et l’IA ne fait pas exception. Derrière sa simplicité d’utilisation apparente se cache pourtant une réalité économique plus complexe : une consommation de tokens qui peut rapidement se transformer en véritable gouffre financier.\n\nAu cours de ce talk, nous verrons comment maîtriser et optimiser cette consommation, que ce soit dans l’usage quotidien d’un assistant de code ou au sein de pipelines IA plus avancés.\n\nNous explorerons un large éventail de techniques concrètes, allant des bonnes pratiques de *prompt engineering* jusqu’au *fine-tuning* d’embeddings. Nous aborderons également des leviers essentiels tels que le choix des modèles, le *smart chunking*, le *caching*, le *batching*, et bien d’autres stratégies pour maximiser l’efficacité tout en réduisant les coûts.\n\nRepartez avec des approches pragmatiques, directement applicables, pour tirer le meilleur de l’IA sans exploser votre budget.",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "alexandre-azouri"
+      ],
+      "startTime": "2026-11-27T11:30:00+01:00",
+      "endTime": "2026-11-27T12:15:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-010": {
+      "id": "df26-010",
+      "title": "A l'abordage du score Lighthouse !",
+      "description": "Cette présentation interactive propose d'explorer les différentes facettes du score Lighthouse et de la performance web, en utilisant la métaphore d'un équipage pirate construisant un phare, étage par étage.\nPour chaque métrique composant Lighthouse (CLS, FCP, LCP, TBT et SI), le public choisira directement via une application de vote dédiée quel patch appliquer à \"BlackMarket\", un site parodique de vente d'accessoires pirates reconditionnés, pour améliorer cette métrique. En fonction du résultat, le contenu de la présentation changera, se concentrant sur leur choix pour les expliquer en détail. Visuellement, le phare se construit aussi dynamiquement en fonction des votes dans les slides sous leurs yeux. À la fin de la présentation, ils découvrent l'impact de leur choix sur les différentes métriques et le score Lighthouse de BlackMarket\n\nCe qui change par rapport à un talk classique : la salle est embarquée dans une aventure et doit faire des choix réellement décisifs sur le contenu de la présentation. À chaque étape, le public vote entre deux options crédibles dans un temps limité ; le fil de la démo et le récit d'optimisation suivent le résultat. \nL'idée est de mettre en avant le besoin de priorisation, et parfois même de renoncement, inhérents à toute initiative d'amélioration des performances. \nLes votes on un réel impact, chaque session est unique, sur le fond comme sur la forme!\n\nLe tout s'inscrit dans un univers fort — illustrations faites main spécialement, métaphore pirate filée tout le long de la présentation, transitions invisibles de slides en slide. L'immersion visuelle, thématique et l'interactivité renforcent l'implication du public et la rétention des informations.",
+      "tags": [
+        "Conference",
+        "EN"
+      ],
+      "speakers": [
+        "florian-leux"
+      ],
+      "startTime": "2026-11-27T11:30:00+01:00",
+      "endTime": "2026-11-27T12:15:00+01:00",
+      "trackTitle": "Salle 2"
+    },
+    "df26-011": {
+      "id": "df26-011",
+      "title": "Sécurisez vos prototypes avec OAuth2-Proxy, Anubis",
+      "description": "Dans de nombreuses d’entreprise, il est fréquent de rencontrer des applications internes qui ne proposent pas de gestion native des utilisateurs. Et laisser aux développeurs leur sécurisation peut se révéler complexe et risquée. Ce lightning talk vous propose de découvrir OAuth2-Proxy, un reverse proxy open source et cloud native qui agit comme une protection universelle devant vos applications, sans modifier leur code. \n\nGrâce à [OAuth2-Proxy](https://oauth2-proxy.github.io/oauth2-proxy/), il devient possible de déléguer l’authentification à un fournisseur externe (Google, Azure, Keycloak, etc.), assurant ainsi une connexion sécurisée et centralisée pour tous vos utilisateurs. En seulement une dizaine de minutes, explorez comment protéger rapidement vos applications, gérer l’accès via des IdP (identity provider), et simplifier toutes les problématiques d’authentification, le tout avec une live demo accessible à tou.te.s, même sans compétence avancée en sécurité applicative.\n\nEnfin, pour compléter la sécurisation, nous allons mettre en place [Anubis](https://anubis.techaro.lol/), pour éviter l'utilisation de LLMs sur nos prototypes.",
+      "tags": [
+        "Quick Talk",
+        "FR"
+      ],
+      "speakers": [
+        "david-aparicio"
+      ],
+      "startTime": "2026-11-27T12:25:00+01:00",
+      "endTime": "2026-11-27T12:45:00+01:00",
+      "trackTitle": "Salle 4"
+    },
+    "df26-012": {
+      "id": "df26-012",
+      "title": "Coupable ! Le procès d'un container malveillant dans Kubernetes",
+      "description": "**Le crime était presque parfait.** Une image vulnérable, glissée discrètement par une main inattentive, et voilà qu'un Pod suspect s'installe tranquillement dans votre cluster. Croyait-il vraiment passer inaperçu ?\n\nDans ce talk format \"thriller express\", nous allons suivre la traque d'une ressource malveillante à travers un véritable tribunal DevSecOps. Pas de théorie ici : nous allons vivre l'audience en direct pour comprendre comment votre cluster se défend contre l'indéfendable.\n\nDécouvrez les acteurs de votre cour de justice Cloud-Native :\n\n🔍 **L'Inspecteur (Trivy Operator)** : Il fouille les entrailles des Pods en runtime pour débusquer les vices cachés.\n👨‍⚖️ **Le Juge (Kyverno)** : Il applique la loi (les policies) sans trembler et refuse l'entrée aux récidivistes.\n🚔 **La Police de proximité (Falco)** : Elle surveille les comportements louches en temps réel. Un shell ouvert ? C'est l'arrestation immédiate.\n📋 **Le Greffier (Policy Reporter)** : Il consigne chaque verdict pour que rien n'échappe à l'audit final.\n\n**En 20 minutes chrono**, nous allons orchestrer une défense en profondeur pour transformer votre cluster d'une passoire silencieuse en un bastion imprenable.\n\nVous êtes **DevOps** et souhaitez muscler votre sécurité ? Ou peut-être **SRE** à la recherche d'outils de détection runtime légers et efficaces ? Alors ce talk est fait pour vous ! **Aucune expertise en criminologie n'est requise** : une connaissance de base de **Kubernetes et de Docker (niveau intermédiaire)** suffira pour suivre l'enquête. Vous repartirez avec une vision claire et les clés pour rendre vos environnements enfin inattaquables. ⚖️🚔",
+      "tags": [
+        "Quick Talk",
+        "FR"
+      ],
+      "speakers": [
+        "paul-alexandre-chretien"
+      ],
+      "startTime": "2026-11-27T12:25:00+01:00",
+      "endTime": "2026-11-27T12:45:00+01:00",
+      "trackTitle": "Salle 3"
+    },
+    "df26-013": {
+      "id": "df26-013",
+      "title": "Gemma 4 & Serverless GPU ou comment déployer facilement son LLM",
+      "description": "Les solutions d'IA fleurissent : de bonnes pratiques se mettent en place, des frameworks deviennent populaires, le changement de LLM est moins contraignant...\n\nPar contre, quand il faut aller en production afin de pouvoir héberger son propre LLM pour assurer la sécurité, il n'y a moins de monde.\nUne solution intéressante est de s'appuyer sur les solutions Serverless avec du GPU pour passer moins de temps sur l'infrastructure et plus de temps ailleurs !\n\nDurant ce talk, nous regarderons comment utiliser Cloud Run GPU de la plateforme Google Cloud pour déployer un LLM open Gemma4.",
+      "tags": [
+        "Quick Talk",
+        "FR"
+      ],
+      "speakers": [
+        "julien-landure"
+      ],
+      "startTime": "2026-11-27T12:25:00+01:00",
+      "endTime": "2026-11-27T12:45:00+01:00",
+      "trackTitle": "Salle 2"
+    },
+    "df26-014": {
+      "id": "df26-014",
+      "title": "MLOps - Understand and mitigate machine learning models decay in production",
+      "description": "Deploying machine learning models to production does not mean things are \"over\". A model will often look great — 90% accuracy — during training and validation, then quietly decay once it's live. A few weeks or months in, you see a drop-off (sometimes all the way down to 60%), and that strongly impacts the quality of what you're delivering to users or to whatever systems rely on it downstream.\n\nThis talk is about what happens after you deploy. In about twenty minutes, we'll cover how to track and measure a model's performance in production the right way, pin down the usual suspects behind the decline (shifting data, changing usage patterns, bias, model drift, ...), and what can be done about it.\n\nIt's aimed at a beginner-to-intermediate audience with any level of interest in machine learning. You don't need an MLOps background to follow along.",
+      "tags": [
+        "Quick Talk",
+        "EN"
+      ],
+      "speakers": [
+        "simon-poulet"
+      ],
+      "startTime": "2026-11-27T12:25:00+01:00",
+      "endTime": "2026-11-27T12:45:00+01:00",
+      "trackTitle": "Salle 1"
+    },
+    "df26-015": {
+      "id": "df26-015",
+      "title": "Dette cognitive et dette d’intention : le coût caché du code généré par IA",
+      "description": "Avec l'augmentation de la vélocité de développement, des nouvelles formes de dettes apparaissent, la dette cognitive et la dette d'intention.\nBasé sur les travaux de Margaret-Anne Storey de l'université de Victoria au Canada et mes retours d'expériences terrain, nous verrons comment reconnaitre ces nouvelles dettes et comment y faire face.",
+      "tags": [
+        "Quick Talk",
+        "FR"
+      ],
+      "speakers": [
+        "thomas-dupont"
+      ],
+      "startTime": "2026-11-27T12:25:00+01:00",
+      "endTime": "2026-11-27T12:45:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-016": {
+      "id": "df26-016",
+      "title": "`gcloud run compose up` - ce que la doc ne dit pas (encore)",
+      "description": "`gcloud run compose up`. Une seule commande pour déployer une stack complète sur Cloud Run. Un frontend, un backend, et un LLM Open Source, exactement comme en développement avec Docker Compose. C'est une DX parfaite, quand tout fonctionne comme prévu.\n\nDans ce talk, je vous raconte comment j'ai déployé le GCP Release Notes Navigator - une application Streamlit + FastAPI exploitant BigQuery et un LLM Open Source via Docker Model Runner. \nDu poste de développement jusqu'à Cloud Run en production. On verra pourquoi Docker Model Runner s'impose comme un meilleur choix qu'Ollama pour ce type de déploiement, et comment `gcloud run compose` simplifie radicalement l'opération.\n\nMais l'outil est jeune, et la route est semée d'embûches que la documentation ne mentionne pas encore : URLs mal injectées, modèles qui ne se redéploient pas, données éphémères... Pour chaque problème rencontré en production, un workaround concret - et l'honnêteté sur ce qui reste une limitation ouverte.\n\n**Vous repartez avec**\n- Une compréhension claire de l'architecture `gcloud run compose` avec un LLM\n- Les différences clés entre Docker Model Runner et Ollama pour Cloud Run\n- Les vrais pièges du déploiement et leurs workarounds documentés",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "brice-fotzo"
+      ],
+      "startTime": "2026-11-27T13:45:00+01:00",
+      "endTime": "2026-11-27T14:30:00+01:00",
+      "trackTitle": "Salle 1"
+    },
+    "df26-017": {
+      "id": "df26-017",
+      "title": "Industrialiser l'IA en équipe : des skills qui encodent vos conventions",
+      "description": "Générer du code avec une IA, c'est devenu trivial. Le faire **aux conventions de votre équipe** — la bonne archi, les bons Dockerfile, la bonne CI, les tests attendus, des PR propres — c'est une autre histoire. C'est là que le vibe coding individuel atteint ses limites.\n\nOn partage comment on a industrialisé Claude Code chez GroupBees : du `CLAUDE.md`monolithique devenu ingérable jusqu'à une **bibliothèque de skills modulaires et partagés** qu'on a construits — et adoptés — ensemble, et qui encodent nos best practices : archi hexagonale Python, Dockerfile multi-stage, conventions de tests, commits propres, PR labellisées, déploiement Cloud Run. Ce qui vivait dans la tête de chacun devient activable à la demande, pour toute l'équipe.\n\nEn démo, on part d'une idée et on génère une petite app : back Python hexagonal, Dockerfile, CI/CD, tests aux conventions, commit squashé et PR — jusqu'au déploiement sur GCP. Le moment clé n'est pas la magie, c'est le **contraste** : la même demande sans les skills, puis avec. Les règles font la différence.\n\nMais une bibliothèque de skills, ça se **gouverne** : versionner, relire (un skill s'applique à *tout* ce qui sera généré, par toute l'équipe), détecter ce qui devient obsolète, maintenir en continu — sinon on recrée le monolithe ingérable.\n\nVous repartirez avec une méthodologie transposable à d'autres assistants (Cursor, Copilot) : passer du prompt qui marche au workflow qui scale.",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "guillaume-leroy",
+        "mazlum-tosun"
+      ],
+      "startTime": "2026-11-27T13:45:00+01:00",
+      "endTime": "2026-11-27T14:30:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-018": {
+      "id": "df26-018",
+      "title": "Hello JDK 25, bye les Streams chiants!",
+      "description": "Hello JDK 25, où les Streams sont devenus plus malins et les Strings plus sûres. 👋\n\nOn adore les Streams parce qu'ils sont efficaces, mais quand les contraintes du monde réel débarquent, ils peuvent vite devenir frustrants et nous rendre un peu fous. 😤\n\nCette session te montre comment les Stream Gatherers te permettent de batcher, slider et grouper tes données comme un chef, sans prise de tête avec les collectors. 🎯\n\nAu programme : du live code, des tricks cool, un regard frais sur l'évolution de Java... et évidemment des memes. 🐱‍💻\n\nAprès cette talk, tes Streams ne seront plus jamais chiants. ✅",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "aicha-laafia"
+      ],
+      "startTime": "2026-11-27T13:45:00+01:00",
+      "endTime": "2026-11-27T14:30:00+01:00",
+      "trackTitle": "Salle 2"
+    },
+    "df26-019": {
+      "id": "df26-019",
+      "title": "Maîtrisez vos déploiements avec OpenFeature et les Feature Flags",
+      "description": "Livrer du code, c’est bien. Livrer une fonctionnalité sans casser le reste du système, c’est mieux !\n\nAujourd’hui, chaque nouvelle release expose aux risques de régression ou de mauvaises interactions entre les fonctionnalités existantes et les nouvelles. Et quand il s’agit de déployer pour un sous-ensemble d’utilisateurs ? C'est encore plus délicat.\n\nLe Feature Flagging permet de décorréler la mise en production du code de l’activation des fonctionnalités, en offrant la possibilité d’activer ou désactiver des blocs à chaud, sans redéployer. \n\nHeureusement, depuis quelques années cette pratique se développe de plus en plus au travers d'outils open-source et de pratiques logicielles. Pourtant, au-delà du simple `if-then-else` la plupart des solutions disponibles restent propriétaires, lourdes ou coûteuses à mettre en oeuvre.\n\nOpenFeature, projet de la CNCF, propose une spécification ouverte pour un feature flagging unifié, utilisable aussi bien côté serveur que client, quel que soit le backend de gestion.\n\nAu cours de ce workshop, nous implémenterons une nouvelle fonctionnalité sur une application existante basée sur Java et Angular. Puis nous piloterons son activation au travers du feature flagging. En chemin, nous aborderons les sujets clés : gestion des erreurs, tests A/B, déploiement progressif, ciblage et observabilité. \nÀ la fin, nous saurons comment livrer plus vite, plus sûr, et avec confiance.",
+      "tags": [
+        "Workshop",
+        "FR"
+      ],
+      "speakers": [
+        "alexandre-touret"
+      ],
+      "startTime": "2026-11-27T13:45:00+01:00",
+      "endTime": "2026-11-27T15:25:00+01:00",
+      "trackTitle": "Salle 3"
+    },
+    "df26-020": {
+      "id": "df26-020",
+      "title": "Build Multi Agent Systems with A2A",
+      "description": "In this hands-on session, you will go beyond basic chatbots to build a distributed multi-agent system powered by the Agent-to-Agent (A2A) open source protocol.\n\nYou will build a Course Creation Agent Pipeline using the Agent Development Kit (ADK), an open source and code-first framework from Google Cloud designed to simplify the development, evaluation, and deployment of complex AI agents. Each agent maintains a single responsibility, collaborating toward a shared objective and self-correcting until the goal is achieved.\n\nThis workshop provides a practical foundation for designing and implementing robust multi-agent architectures.\n\nBy the end of this workshop, you will:\n\n- Master the fundamentals of ADK and multi-agent systems.\n- Design agents with specialized, clear responsibilities.\n- Test and run agents locally.\n- Deploy a multi-agent application to Google Cloud.\n- Launch your first publicly available multi-agent system.\n\nRequirements:\n- Level: Beginner-friendly; no prior multi-agent experience required.\n- Skills: Basic experience with Python, Google Cloud, Docker, and Bash is a plus.\n- Credits: Provide a PERSONAL Gmail account at least three days prior to the event to receive free Google Cloud credits.\n- Setup: Bring a charged laptop and avoid using a VPN during workshop tasks.\n\nDeployed app: https://www.carneiro.dev/ws-multiagent",
+      "tags": [
+        "Workshop",
+        "EN"
+      ],
+      "speakers": [
+        "luiz-carneiro"
+      ],
+      "startTime": "2026-11-27T13:45:00+01:00",
+      "endTime": "2026-11-27T15:25:00+01:00",
+      "trackTitle": "Salle 4"
+    },
+    "df26-021": {
+      "id": "df26-021",
+      "title": "On a orchestré des IA pour automatiser ce que personne ne voulait faire",
+      "description": "Et si les tâches les plus ingrates devenaient… invisibles ? 😶‍🌫️\n\nMigrations de dépendances, nettoyage de dette technique, refactos, mises à jour de config… Ces sujets traînent dans tous les backlogs : tout le monde sait les faire, mais personne ne veut vraiment s’y coller 🙅🏼\n\nDans ce retour d’expérience, on raconte comment dans nos équipes on a commencé simplement avec un agent IA, puis comment on en est venu à en orchestrer plusieurs pour aller plus vite sur des tâches redondantes du quotidien. Au-delà du “on a automatisé”, on partage les vraies questions qu’on s’est posées : comment découper le travail, créer et faire collaborer plusieurs agents custom, leur transmettre les conventions d’un projet (skills, rules...), gérer le parallélisme, et surtout garder le contrôle sur ce qu’ils produisent 🎛️\n\nOn parlera aussi des surprises (bonnes et mauvaises), des limites rencontrées, et de ce que ça peut changer concrètement pour les équipes !\n\nOn vous montre ce qu’on a construit, ce qui a cassé… ce qui a fini par marcher et les vraies questions que ça a soulevées ! 🙋🏼",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "etienne-idoux",
+        "mickael-alves"
+      ],
+      "startTime": "2026-11-27T14:40:00+01:00",
+      "endTime": "2026-11-27T15:25:00+01:00",
+      "trackTitle": "Salle 1"
+    },
+    "df26-022": {
+      "id": "df26-022",
+      "title": "HATEOAS et SPA, a LOVE(OAS) story",
+      "description": "« HATEOAS ». Le mot qui fait fuir les devs en réunion d'archi, juste après « microservices » et « on va tout refaire ».\n\nPourtant, derrière cet acronyme imprononçable se cache une idée romantique: et si le backend arrêtait de nous mentir, et nous disait enfin comment l'utiliser ?\n\nPlus de boutons grisés codés en dur, finies les permissions ou les validations dupliquées des deux côtés, plus de « attends, c'est quoi l'URL de la page suivante déjà ? ».\n\nDans ce talk, on va (ré)concilier HATEOAS et les SPAs, avec Angular (côté client donc).\nOn verra ensemble pourquoi cette relation a longtemps été compliquée ( qui gère l'état ? le front ? le back ? les deux, en se disputant ? ) \net comment, à coups de signals, de resource(), de gestion d'état avec @ngrx/signals et d'un poil de discipline, on peut transformer ce mariage de raison en véritable histoire d'amour.\n\nDécouvrabilité, navigation, pagination, formulaires génériques, permissions granulaires : on déroule, démo à l'appui, ce que HATEOAS apporte vraiment à une SPA...\net surtout quand vaut-il mieux passer son chemin pour éviter la relation toxique.\n\nÀ la fin, votre back vous dira « je t'aime » en JSON. Et vous, vous saurez quoi en faire.",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "benjamin-legrand"
+      ],
+      "startTime": "2026-11-27T14:40:00+01:00",
+      "endTime": "2026-11-27T15:25:00+01:00",
+      "trackTitle": "Salle 2"
+    },
+    "df26-023": {
+      "id": "df26-023",
+      "title": "L'aventure agentique de Carrefour : du déploiement en 2025 à la sécurité et l'observabilité",
+      "description": "Carrefour a été \"\"envahi\"\" par les agents en 2025, et les résultats ont été transformateurs. Mais une fois les agents en production, le vrai travail commence : bienvenue au \"Jour 2\".\n\nDans cette présentation, nous partageons l'évolution de notre stratégie agentique en 2026, où la sécurité et l'observabilité sont devenues les piliers de notre réussite. Nous dépasserons le simple engouement initial du \"\"build\"\" pour analyser concrètement l'usage et la sécurisation de ces systèmes.\n\nVous découvrirez :\n\n- Comment nous sommes passés du déploiement à l'amélioration continue grâce à l'observabilité.\n- Les stratégies concrètes utilisées chez Carrefour pour sécuriser les systèmes agentiques.\n- Comment combler le fossé entre un déploiement \"naïf\" en 2025 et un outil robuste et durci (hardened) en 2026.\n- Les phases clés (key takeaways) de ce parcours.\"",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "guillaume-blaquiere"
+      ],
+      "startTime": "2026-11-27T14:40:00+01:00",
+      "endTime": "2026-11-27T15:25:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-024": {
+      "id": "df26-024",
+      "title": "ML Kit reloaded: hands-on with on-device GenAI APIs",
+      "description": "Google has been quietly embedding Gemini Nano into ML Kit, bringing generative AI capabilities straight to the device!\n\nIn this talk, we'll explore the new GenAI APIs of ML Kit powered by Gemini Nano, all running entirely on-device with no cloud round-trip, no latency and no data leaving the phone. Through live coding, we'll integrate several of these APIs into an existing Android codebase and see what they can actually do in practice. We'll also take an honest look at the current limitations, device compatibility and real-world performances to help you decide if and when to adopt them in your own apps.\n\nDiscover how ML Kit goes far beyond barcode scanning and text recognition 🚀",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "julien-salvi"
+      ],
+      "startTime": "2026-11-27T15:45:00+01:00",
+      "endTime": "2026-11-27T16:30:00+01:00",
+      "trackTitle": "Salle 1"
+    },
+    "df26-025": {
+      "id": "df26-025",
+      "title": "Ne dessinez plus vos architectures : codez-les",
+      "description": "Une architecture naît souvent sur un tableau blanc, finit exportée en image, puis vieillit en silence. Pendant que le code évolue, la documentation se fige — et les équipes apprennent à vivre avec cet écart.\n\nCette session propose une autre approche : traiter l’architecture comme un artefact de développement à part entière. \nÀ partir d’un besoin métier formalisé dans un **ADR**, nous construirons en direct **une modélisation C4** avec **LikeC4**, puis nous le ferons évoluer comme du code : **vue de contexte**, zoom sur les **conteneurs**, **scénario dynamique**, revue en Pull Request, et portail navigable pour plusieurs publics.\n\nL’objectif sera de montrer comment rendre des choix d’architecture explicites, versionnés, relus et partageables avec le même sérieux que le reste du logiciel. \nLes assistants IA peuvent accélérer l’amorçage du modèle.\nLa vraie valeur vient du workflow collectif : diff, review, validation et publication.\n\nUne session concrète pour voir comment passer d’une documentation figée à une architecture vivante.",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "alexis-scolan"
+      ],
+      "startTime": "2026-11-27T15:45:00+01:00",
+      "endTime": "2026-11-27T16:30:00+01:00",
+      "trackTitle": "Salle 2"
+    },
+    "df26-026": {
+      "id": "df26-026",
+      "title": "Testez vos tests avant qu’ils ne vous trahissent : le mutation testing !",
+      "description": "Pendant longtemps, on a pensé que le test-coverage était le meilleur indicateur pour suivre la qualité de sa stratégie de test. Spoiler alert : ça ne suffit pas. L'enjeu n'est pas de tout tester, mais de **bien tester**.\n\nDans cette session, je vous propose de découvrir le Mutation Testing, une pratique qui met à l'épreuve vos tests en introduisant des bugs volontairement. \n\nOui, vous avez bien lu : on sabote notre application pour mieux la fiabiliser !\n\nAu programme :\n\n- Comprendre pourquoi la couverture de code ne suffit pas, et ce que vos tests valident vraiment\n- Découvrir le Mutation Testing : principes, types de mutations, interprétation des résultats\n- Aller plus loin que le mutation score : faux positifs, test strength, lecture fine des rapports\n- Intégrer le Mutation Testing dans votre workflow : CI/CD, optimisation des performances, adoption progressive\n- Explorer comment l'IA peut accélérer l'analyse, et comment industrialiser cette approche sur vos projets\n\nVous repartirez avec une compréhension fine du sujet et la capacité de le mettre en œuvre simplement sur vos projets Java ou Kotlin.\n\nPrêts à tester vos tests ?",
+      "tags": [
+        "Conference",
+        "FR"
+      ],
+      "speakers": [
+        "victoire-de-lacharriere"
+      ],
+      "startTime": "2026-11-27T15:45:00+01:00",
+      "endTime": "2026-11-27T16:30:00+01:00",
+      "trackTitle": "Salle Keynote"
+    },
+    "df26-027": {
+      "id": "df26-027",
+      "title": "SQL Showdown: A Competitive Query-Writing Workshop",
+      "description": "Most SQL workshops bore you with SELECT * FROM tutorial. This one has a leaderboard. Bring your laptop, spin up a Docker container, and join a live competition where every query you write earns points — for being correct, for being short, and for being fast. Two engines (PostgreSQL and SQL Server), three real datasets (a World atlas, a school administration, and the FIFA World Cup), and a room full of developers racing each other to the top of the board. Whether you're a junior who has only ever written `WHERE id = ?` or a senior who dreams in window functions, you will write SQL you didn't know you could write — and you'll see how everyone else solved the same problem when the endgame reveals all submissions.",
+      "tags": [
+        "Workshop",
+        "EN"
+      ],
+      "speakers": [
+        "wouter-van-schandevijl"
+      ],
+      "startTime": "2026-11-27T15:45:00+01:00",
+      "endTime": "2026-11-27T17:25:00+01:00",
+      "trackTitle": "Salle 4"
+    },
+    "df26-028": {
+      "id": "df26-028",
+      "title": "Antigravity : De l'idée à l'app, de l'assistance à l'orchestration",
+      "description": "Et si vous pouviez transformer une simple idée en un produit fonctionnel déployé sur le cloud, en quelques minutes ?\nLes annonces chez Google se succèdent. Après avoir annoncé **Firebase Studio**, un environnement de développement dans le cloud (CDE), puis sa fin en 2026.\nGoogle a introduit **Antigravity**, une plateforme de développement agentique (**ADE**) qui fait passer le rôle du développeur, de codeur à architecte et orchestrateur et vous permet de déléguer des tâches complètes en parallèle et de les superviser.\n\nDans cet atelier, vous allez :\n\n- Démarrer un nouveau projet en mode agentic en déléguant des tâches complexes à des agents autonomes avec Antigravity.\n- Valider le travail des agents en utilisant les Artifacts. \n- Personnalisez vos agents à l'aide de Tools commes les skills ou les serveurs MCPs\n\nLe tout sans avoir écrit la moindre de ligne de code (ou presque). Cela ne veut pas dire qu'aucune connaissance en développement n'est nécessaire .\n\n**Pré-requis: avoir un compte Google.**\n\nDes crédits Google Cloud Platform vous seront mis à disposition pendant ce code lab.",
+      "tags": [
+        "Workshop",
+        "FR"
+      ],
+      "speakers": [
+        "benjamin-bourgeois",
+        "jean-philippe-baconnais"
+      ],
+      "startTime": "2026-11-27T15:45:00+01:00",
+      "endTime": "2026-11-27T17:25:00+01:00",
+      "trackTitle": "Salle 3"
+    },
+    "df26-029": {
+      "id": "df26-029",
+      "title": "RAGots et Hallucinations : votre chatbot passe devant le juge",
+      "description": "Lorsqu’un assistant IA répond à côté de la plaque, le premier réflexe est d'accuser le modèle d' \"halluciner\". Pourtant,  la réponse dépend avant tout de la vue qu'on lui donne : le contexte. Si les informations récupérées par le RAG sont incomplètes ou bruitées, même le meilleur LLM ne peut que deviner la vérité.\n\nÀ travers le développement d'un système utilisant le RAG,  cette session propose de sortir du \"pifomètre\" pour entrer dans l'ingénierie de la mesure. Nous passerons au banc d'essai les différentes stratégies de récupération d'information en utilisant un protocole de LLM-as-a-judge.\n\nEn sortie, vous allez comprendre quelques biais des systèmes RAG, comprendre l'intérêt de mesurer la \"pertinence\" de vos chatbot et une implementation de l'approche LLM-as-a-judge",
+      "tags": [
+        "Quick Talk",
+        "FR"
+      ],
+      "speakers": [
+        "mehdi-elketroussi"
+      ],
+      "startTime": "2026-11-27T16:40:00+01:00",
+      "endTime": "2026-11-27T17:00:00+01:00",
+      "trackTitle": "Salle 1"
+    },
+    "df26-030": {
+      "id": "df26-030",
+      "title": "Tech Radar as Code : comment aligner ses choix technologiques et les rendre visibles",
+      "description": "🧩 Dans le monde de l'IT, les choix technologiques se multiplient… et deviennent vite illisibles :\n\n* des stacks hétérogènes apparaissent,\n* des outils se dupliquent,\n* les décisions d’architecture restent implicites,\n* et les équipes peinent à partager une vision commune.\n\n=> Comment **rendre visibles les choix existants**, clarifier leur maturité et structurer le pilotage technique, le tout **en facilitant l’innovation** ?\n\n\n🎯 Nous avons initié **un TechRadar** dans notre entreprise (filiale EDF) pour répondre à ces problématiques, et partageons notre retour d'expérience :\n* pourquoi (et quand) mettre en place un Tech Radar\n* comment le construire simplement et efficacement\n* comment le faire vivre dans le temps sans trop de friction\n\n=> et surtout **quels sont les pièges à éviter et les bénéfices** que nous avons observés",
+      "tags": [
+        "Quick Talk",
+        "FR"
+      ],
+      "speakers": [
+        "yann-mougenel"
+      ],
+      "startTime": "2026-11-27T16:40:00+01:00",
+      "endTime": "2026-11-27T17:00:00+01:00",
+      "trackTitle": "Salle 2"
+    },
+    "df26-031": {
+      "id": "df26-031",
+      "title": "Kube-green: éviter le gaspillage inutile de ressources dans Kubernetes",
+      "description": "“C’est pas Versailles ici”. Tu éteins bien la lumière ou tu débranches tes appareils électroniques quand tu ne les utilises pas. Et si on faisait pareil pour nos workloads Kubernetes sur nos environnements de dev.\nSache que c’est possible et de façon très simple grâce au projet open-source kube-green.\n\nA travers une démo pas à pas je te propose de découvrir son installation, son fonctionnement, sa configuration et un retour chiffré sur les économies réalisées.",
+      "tags": [
+        "Quick Talk",
+        "FR"
+      ],
+      "speakers": [
+        "vivien-ramahandry"
+      ],
+      "startTime": "2026-11-27T16:40:00+01:00",
+      "endTime": "2026-11-27T17:00:00+01:00",
+      "trackTitle": "Salle Keynote"
+    }
+  },
+  "speakers": {
+    "nicolas-guillot": {
+      "id": "nicolas-guillot",
+      "name": "Nicolas Guillot",
+      "company": "We Spot Turtles!",
+      "photoUrl": "https://lh3.googleusercontent.com/a/AAcHTtc1WzG8-N60nzkWYnNsVfwKs70Ju84kXUjvX91M=s96-c",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://web-cdn.bsky.app/profile/guillotnico.bsky.social"
+        },
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/guillotnico/"
+        }
+      ]
+    },
+    "seifeddin-mansri": {
+      "id": "seifeddin-mansri",
+      "name": "Seifeddin Mansri",
+      "company": "SFEIR",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/seifeddin-mansri.png",
+      "socials": []
+    },
+    "dawid-ostrowski": {
+      "id": "dawid-ostrowski",
+      "name": "Dawid Ostrowski",
+      "company": "Google",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/dawid-ostrowski.png",
+      "socials": []
+    },
+    "kevin-davin": {
+      "id": "kevin-davin",
+      "name": "Kevin Davin",
+      "company": "Develocity.ai",
+      "photoUrl": "https://download.davinkevin.fr/avatar/kevin.jpeg",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/davinkevin"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/davinkevin"
+        }
+      ]
+    },
+    "etienne-idoux": {
+      "id": "etienne-idoux",
+      "name": "Etienne Idoux",
+      "company": "Zenika",
+      "photoUrl": "https://lh3.googleusercontent.com/a-/AFdZucrL5kWEUXMLAnMhQM3DVsd44PrecTtc2ZbMC35vfw=s96-c",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://bsky.app/profile/eidoux.bsky.social"
+        }
+      ]
+    },
+    "mickael-alves": {
+      "id": "mickael-alves",
+      "name": "Mickaël Alves",
+      "company": "Zenika",
+      "photoUrl": "https://github.com/user-attachments/assets/b08c2280-1a9c-4378-a65e-4e78e212b031",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://bsky.app/profile/mickaelalvs.dev"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/mickaelalvs"
+        }
+      ]
+    },
+    "nicolas-frizzarin": {
+      "id": "nicolas-frizzarin",
+      "name": "Nicolas Frizzarin",
+      "company": "SFEIR",
+      "photoUrl": "https://lh4.googleusercontent.com/-QZhPN3UNDBA/AAAAAAAAAAI/AAAAAAAAAEs/Ki7Avw5jkKg/photo.jpg",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/Nicooss54"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/Nicoss54"
+        }
+      ]
+    },
+    "jules-mermet-husson": {
+      "id": "jules-mermet-husson",
+      "name": "Jules Mermet-Husson",
+      "company": "Valtech",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/jules-mermet-husson.jpg",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/jmermethusson/"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/jjjulllesss"
+        }
+      ]
+    },
+    "adriana-nava-aguilar": {
+      "id": "adriana-nava-aguilar",
+      "name": "Adriana Nava Aguilar",
+      "company": "Senior Software Engineer",
+      "photoUrl": "https://lh3.googleusercontent.com/a-/AFdZucoyjX9DCjNJvoR0111jdDMHLRcDjrGM9yMl2P75Fg=s96-c",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/quilaztlia"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/quilaztlia"
+        }
+      ]
+    },
+    "dorra-bartaguiz": {
+      "id": "dorra-bartaguiz",
+      "name": "Dorra Bartaguiz",
+      "company": "Arolla",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/dorra-bartaguiz.jpg",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/DorraBartaguiz"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/iAmDorra"
+        }
+      ]
+    },
+    "mazlum-tosun": {
+      "id": "mazlum-tosun",
+      "name": "Mazlum Tosun",
+      "company": "GroupBees",
+      "photoUrl": "https://avatars.githubusercontent.com/tosun-si",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://bsky.app/profile/mazlumtosun.bsky.social"
+        },
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/mazlum-tosun-900b1812/"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/tosun-si"
+        }
+      ]
+    },
+    "alexandre-azouri": {
+      "id": "alexandre-azouri",
+      "name": "Alexandre Azouri",
+      "company": "Sogeti Capgemini",
+      "photoUrl": "https://media.licdn.com/dms/image/v2/D4E03AQH-s9OiZ0P--Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1669562988973?e=2147483647&v=beta&t=eJTsvbnT6lyIKUoMjVSmEbKcA4CkIoygI9AKvGo4ah4",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/alexandre-azouri/"
+        }
+      ]
+    },
+    "florian-leux": {
+      "id": "florian-leux",
+      "name": "Florian Leux",
+      "company": "Back Market",
+      "photoUrl": "https://avatars.githubusercontent.com/u/10267793?v=4",
+      "socials": []
+    },
+    "david-aparicio": {
+      "id": "david-aparicio",
+      "name": "David Aparicio",
+      "company": "Eudonet",
+      "photoUrl": "https://2.gravatar.com/userimage/6280153/70b779edb6621dd964d261651132fcc8?size=1200",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/dadideo"
+        },
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/davidaparicio1"
+        }
+      ]
+    },
+    "paul-alexandre-chretien": {
+      "id": "paul-alexandre-chretien",
+      "name": "Paul-Alexandre Chrétien",
+      "company": "HoppR",
+      "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14Gi3oGLwSt7L18UczO3XHNnhEQX_jqIC19t3Y4va",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/paulalexandrechretien"
+        }
+      ]
+    },
+    "julien-landure": {
+      "id": "julien-landure",
+      "name": "Julien Landuré",
+      "company": "TechTown",
+      "photoUrl": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/photo.jpg",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/jlandure"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/jlandure"
+        }
+      ]
+    },
+    "simon-poulet": {
+      "id": "simon-poulet",
+      "name": "Simon Poulet",
+      "company": "AWS",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/simon-poulet.jpg",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/simonpoulet2/"
+        }
+      ]
+    },
+    "thomas-dupont": {
+      "id": "thomas-dupont",
+      "name": "Thomas Dupont",
+      "company": "Freelance",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJQ5cDXAtWIWV0_rW_myyUhFSIyfy511p58-sbQCc2KvTlN-p4Y=s96-c",
+      "socials": []
+    },
+    "brice-fotzo": {
+      "id": "brice-fotzo",
+      "name": "Brice Fotzo",
+      "company": "Servier",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/brice-fotzo.jpg",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/bricefotzo"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/bricefotzo"
+        }
+      ]
+    },
+    "guillaume-leroy": {
+      "id": "guillaume-leroy",
+      "name": "Guillaume Leroy",
+      "company": "",
+      "photoUrl": "https://lh4.googleusercontent.com/-DFGbprgyHlA/AAAAAAAAAAI/AAAAAAAAC3s/0Ke7KpIEODg/photo.jpg",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/gleroypro"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/leroyguillaume"
+        }
+      ]
+    },
+    "aicha-laafia": {
+      "id": "aicha-laafia",
+      "name": "Aicha Laafia",
+      "company": "SQLI",
+      "photoUrl": "https://pbs.twimg.com/profile_images/2040766384460685312/oyjmoiUs.jpg",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/AichaLaafia"
+        },
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/aicha-laafia-0266a6126/"
+        }
+      ]
+    },
+    "alexandre-touret": {
+      "id": "alexandre-touret",
+      "name": "Alexandre Touret",
+      "company": "Magellan",
+      "photoUrl": "https://raw.githubusercontent.com/alexandre-touret/alexandre-touret.github.io/main/static/assets/images/alexandre.touret.webp",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://bsky.app/profile/touret.info"
+        },
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/atouret/"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/alexandre-touret"
+        }
+      ]
+    },
+    "luiz-carneiro": {
+      "id": "luiz-carneiro",
+      "name": "Luiz Carneiro",
+      "company": "smapiot GmbH",
+      "photoUrl": "https://avatars.githubusercontent.com/u/23586593?v=4",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/carneirodotdev/"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/carneiroDotDev"
+        }
+      ]
+    },
+    "benjamin-legrand": {
+      "id": "benjamin-legrand",
+      "name": "Benjamin Legrand",
+      "company": "Onepoint",
+      "photoUrl": "https://avatars.githubusercontent.com/u/32519406?v=4",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://bsky.app/profile/benjilegnard.bsky.social"
+        },
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/benjilegnard/"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/benjilegnard"
+        }
+      ]
+    },
+    "guillaume-blaquiere": {
+      "id": "guillaume-blaquiere",
+      "name": "Guillaume Blaquiere",
+      "company": "Carrefour",
+      "photoUrl": "https://lh5.googleusercontent.com/-FQBr5NRaPHA/AAAAAAAAAAI/AAAAAAAAdFA/LL7UhMB5N1Y/photo.jpg",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/gblaquiere"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/guillaumeblaquiere"
+        }
+      ]
+    },
+    "julien-salvi": {
+      "id": "julien-salvi",
+      "name": "Julien Salvi",
+      "company": "Aircall",
+      "photoUrl": "https://cache.sessionize.com/image/dd30-400o400o2-4NcyaNMS4awH1Zr87u5Gve.png",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://x.com/JulienSalvi"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/Oleur"
+        }
+      ]
+    },
+    "alexis-scolan": {
+      "id": "alexis-scolan",
+      "name": "Alexis Scolan",
+      "company": "Onepoint",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLPRYHnWPax4uWA1OH-QWsHoojnOSl7lkCcDoVGLTdHylc2DTk1TQ=s2808-c-no",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/scolan"
+        }
+      ]
+    },
+    "victoire-de-lacharriere": {
+      "id": "victoire-de-lacharriere",
+      "name": "Victoire de Lacharrière",
+      "company": "Takima",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/victoire-de-lacharriere.jpg",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/victoire-ladreit-de-lacharrière/"
+        }
+      ]
+    },
+    "wouter-van-schandevijl": {
+      "id": "wouter-van-schandevijl",
+      "name": "Wouter Van Schandevijl",
+      "company": "itenium",
+      "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVgqaHltma5bG6C5Hrc0V9jeUD4zP-GXf0qnm1BnTYNUvi9nDSbYxrautKgOt13x0FluDsfFQd6olrePCtaAjfig6wapK84ZJJaH6gf2k86yD1xd3kqa-fS1HsA8lS8WZxd27XX4KTT5AcFua3an5HMQGHlNn-vY-g3ZZFXnczlQx8h6cCsClPHHntLvBBnpjt5pRomVZPDlUdWvw8iyEK_bYQV0MNgoMTZRyVCfoJoaUrjH6Q-PTl9q_3PtpDtoV2WaPjesFWEOpTOGrTUOnM7CTH_z3SibLiY1i47eiZHJ4B10csDBJlcjKm2inv7ArfBLufYIFr47ygIfNgXcsxB4uzvrHZEsTHwYog1y1LWo7rBON7WOxj2cA8yh63DUCvekhYg5qHBTZpfHQzCW755dLSjHSb6qksiunS7dtqlwRt2G5SGrLI6PXxZaqk5TPEu6WtD5WKHRPFSpnEHVRkuhv1W5uJiiEEuL3PyYpqrZP8Y6wmMlZsbZ_Xuj78j2TyFymX-9-EzXlJ4pfKDVtidsPYCtDG5SUF95zP4foXX-iwJwNH8cSJPxFt84fX11IBBL0TX_fg-0U-ekuIsXZdRDOMp2Lgs2lIPw4bwn4xATB-uFmj3XDdhSN-3AKcT1uYWnWGZapKDReXaYXpjfke3UVdQLPwG5VnHytEh4ipOtkAg9ownhr22xVs1ThYvSrbfTKbFKhl6l0i2Q39MoNiMpyk-qQeQhmoQ0oNzZz1JOdt-r8DiN8ikTJ0Waei_o-0g2J1yezEMjxqVaCXOejALHLlEPA6Euqw24_38EvBXyi0NTuUYWR2F0ZEw3x9OCbmdQGeiT9qejzyQkY3rxBpd8g7AzuxCzvpowaUfCsx-k3u87cmgJ7p-u16KkcuK3d2KwDQb4eniyNK7a16qjbhfZcG0tyi6Eli2MCr0lvlqh56lS6gs-JuYTfWKtBu80MSYU4zgcug_goutYdUgRMxl1tU=s96-c",
+      "socials": []
+    },
+    "benjamin-bourgeois": {
+      "id": "benjamin-bourgeois",
+      "name": "Benjamin Bourgeois",
+      "company": "TechTown",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIdISIS3kiFxT18u5_-tL9a4kFv_UNAIoy0d3dnXWXPmX3v3oP1tw=s96-c",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://bsky.app/profile/bbourgeois.dev"
+        },
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/bengeois"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/bengeois"
+        }
+      ]
+    },
+    "jean-philippe-baconnais": {
+      "id": "jean-philippe-baconnais",
+      "name": "Jean-Philippe Baconnais",
+      "company": "Zenika",
+      "photoUrl": "https://pbs.twimg.com/profile_images/1450357066749644800/GvDZOM_Y_400x400.jpg",
+      "socials": [
+        {
+          "name": "twitter",
+          "link": "https://bsky.app/profile/jeanphi-baconnais.gitlab.io"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/jeanphi-baconnais"
+        }
+      ]
+    },
+    "mehdi-elketroussi": {
+      "id": "mehdi-elketroussi",
+      "name": "Mehdi Elketroussi",
+      "company": "Baretto",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/mehdi-elketroussi.jpg",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://fr.linkedin.com/in/melketroussi"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/mehdi-elke"
+        }
+      ]
+    },
+    "yann-mougenel": {
+      "id": "yann-mougenel",
+      "name": "Yann Mougenel",
+      "company": "Takima",
+      "photoUrl": "https://devoxxian-image-thumbnails.s3-eu-west-1.amazonaws.com/profile-3431b1a9-dcfd-498e-ae9e-5ff49e9f01c0.jpg",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/yann-mougenel-843a3b108/"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/ymougenel"
+        }
+      ]
+    },
+    "vivien-ramahandry": {
+      "id": "vivien-ramahandry",
+      "name": "Vivien Ramahandry",
+      "company": "Jump",
+      "photoUrl": "https://devfest.gdgparis.fr/images/speakers/vivien-ramahandry.jpg",
+      "socials": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/vramahandry"
+        }
+      ]
+    }
+  }
+}

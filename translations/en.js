@@ -83,6 +83,7 @@ window.translations_en = {
     "speakers": "Speaker(s)",
     "moderator": "Moderator",
     "session_details": "Full details for this session will be available soon. Join \"{title}\" on November 27, 2026 at La Fabrique de la Connaissance, Nanterre.",
+    "session_feedback": "Rate this session",
     "opening": "Keynotes & Opening",
     "opening_sessions": "Plenary sessions",
     "opening_tag": "Opening",

@@ -301,6 +301,13 @@ function ensureSessionModal() {
       <div id="session-modal-header" class="px-8 pt-10 pb-6 shrink-0" style="background: linear-gradient(135deg, rgba(245,158,11,0.15) 0%, #0a0a0a 100%);">
         <div class="flex flex-wrap gap-2 mb-4" id="session-modal-badges"></div>
         <h2 id="session-modal-title" class="text-2xl font-display font-black text-white leading-snug"></h2>
+        <div id="session-modal-feedback-wrap" class="hidden mt-5">
+          <a id="session-modal-feedback-link" href="#" target="_blank" rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-orange-500/15 text-orange-300 border border-orange-500/35 text-sm font-bold hover:bg-orange-500/25 transition-colors">
+            <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h6m-7 8.5l.5-2.5h8.5a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2h1.5z"/></svg>
+            <span id="session-modal-feedback-label"></span>
+          </a>
+        </div>
       </div>
 
       <!-- Scrollable body -->
@@ -364,6 +371,21 @@ window.openSessionModal = function(index) {
 
   // Title
   document.getElementById('session-modal-title').textContent = session.title;
+
+  const feedbackWrap = document.getElementById('session-modal-feedback-wrap');
+  const feedbackLink = document.getElementById('session-modal-feedback-link');
+  const feedbackLabel = document.getElementById('session-modal-feedback-label');
+  const feedbackUrl = typeof window.getOpenFeedbackUrl === 'function'
+    ? window.getOpenFeedbackUrl(session)
+    : null;
+  if (feedbackUrl) {
+    feedbackWrap.classList.remove('hidden');
+    feedbackLink.href = feedbackUrl;
+    feedbackLabel.textContent = agendaText('session_feedback', 'Donner mon avis sur cette session');
+  } else {
+    feedbackWrap.classList.add('hidden');
+    feedbackLink.removeAttribute('href');
+  }
 
   // Description — placeholder until real content is added
   document.getElementById('session-modal-desc').textContent =
