@@ -321,7 +321,7 @@ const agendaData = [
       {
         "name": "Thomas Dupont",
         "role": "Senior software engineer",
-        "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJQ5cDXAtWIWV0_rW_myyUhFSIyfy511p58-sbQCc2KvTlN-p4Y=s96-c"
+        "avatar": "images/speakers/thomas-dupont.png"
       }
     ],
     "description": "Avec l'augmentation de la vélocité de développement, des nouvelles formes de dettes apparaissent, la dette cognitive et la dette d'intention.\nBasé sur les travaux de Margaret-Anne Storey de l'université de Victoria au Canada et mes retours d'expériences terrain, nous verrons comment reconnaitre ces nouvelles dettes et comment y faire face."
@@ -906,7 +906,7 @@ const speakerProfiles = {
     "twitter": "",
     "linkedin": "",
     "github": "",
-    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJQ5cDXAtWIWV0_rW_myyUhFSIyfy511p58-sbQCc2KvTlN-p4Y=s96-c"
+    "avatar": "images/speakers/thomas-dupont.png"
   },
   "Florian Leux": {
     "position": "Frontend Engineer",
